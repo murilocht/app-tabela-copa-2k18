@@ -1,4 +1,4 @@
-// Protractor configuration file, see link for more information
+// Arquivo de configuração do Protractor, veja o link para mais informações
 // https://github.com/angular/protractor/blob/master/lib/config.ts
 
 const { SpecReporter } = require('jasmine-spec-reporter');
