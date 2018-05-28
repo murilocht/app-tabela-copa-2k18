@@ -1,0 +1,8 @@
+{
+  "name": "app-tabela-da-copa",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
