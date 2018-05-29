@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
@@ -8,7 +8,7 @@
 
   <ion-toolbar no-border-top>
 
-    <ion-segment [(ngModel)]="guia">
+    <ion-segment [(ngModel)]="guia" color="danger">
       <ion-segment-button value="recentes">
         Recentes
       </ion-segment-button>
@@ -23,7 +23,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content padding>
   <div [ngSwitch]="guia"> 
 
     <div *ngSwitchCase="'classificacao'">
