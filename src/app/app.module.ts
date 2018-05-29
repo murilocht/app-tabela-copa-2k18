@@ -11,6 +11,8 @@ import { ScoresPage } from '../pages/scores/scores'
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import { SuperTabsModule } from 'ionic2-super-tabs';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -22,6 +24,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
+    SuperTabsModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
