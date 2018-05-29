@@ -7,11 +7,13 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { NewsPage } from '../pages/news/news';
 import { ScoresPage } from '../pages/scores/scores'
+import { ClassificacaoPage } from '../pages/classificacao/classificacao';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { SuperTabsModule } from 'ionic2-super-tabs';
+import { DadosGrupoPage } from '../pages/dados-grupo/dados-grupo';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { SuperTabsModule } from 'ionic2-super-tabs';
     HomePage,
     ListPage,
     NewsPage,
-    ScoresPage
+    ScoresPage,
+    ClassificacaoPage,
+    DadosGrupoPage
   ],
   imports: [
     BrowserModule,
@@ -32,7 +36,9 @@ import { SuperTabsModule } from 'ionic2-super-tabs';
     HomePage,
     ListPage,
     NewsPage,
-    ScoresPage
+    ScoresPage,
+    ClassificacaoPage,
+    DadosGrupoPage
   ],
   providers: [
     StatusBar,

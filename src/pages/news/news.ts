@@ -7,7 +7,14 @@ import { NavController} from 'ionic-angular';
 })
 export class NewsPage {
 
-  constructor(public navCtrl: NavController) {
-  }
+  noticias: Array<{titulo: string}>;
 
+  constructor(public navCtrl: NavController) {
+
+    this.noticias = [
+      { titulo: 'Notícia 1' },
+      { titulo: 'Notícia 2' },
+      { titulo: 'Notícia n' }
+    ];
+  }
 }
