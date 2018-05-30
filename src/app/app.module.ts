@@ -1,44 +1,43 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
+import { SplashScreen } from '@ionic-native/splash-screen';
+import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
-import { NewsPage } from '../pages/news/news';
-import { ScoresPage } from '../pages/scores/scores'
-import { ClassificacaoPage } from '../pages/classificacao/classificacao';
-
-import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen';
-
-import { SuperTabsModule } from 'ionic2-super-tabs';
-import { DadosGrupoPage } from '../pages/dados-grupo/dados-grupo';
+import { FasesPage } from '../pages/fases/fases';
+import { OitavasPage } from '../pages/oitavas/oitavas';
+import { QuartasPage } from '../pages/quartas/quartas';
+import { SemiFinalPage } from '../pages/semi-final/semi-final';
+import { ThirdLugarPage } from '../pages/third-lugar/third-lugar';
+import { FinalPage } from '../pages/final/final';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    ListPage,
-    NewsPage,
-    ScoresPage,
-    ClassificacaoPage,
-    DadosGrupoPage
+    FasesPage,
+    OitavasPage,
+    QuartasPage,
+    SemiFinalPage,
+    ThirdLugarPage,
+    FinalPage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
-    SuperTabsModule
+    IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage,
-    NewsPage,
-    ScoresPage,
-    ClassificacaoPage,
-    DadosGrupoPage
+    FasesPage,
+    OitavasPage,
+    QuartasPage,
+    SemiFinalPage,
+    ThirdLugarPage,
+    FinalPage
   ],
   providers: [
     StatusBar,

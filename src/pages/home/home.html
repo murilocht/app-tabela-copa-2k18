@@ -1,57 +1,15 @@
 <ion-header>
-  <ion-navbar color="primary">
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>Jogos</ion-title>
+  <ion-navbar>
+    
+    <ion-title>
+      Menu
+    </ion-title>
+
   </ion-navbar>
-
-  <ion-toolbar no-border-top>
-
-    <ion-segment [(ngModel)]="guia" color="danger">
-      <ion-segment-button value="recentes">
-        Recentes
-      </ion-segment-button>
-      <ion-segment-button value="proximos">
-        Próximos
-      </ion-segment-button>
-      <ion-segment-button value="classificacao">
-        Classificação
-      </ion-segment-button>
-    </ion-segment>
-
-  </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
-  <div [ngSwitch]="guia"> 
-
-    <div *ngSwitchCase="'classificacao'">
-      <page-classificacao></page-classificacao>
-    </div>
-
-    <div *ngSwitchCase="'proximos'">
-        <ion-card>
-            <ion-card-header>
-              2
-            </ion-card-header>
-                  
-            <ion-card-content>
-              ...
-            </ion-card-content>          
-          </ion-card>
-    </div>
-    
-    <div *ngSwitchCase="'recentes'">
-        <ion-card>
-            <ion-card-header>
-              1
-            </ion-card-header>
-                      
-            <ion-card-content>
-                ...
-            </ion-card-content>          
-          </ion-card>
-    </div>
-  </div>  
+    <button ion-button (click)="proximaPagina()">
+      siga
+    </button>
 </ion-content>
