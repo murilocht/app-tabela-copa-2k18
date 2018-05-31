@@ -485,17 +485,38 @@ var FasesPage = /** @class */ (function () {
     function FasesPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.selectedSegment = "1";
+        this.slideGrupos = [
+            { titulo: 'Grupo A' },
+            { titulo: 'Grupo B' },
+            { titulo: 'Grupo C' },
+            { titulo: 'Grupo D' },
+            { titulo: 'Grupo E' },
+            { titulo: 'Grupo F' },
+            { titulo: 'Grupo G' },
+            { titulo: 'Grupo H' }
+        ];
+        this.slideRodadas = [
+            { id: "1", titulo: 'dado1' },
+            { id: "2", titulo: 'dado2' },
+            { id: "3", titulo: 'dado3' }
+        ];
     }
     FasesPage.prototype.proximaPagina = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__oitavas_oitavas__["a" /* OitavasPage */]);
     };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])('mySlider'),
+        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Slides */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Slides */]) === "function" && _a || Object)
+    ], FasesPage.prototype, "slider", void 0);
     FasesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-fases',template:/*ion-inline-start:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\fases\fases.html"*/'<ion-header>\n\n    <ion-navbar>  \n\n        <ion-title>Fase de Grupos</ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n        \n\n    </ion-navbar>\n\n</ion-header>\n\n      \n\n<ion-content padding>\n\n        \n\n</ion-content>      '/*ion-inline-end:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\fases\fases.html"*/,
+            selector: 'page-fases',template:/*ion-inline-start:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\fases\fases.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <ion-title>Fase de Grupos</ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n    <ion-slides>\n\n        <ion-slide *ngFor="let slideGrupo of slideGrupos">\n\n            <h1>{{ slideGrupo.titulo }}</h1>\n\n\n\n            <h2>Jogos</h2>\n\n\n\n           <ion-card>\n\n                <ion-card-header>\n\n                    <ion-segment [(ngModel)]="guia">\n\n                        <ion-segment-button value="1">\n\n                            1ª Rodada\n\n                        </ion-segment-button>\n\n                        <ion-segment-button value="2">\n\n                            2ª Rodada\n\n                        </ion-segment-button>\n\n                        <ion-segment-button value="3">\n\n                            3ª Rodada\n\n                        </ion-segment-button>\n\n                    </ion-segment>\n\n                </ion-card-header>\n\n\n\n                <ion-card-content>\n\n                    <ion-slides [ngSwitch]="guia">\n\n                        <ion-slide *ngSwitchCase="\'1\'">\n\n                            Some Content 1\n\n                        </ion-slide>\n\n                        <ion-slide *ngSwitchCase="\'2\'">\n\n                            Some Content 2\n\n                        </ion-slide>\n\n                        <ion-slide *ngSwitchCase="\'3\'">\n\n                            Some Content 3\n\n                        </ion-slide>\n\n                    </ion-slides>\n\n                </ion-card-content>\n\n\n\n            </ion-card>         \n\n        </ion-slide>\n\n    </ion-slides>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\fases\fases.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _c || Object])
     ], FasesPage);
     return FasesPage;
+    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=fases.js.map

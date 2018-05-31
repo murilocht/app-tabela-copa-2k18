@@ -1,5 +1,5 @@
 <ion-header>
-    <ion-navbar>  
+    <ion-navbar>
         <ion-title>Fase de Grupos</ion-title>
 
         <ion-buttons end>
@@ -7,10 +7,47 @@
                 <ion-icon name="md-arrow-forward"></ion-icon>
             </button>
         </ion-buttons>
-        
+
     </ion-navbar>
 </ion-header>
-      
-<ion-content padding>
-        
-</ion-content>      
+
+<ion-content>
+    <ion-slides>
+        <ion-slide *ngFor="let slideGrupo of slideGrupos">
+            <h1>{{ slideGrupo.titulo }}</h1>
+
+            <h2>Jogos</h2>
+
+           <ion-card>
+                <ion-card-header>
+                    <ion-segment [(ngModel)]="guia">
+                        <ion-segment-button value="1">
+                            1ª Rodada
+                        </ion-segment-button>
+                        <ion-segment-button value="2">
+                            2ª Rodada
+                        </ion-segment-button>
+                        <ion-segment-button value="3">
+                            3ª Rodada
+                        </ion-segment-button>
+                    </ion-segment>
+                </ion-card-header>
+
+                <ion-card-content>
+                    <ion-slides [ngSwitch]="guia">
+                        <ion-slide *ngSwitchCase="'1'">
+                            Some Content 1
+                        </ion-slide>
+                        <ion-slide *ngSwitchCase="'2'">
+                            Some Content 2
+                        </ion-slide>
+                        <ion-slide *ngSwitchCase="'3'">
+                            Some Content 3
+                        </ion-slide>
+                    </ion-slides>
+                </ion-card-content>
+
+            </ion-card>         
+        </ion-slide>
+    </ion-slides>
+</ion-content>
