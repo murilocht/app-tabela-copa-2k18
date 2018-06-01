@@ -130,7 +130,7 @@ var SemiFinalPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ThirdLugarPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__final_final__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__final_final__ = __webpack_require__(99);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -168,9 +168,10 @@ var ThirdLugarPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FinalPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FasesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__oitavas_oitavas__ = __webpack_require__(100);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -182,30 +183,45 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-/**
- * Generated class for the FinalPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var FinalPage = /** @class */ (function () {
-    function FinalPage(navCtrl, navParams) {
+
+var FasesPage = /** @class */ (function () {
+    function FasesPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.selectedSegment = "1";
+        this.slideGrupos = [
+            { titulo: 'Grupo A' },
+            { titulo: 'Grupo B' },
+            { titulo: 'Grupo C' },
+            { titulo: 'Grupo D' },
+            { titulo: 'Grupo E' },
+            { titulo: 'Grupo F' },
+            { titulo: 'Grupo G' },
+            { titulo: 'Grupo H' }
+        ];
+        this.slideRodadas = [
+            { id: "1", titulo: 'dado1' },
+            { id: "2", titulo: 'dado2' },
+            { id: "3", titulo: 'dado3' }
+        ];
     }
-    FinalPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad FinalPage');
+    FasesPage.prototype.proximaPagina = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__oitavas_oitavas__["a" /* OitavasPage */]);
     };
-    FinalPage = __decorate([
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])('mySlider'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Slides */])
+    ], FasesPage.prototype, "slider", void 0);
+    FasesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-final',template:/*ion-inline-start:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\final\final.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Final</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\final\final.html"*/,
+            selector: 'page-fases',template:/*ion-inline-start:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\fases\fases.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <ion-title>Fase de Grupos</ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content id="main">\n\n    <ion-slides>\n\n        <ion-slide *ngFor="let slideGrupo of slideGrupos">\n\n            <ion-grid id="conteudo">\n\n                <ion-row id="grupo">\n\n                    <table id="tabela" width="100%">\n\n                        <thead>\n\n                            <tr>\n\n                                <th colspan="12">\n\n                                    <h1 id="titulo">{{ slideGrupo.titulo }}</h1>\n\n                                </th>\n\n                            </tr>\n\n                            <tr>\n\n                                <th colspan="2" class="selecoes">POS.</th>\n\n                                <th>P</th>\n\n                                <th>J</th>\n\n                                <th>V</th>\n\n                                <th>E</th>\n\n                                <th>D</th>\n\n                                <th>GP</th>\n\n                                <th>GC</th>\n\n                                <th>SG</th>\n\n                                <th>%</th>\n\n                                <th>JOG.</th>\n\n                            </tr>\n\n                        </thead>\n\n                        <tbody>\n\n                            <tr>\n\n                                <td>\n\n                                    <strong>1</strong>\n\n                                </td>\n\n                                <td class="selecoes">\n\n                                    <strong>ARA</strong>\n\n                                </td>\n\n                                <td bgcolor="#F5EED5">0</td>\n\n                                <td>0</td>\n\n                                <td bgcolor="#F5EED5">0</td>\n\n                                <td>0</td>\n\n                                <td bgcolor="#F5EED5">0</td>\n\n                                <td>0</td>\n\n                                <td bgcolor="#F5EED5">0</td>\n\n                                <td>0</td>\n\n                                <td bgcolor="#F5EED5">0.0</td>\n\n                                <td></td>\n\n                            </tr>\n\n                            <tr>\n\n                                <td>\n\n                                    <strong>1</strong>\n\n                                </td>\n\n                                <td class="selecoes">\n\n                                    <strong>EGI</strong>\n\n                                </td>\n\n                                <td bgcolor="#F5EED5">0</td>\n\n                                <td>0</td>\n\n                                <td bgcolor="#F5EED5">0</td>\n\n                                <td>0</td>\n\n                                <td bgcolor="#F5EED5">0</td>\n\n                                <td>0</td>\n\n                                <td bgcolor="#F5EED5">0</td>\n\n                                <td>0</td>\n\n                                <td bgcolor="#F5EED5">0.0</td>\n\n                                <td></td>\n\n                            </tr>\n\n                            <tr>\n\n                                <td>\n\n                                    <strong>1</strong>\n\n                                </td>\n\n                                <td class="selecoes">\n\n                                    <strong>RUS</strong>\n\n                                </td>\n\n                                <td bgcolor="#F5EED5">0</td>\n\n                                <td>0</td>\n\n                                <td bgcolor="#F5EED5">0</td>\n\n                                <td>0</td>\n\n                                <td bgcolor="#F5EED5">0</td>\n\n                                <td>0</td>\n\n                                <td bgcolor="#F5EED5">0</td>\n\n                                <td>0</td>\n\n                                <td bgcolor="#F5EED5">0.0</td>\n\n                                <td></td>\n\n                            </tr>\n\n                            <tr>\n\n                                <td>\n\n                                    <strong>1</strong>\n\n                                </td>\n\n                                <td class="selecoes">\n\n                                    <strong>URU</strong>\n\n                                </td>\n\n                                <td bgcolor="#F5EED5">0</td>\n\n                                <td>0</td>\n\n                                <td bgcolor="#F5EED5">0</td>\n\n                                <td>0</td>\n\n                                <td bgcolor="#F5EED5">0</td>\n\n                                <td>0</td>\n\n                                <td bgcolor="#F5EED5">0</td>\n\n                                <td>0</td>\n\n                                <td bgcolor="#F5EED5">0.0</td>\n\n                                <td></td>\n\n                            </tr>\n\n                        </tbody>\n\n                    </table>\n\n                </ion-row>\n\n                <ion-row id="rodadaGrupo">\n\n\n\n                    <h2 id="jogos">Jogos</h2>\n\n\n\n                    <ion-card id="cardRodadas">\n\n                        <ion-card-header id="headerCard">\n\n                            <ion-segment [(ngModel)]="guia" color="danger">\n\n                                <ion-segment-button value="1">\n\n                                    1ª Rodada\n\n                                </ion-segment-button>\n\n                                <ion-segment-button value="2">\n\n                                    2ª Rodada\n\n                                </ion-segment-button>\n\n                                <ion-segment-button value="3">\n\n                                    3ª Rodada\n\n                                </ion-segment-button>\n\n                            </ion-segment>\n\n                        </ion-card-header>\n\n\n\n                        <ion-card-content>\n\n                            <ion-slides [ngSwitch]="guia">\n\n                                <ion-slide *ngSwitchCase="\'1\'">\n\n                                    Some Content 1\n\n                                </ion-slide>\n\n                                <ion-slide *ngSwitchCase="\'2\'">\n\n                                    Some Content 2\n\n                                </ion-slide>\n\n                                <ion-slide *ngSwitchCase="\'3\'">\n\n                                    Some Content 3\n\n                                </ion-slide>\n\n                            </ion-slides>\n\n                        </ion-card-content>\n\n\n\n                    </ion-card>\n\n                </ion-row>\n\n            </ion-grid>\n\n        </ion-slide>\n\n    </ion-slides>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\fases\fases.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
-    ], FinalPage);
-    return FinalPage;
+    ], FasesPage);
+    return FasesPage;
 }());
 
-//# sourceMappingURL=final.js.map
+//# sourceMappingURL=fases.js.map
 
 /***/ }),
 
@@ -231,27 +247,27 @@ webpackEmptyAsyncContext.id = 114;
 
 var map = {
 	"../pages/fases/fases.module": [
-		275,
+		280,
 		5
 	],
 	"../pages/final/final.module": [
-		276,
+		275,
 		4
 	],
 	"../pages/oitavas/oitavas.module": [
-		277,
+		276,
 		3
 	],
 	"../pages/quartas/quartas.module": [
-		278,
+		277,
 		2
 	],
 	"../pages/semi-final/semi-final.module": [
-		279,
+		278,
 		1
 	],
 	"../pages/third-lugar/third-lugar.module": [
-		280,
+		279,
 		0
 	]
 };
@@ -278,7 +294,7 @@ module.exports = webpackAsyncContext;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__fases_fases__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__fases_fases__ = __webpack_require__(104);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -337,12 +353,12 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(198);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(274);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_fases_fases__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_fases_fases__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_oitavas_oitavas__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_quartas_quartas__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_semi_final_semi_final__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_third_lugar_third_lugar__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_final_final__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_final_final__ = __webpack_require__(99);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -381,12 +397,12 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */], {}, {
                     links: [
-                        { loadChildren: '../pages/fases/fases.module#FasesPageModule', name: 'FasesPage', segment: 'fases', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/final/final.module#FinalPageModule', name: 'FinalPage', segment: 'final', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/oitavas/oitavas.module#OitavasPageModule', name: 'OitavasPage', segment: 'oitavas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/quartas/quartas.module#QuartasPageModule', name: 'QuartasPage', segment: 'quartas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/semi-final/semi-final.module#SemiFinalPageModule', name: 'SemiFinalPage', segment: 'semi-final', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/third-lugar/third-lugar.module#ThirdLugarPageModule', name: 'ThirdLugarPage', segment: 'third-lugar', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/third-lugar/third-lugar.module#ThirdLugarPageModule', name: 'ThirdLugarPage', segment: 'third-lugar', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/fases/fases.module#FasesPageModule', name: 'FasesPage', segment: 'fases', priority: 'low', defaultHistory: [] }
                     ]
                 })
             ],
@@ -465,10 +481,9 @@ var MyApp = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FasesPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FinalPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__oitavas_oitavas__ = __webpack_require__(100);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -480,46 +495,30 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-
-var FasesPage = /** @class */ (function () {
-    function FasesPage(navCtrl, navParams) {
+/**
+ * Generated class for the FinalPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var FinalPage = /** @class */ (function () {
+    function FinalPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
-        this.selectedSegment = "1";
-        this.slideGrupos = [
-            { titulo: 'Grupo A' },
-            { titulo: 'Grupo B' },
-            { titulo: 'Grupo C' },
-            { titulo: 'Grupo D' },
-            { titulo: 'Grupo E' },
-            { titulo: 'Grupo F' },
-            { titulo: 'Grupo G' },
-            { titulo: 'Grupo H' }
-        ];
-        this.slideRodadas = [
-            { id: "1", titulo: 'dado1' },
-            { id: "2", titulo: 'dado2' },
-            { id: "3", titulo: 'dado3' }
-        ];
     }
-    FasesPage.prototype.proximaPagina = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__oitavas_oitavas__["a" /* OitavasPage */]);
+    FinalPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad FinalPage');
     };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])('mySlider'),
-        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Slides */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Slides */]) === "function" && _a || Object)
-    ], FasesPage.prototype, "slider", void 0);
-    FasesPage = __decorate([
+    FinalPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-fases',template:/*ion-inline-start:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\fases\fases.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <ion-title>Fase de Grupos</ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n    <ion-slides>\n\n        <ion-slide *ngFor="let slideGrupo of slideGrupos">\n\n            <h1>{{ slideGrupo.titulo }}</h1>\n\n\n\n            <h2>Jogos</h2>\n\n\n\n           <ion-card>\n\n                <ion-card-header>\n\n                    <ion-segment [(ngModel)]="guia">\n\n                        <ion-segment-button value="1">\n\n                            1ª Rodada\n\n                        </ion-segment-button>\n\n                        <ion-segment-button value="2">\n\n                            2ª Rodada\n\n                        </ion-segment-button>\n\n                        <ion-segment-button value="3">\n\n                            3ª Rodada\n\n                        </ion-segment-button>\n\n                    </ion-segment>\n\n                </ion-card-header>\n\n\n\n                <ion-card-content>\n\n                    <ion-slides [ngSwitch]="guia">\n\n                        <ion-slide *ngSwitchCase="\'1\'">\n\n                            Some Content 1\n\n                        </ion-slide>\n\n                        <ion-slide *ngSwitchCase="\'2\'">\n\n                            Some Content 2\n\n                        </ion-slide>\n\n                        <ion-slide *ngSwitchCase="\'3\'">\n\n                            Some Content 3\n\n                        </ion-slide>\n\n                    </ion-slides>\n\n                </ion-card-content>\n\n\n\n            </ion-card>         \n\n        </ion-slide>\n\n    </ion-slides>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\fases\fases.html"*/,
+            selector: 'page-final',template:/*ion-inline-start:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\final\final.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Final</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\final\final.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _c || Object])
-    ], FasesPage);
-    return FasesPage;
-    var _a, _b, _c;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+    ], FinalPage);
+    return FinalPage;
 }());
 
-//# sourceMappingURL=fases.js.map
+//# sourceMappingURL=final.js.map
 
 /***/ })
 

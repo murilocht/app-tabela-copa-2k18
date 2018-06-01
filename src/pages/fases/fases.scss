@@ -1,1 +1,61 @@
-.slider-pager-page:only-of-type{ display:none; }
+.slider-pager-page:only-of-type{ 
+    display:none; 
+}
+
+#main{
+    position: relative;
+}
+
+#conteudo{
+    top: 0%;
+    height: 100%;
+    position: absolute;
+}
+
+#grupo{
+    padding-top: 3%;
+    height: 40%;
+    background-color: aqua;
+}
+
+#rodadaGrupo{
+    height: 60%;
+    background-color: blueviolet;
+}
+
+#cardRodadas{
+    height: 87%;
+    margin-top: 0%;
+}
+
+#jogos{
+    width: 100%;
+    text-align:center;
+    margin-top: 0%;
+    margin-bottom: 3%;
+}
+
+#tabela{
+    table-layout: auto;
+    width: 100%;
+    font-size: 14pt;
+    height: 85%;
+}
+
+#headerCard{
+    background-color: yellow;
+    padding: 0%;
+    border: 2px red solid;
+}
+
+#titulo{
+    margin-top: 0%;
+}
+
+tr {
+    border-bottom: 1pt solid #171714;
+}
+
+.selecoes{
+    border-right: 1pt solid #171714;
+}

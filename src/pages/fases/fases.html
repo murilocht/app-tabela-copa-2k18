@@ -11,43 +11,144 @@
     </ion-navbar>
 </ion-header>
 
-<ion-content>
+<ion-content id="main">
     <ion-slides>
         <ion-slide *ngFor="let slideGrupo of slideGrupos">
-            <h1>{{ slideGrupo.titulo }}</h1>
+            <ion-grid id="conteudo">
+                <ion-row id="grupo">
+                    <table id="tabela" width="100%">
+                        <thead>
+                            <tr>
+                                <th colspan="12">
+                                    <h1 id="titulo">{{ slideGrupo.titulo }}</h1>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th colspan="2" class="selecoes">POS.</th>
+                                <th>P</th>
+                                <th>J</th>
+                                <th>V</th>
+                                <th>E</th>
+                                <th>D</th>
+                                <th>GP</th>
+                                <th>GC</th>
+                                <th>SG</th>
+                                <th>%</th>
+                                <th>JOG.</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>1</strong>
+                                </td>
+                                <td class="selecoes">
+                                    <strong>ARA</strong>
+                                </td>
+                                <td bgcolor="#F5EED5">0</td>
+                                <td>0</td>
+                                <td bgcolor="#F5EED5">0</td>
+                                <td>0</td>
+                                <td bgcolor="#F5EED5">0</td>
+                                <td>0</td>
+                                <td bgcolor="#F5EED5">0</td>
+                                <td>0</td>
+                                <td bgcolor="#F5EED5">0.0</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>1</strong>
+                                </td>
+                                <td class="selecoes">
+                                    <strong>EGI</strong>
+                                </td>
+                                <td bgcolor="#F5EED5">0</td>
+                                <td>0</td>
+                                <td bgcolor="#F5EED5">0</td>
+                                <td>0</td>
+                                <td bgcolor="#F5EED5">0</td>
+                                <td>0</td>
+                                <td bgcolor="#F5EED5">0</td>
+                                <td>0</td>
+                                <td bgcolor="#F5EED5">0.0</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>1</strong>
+                                </td>
+                                <td class="selecoes">
+                                    <strong>RUS</strong>
+                                </td>
+                                <td bgcolor="#F5EED5">0</td>
+                                <td>0</td>
+                                <td bgcolor="#F5EED5">0</td>
+                                <td>0</td>
+                                <td bgcolor="#F5EED5">0</td>
+                                <td>0</td>
+                                <td bgcolor="#F5EED5">0</td>
+                                <td>0</td>
+                                <td bgcolor="#F5EED5">0.0</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>1</strong>
+                                </td>
+                                <td class="selecoes">
+                                    <strong>URU</strong>
+                                </td>
+                                <td bgcolor="#F5EED5">0</td>
+                                <td>0</td>
+                                <td bgcolor="#F5EED5">0</td>
+                                <td>0</td>
+                                <td bgcolor="#F5EED5">0</td>
+                                <td>0</td>
+                                <td bgcolor="#F5EED5">0</td>
+                                <td>0</td>
+                                <td bgcolor="#F5EED5">0.0</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </ion-row>
+                <ion-row id="rodadaGrupo">
 
-            <h2>Jogos</h2>
+                    <h2 id="jogos">Jogos</h2>
 
-           <ion-card>
-                <ion-card-header>
-                    <ion-segment [(ngModel)]="guia">
-                        <ion-segment-button value="1">
-                            1ª Rodada
-                        </ion-segment-button>
-                        <ion-segment-button value="2">
-                            2ª Rodada
-                        </ion-segment-button>
-                        <ion-segment-button value="3">
-                            3ª Rodada
-                        </ion-segment-button>
-                    </ion-segment>
-                </ion-card-header>
+                    <ion-card id="cardRodadas">
+                        <ion-card-header id="headerCard">
+                            <ion-segment [(ngModel)]="guia" color="danger">
+                                <ion-segment-button value="1">
+                                    1ª Rodada
+                                </ion-segment-button>
+                                <ion-segment-button value="2">
+                                    2ª Rodada
+                                </ion-segment-button>
+                                <ion-segment-button value="3">
+                                    3ª Rodada
+                                </ion-segment-button>
+                            </ion-segment>
+                        </ion-card-header>
 
-                <ion-card-content>
-                    <ion-slides [ngSwitch]="guia">
-                        <ion-slide *ngSwitchCase="'1'">
-                            Some Content 1
-                        </ion-slide>
-                        <ion-slide *ngSwitchCase="'2'">
-                            Some Content 2
-                        </ion-slide>
-                        <ion-slide *ngSwitchCase="'3'">
-                            Some Content 3
-                        </ion-slide>
-                    </ion-slides>
-                </ion-card-content>
+                        <ion-card-content>
+                            <ion-slides [ngSwitch]="guia">
+                                <ion-slide *ngSwitchCase="'1'">
+                                    Some Content 1
+                                </ion-slide>
+                                <ion-slide *ngSwitchCase="'2'">
+                                    Some Content 2
+                                </ion-slide>
+                                <ion-slide *ngSwitchCase="'3'">
+                                    Some Content 3
+                                </ion-slide>
+                            </ion-slides>
+                        </ion-card-content>
 
-            </ion-card>         
+                    </ion-card>
+                </ion-row>
+            </ion-grid>
         </ion-slide>
     </ion-slides>
 </ion-content>
