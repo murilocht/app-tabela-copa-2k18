@@ -25682,8 +25682,23 @@ ion-icon {
   font-size: 26px;
 }
 
+.toolbar-background {
+  background-color: white;
+}
+
 .slider-pager-page:only-of-type {
   display: none;
+}
+
+ion-title {
+  text-align: center;
+}
+
+ion-buttons {
+  padding-right: 2%;
+  background-color: white;
+  display: block !important;
+  width: 16% !important;
 }
 
 #main {
@@ -25699,12 +25714,12 @@ ion-icon {
 #grupo {
   padding-top: 3%;
   height: 40%;
-  background-color: aqua;
+  background-color: white;
 }
 
 #rodadaGrupo {
   height: 60%;
-  background-color: blueviolet;
+  background-color: white;
 }
 
 #cardRodadas {
@@ -25727,7 +25742,7 @@ ion-icon {
 }
 
 #headerCard {
-  background-color: yellow;
+  background-color: white;
   padding: 0%;
   border: 2px red solid;
 }
@@ -25736,10 +25751,22 @@ ion-icon {
   margin-top: 0%;
 }
 
-tr {
+#tabela tr {
   border-bottom: 1pt solid #171714;
 }
 
 .selecoes {
   border-right: 1pt solid #171714;
+}
+
+#tabela2 {
+  margin-top: 11%;
+  table-layout: auto;
+  width: 100%;
+  font-size: 14pt;
+  height: 85%;
+}
+
+.linhaTab td {
+  padding-bottom: 10%;
 }
