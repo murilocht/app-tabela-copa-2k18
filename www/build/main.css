@@ -28015,6 +28015,10 @@ ion-buttons {
   font-family: "proximanova-regular";
 }
 
+ion-header {
+  border-bottom: 1px solid #666;
+}
+
 #main {
   position: relative;
 }

@@ -1,38 +1,34 @@
 <ion-header no-border>
-
   <ion-navbar>
     <ion-title>Final</ion-title>
-
     <ion-buttons end>
 
     </ion-buttons>
-
   </ion-navbar>
-
 </ion-header>
-
 
 <ion-content>
 
   <div align="center">
-    <fieldset style="border-radius: 4px; color: #666; border: 1px solid; width: 88%; margin-bottom: 5%" align="center">
-      <legend style="border-radius: 8px; color: #666; border: 1px solid">Final</legend>
+    <fieldset style="border-radius: 4px; color: #666; border: 1px solid; width: 88%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">
+      <legend style="border-radius: 8px; color: #666; border: 1px solid">{{ fieldset.titulo }}</legend>
+      
       <div>
-        <div style="font-weight: bold;">Dom 15/07/2018
-          <span style="font-weight: normal;">Olímpico Lujniki</span> 12:00
+        <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}
+          <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}
         </div>
         <div>
           <span>
-            <span style="font-weight: bold">Venc. Semifinal 1</span>
+            <span style="font-weight: bold">{{ fieldset.time1 }}</span>
             <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
           </span>
           <span>
             <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-            <span style="font-weight: bold">Venc. Semifinal 2</span>
+            <span style="font-weight: bold">{{ fieldset.time2 }}</span>
           </span>
         </div>
+     
       </div>
     </fieldset>
   </div>
-
 </ion-content>

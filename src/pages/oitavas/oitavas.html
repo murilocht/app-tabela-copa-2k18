@@ -14,146 +14,20 @@
 <ion-content>
 
     <div align="center">
-        <fieldset style="border-radius: 4px; color: #666; border: 1px solid; width: 85%; margin-bottom: 5%" align="center">
-            <legend style="border-radius: 8px; color: #666; border: 1px solid">Oitavas 1</legend>
+        <fieldset style="border-radius: 4px; color: #666; border: 1px solid; width: 86%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">
+            <legend style="border-radius: 8px; color: #666; border: 1px solid">{{ fieldset.titulo }}</legend>
             <div>
-                <div style="font-weight: bold;">Sab 30/06/2018
-                    <span style="font-weight: normal;">Olímpico de Sochi</span> 15:00
+                <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}
+                    <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}
                 </div>
                 <div>
                     <span>
-                        <span style="font-weight: bold; font-size: 15pt">1º A</span>
+                        <span style="font-weight: bold">{{ fieldset.time1 }}</span>
                         <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
                     </span>
                     <span>
                         <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-                        <span style="font-weight: bold;; font-size: 15pt">2º B</span>
-                    </span>
-                </div>
-            </div>
-        </fieldset>
-        <fieldset style="border-radius: 4px; color: #666; border: 1px solid; width: 85%; margin-bottom: 5%" align="center">
-            <legend style="border-radius: 8px; color: #666; border: 1px solid">Oitavas 2</legend>
-            <div>
-                <div style="font-weight: bold;">Sab 30/06/2018
-                    <span style="font-weight: normal;">Arena Kazan</span> 11:00
-                </div>
-                <div>
-                    <span>
-                        <span style="font-weight: bold;; font-size: 15pt">1º C</span>
-                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-                    </span>
-                    <span>
-                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-                        <span style="font-weight: bold;; font-size: 15pt">2º D</span>
-                    </span>
-                </div>
-            </div>
-        </fieldset>
-        <fieldset style="border-radius: 4px; color: #666; border: 1px solid; width: 85%; margin-bottom: 5%" align="center">
-            <legend style="border-radius: 8px; color: #666; border: 1px solid">Oitavas 3</legend>
-            <div>
-                <div style="font-weight: bold;">Seg 02/07/2018
-                    <span style="font-weight: normal;">Samarra</span> 11:00
-                </div>
-                <div>
-                    <span>
-                        <span style="font-weight: bold; font-size: 15pt">1º E</span>
-                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-                    </span>
-                    <span>
-                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-                        <span style="font-weight: bold;; font-size: 15pt">2º F</span>
-                    </span>
-                </div>
-            </div>
-        </fieldset>
-        <fieldset style="border-radius: 4px; color: #666; border: 1px solid; width: 85%; margin-bottom: 5%" align="center">
-            <legend style="border-radius: 8px; color: #666; border: 1px solid">Oitavas 4</legend>
-            <div>
-                <div style="font-weight: bold;">Seg 02/07/2018
-                    <span style="font-weight: normal;">Rostov</span> 15:00
-                </div>
-                <div>
-                    <span>
-                        <span style="font-weight: bold; font-size: 15pt">1º G</span>
-                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-                    </span>
-                    <span>
-                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-                        <span style="font-weight: bold;; font-size: 15pt">2º H</span>
-                    </span>
-                </div>
-            </div>
-        </fieldset>
-        <fieldset style="border-radius: 4px; color: #666; border: 1px solid; width: 85%; margin-bottom: 5%" align="center">
-            <legend style="border-radius: 8px; color: #666; border: 1px solid">Oitavas 5</legend>
-            <div>
-                <div style="font-weight: bold;">Dom 01/07/2018
-                    <span style="font-weight: normal;">Olímpico Lujniki</span> 11:00
-                </div>
-                <div>
-                    <span>
-                        <span style="font-weight: bold; font-size: 15pt">1º B</span>
-                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-                    </span>
-                    <span>
-                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-                        <span style="font-weight: bold;; font-size: 15pt">2º A</span>
-                    </span>
-                </div>
-            </div>
-        </fieldset>
-        <fieldset style="border-radius: 4px; color: #666; border: 1px solid; width: 85%; margin-bottom: 5%" align="center">
-            <legend style="border-radius: 8px; color: #666; border: 1px solid">Oitavas 6</legend>
-            <div>
-                <div style="font-weight: bold;">Dom 01/07/2018
-                    <span style="font-weight: normal;">Nizhny Novgorod</span> 15:00
-                </div>
-                <div>
-                    <span>
-                        <span style="font-weight: bold; font-size: 15pt">1º D</span>
-                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-                    </span>
-                    <span>
-                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-                        <span style="font-weight: bold;; font-size: 15pt">2º C</span>
-                    </span>
-                </div>
-            </div>
-        </fieldset>
-        <fieldset style="border-radius: 4px; color: #666; border: 1px solid; width: 85%; margin-bottom: 5%" align="center">
-            <legend style="border-radius: 8px; color: #666; border: 1px solid">Oitavas 7</legend>
-            <div>
-                <div style="font-weight: bold;">Ter 03/07/2018
-                    <span style="font-weight: normal;">São Petersburgo</span> 11:00
-                </div>
-                <div>
-                    <span>
-                        <span style="font-weight: bold; font-size: 15pt">1º F</span>
-                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-                    </span>
-                    <span>
-                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-                        <span style="font-weight: bold;; font-size: 15pt">2º E</span>
-                    </span>
-                </div>
-            </div>
-        </fieldset>
-        <fieldset style="border-radius: 4px; color: #666; border: 1px solid; width: 85%; margin-bottom: 5%" align="center">
-            <legend style="border-radius: 8px; color: #666; border: 1px solid">Oitavas 8</legend>
-            <div>
-                <div style="font-weight: bold;">Ter 03/07/2018
-                    <span style="font-weight: normal;">Spartak</span> 15:00
-                </div>
-                <div>
-                    <span>
-                        <span style="font-weight: bold; font-size: 15pt">1º H</span>
-                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-                    </span>
-                    <span>
-                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-                        <span style="font-weight: bold;; font-size: 15pt">2º G</span>
+                        <span style="font-weight: bold">{{ fieldset.time2 }}</span>
                     </span>
                 </div>
             </div>

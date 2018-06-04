@@ -14,38 +14,20 @@
 <ion-content>
 
     <div align="center">
-        <fieldset style="border-radius: 4px; color: #666; border: 1px solid; width: 85%; margin-bottom: 5%" align="center">
-            <legend style="border-radius: 8px; color: #666; border: 1px solid">Semifinal 1</legend>
+        <fieldset style="border-radius: 4px; color: #666; border: 1px solid; width: 85%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">
+            <legend style="border-radius: 8px; color: #666; border: 1px solid">{{ fieldset.titulo }}</legend>
             <div>
-                <div style="font-weight: bold;">Ter 10/07/2018
-                    <span style="font-weight: normal;">São Petersburgo</span> 15:00
+                <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}
+                    <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}
                 </div>
                 <div>
                     <span>
-                        <span style="font-weight: bold">Venc. Quartas 1</span>
+                        <span style="font-weight: bold">{{ fieldset.time1 }}</span>
                         <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
                     </span>
                     <span>
                         <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-                        <span style="font-weight: bold">Venc. Quartas 2</span>
-                    </span>
-                </div>
-            </div>
-        </fieldset>
-        <fieldset style="border-radius: 4px; color: #666; border: 1px solid; width: 85%; margin-bottom: 5%" align="center">
-            <legend style="border-radius: 8px; color: #666; border: 1px solid">Semifinal 2</legend>
-            <div>
-                <div style="font-weight: bold;">Qua 11/07/2018
-                    <span style="font-weight: normal;">Olímpico Lujniki</span>15:00
-                </div>
-                <div>
-                    <span>
-                        <span style="font-weight: bold">Venc. Quartas 3</span>
-                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-                    </span>
-                    <span>
-                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-                        <span style="font-weight: bold">Venc. Quartas 4</span>
+                        <span style="font-weight: bold">{{ fieldset.time2 }}</span>
                     </span>
                 </div>
             </div>
