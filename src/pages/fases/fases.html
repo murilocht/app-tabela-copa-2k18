@@ -43,7 +43,7 @@
                                     <strong>1</strong>
                                 </td>
                                 <td class="selecoes">
-                                    <strong>ARA</strong>
+                                    <strong>{{ slideGrupo.selecao1 }}</strong>
                                 </td>
                                 <td bgcolor="#F5EED5" class="placar-jogo-informacoes-local">0</td>
                                 <td class="placar-jogo-informacoes-local">0</td>
@@ -61,7 +61,7 @@
                                     <strong>1</strong>
                                 </td>
                                 <td class="selecoes">
-                                    <strong>EGI</strong>
+                                    <strong>{{ slideGrupo.selecao2 }}</strong>
                                 </td>
                                 <td bgcolor="#F5EED5" class="placar-jogo-informacoes-local">0</td>
                                 <td class="placar-jogo-informacoes-local">0</td>
@@ -79,7 +79,7 @@
                                     <strong>1</strong>
                                 </td>
                                 <td class="selecoes">
-                                    <strong>RUS</strong>
+                                    <strong>{{ slideGrupo.selecao3 }}</strong>
                                 </td>
                                 <td bgcolor="#F5EED5" class="placar-jogo-informacoes-local">0</td>
                                 <td class="placar-jogo-informacoes-local">0</td>
@@ -97,7 +97,7 @@
                                     <strong>1</strong>
                                 </td>
                                 <td class="selecoes">
-                                    <strong>URU</strong>
+                                    <strong>{{ slideGrupo.selecao4 }}</strong>
                                 </td>
                                 <td bgcolor="#F5EED5" class="placar-jogo-informacoes-local">0</td>
                                 <td class="placar-jogo-informacoes-local">0</td>
@@ -137,29 +137,29 @@
                                 <ion-slide *ngSwitchCase="'1'">
                                     <table id="tabela2" class="placar-jogo-informacoes">
                                         <tr style="border-top: 1pt solid">
-                                            <td colspan="2" style="padding: 2%">Dia e Data </td>
-                                            <td colspan="1" class="placar-jogo-informacoes-local">Local</td>
-                                            <td colspan="2">Horas</td>
+                                            <td colspan="2" style="padding: 2%">{{ slideGrupo.dia1 }} {{ slideGrupo.data1 }} </td>
+                                            <td colspan="1" class="placar-jogo-informacoes-local">{{ slideGrupo.local1 }}</td>
+                                            <td colspan="2">{{ slideGrupo.horas1 }}</td>
                                         </tr>
 
                                         <tr class="linhaTab" style="border-bottom: 1pt solid">
-                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">RUS</td>
+                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">{{ slideGrupo.time11 }}</td>
                                             <td>band</td>
                                             <td align="center" class="placar-jogo-informacoes-local">x</td>
                                             <td>band</td>
-                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">ARU</td>
+                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">{{ slideGrupo.time12 }}</td>
                                         </tr>
                                         <tr>
-                                            <td colspan="2" style="padding: 2%">Dia e Data </td>
-                                            <td colspan="1" class="placar-jogo-informacoes-local">Local</td>
-                                            <td colspan="2">Horas</td>
+                                            <td colspan="2" style="padding: 2%">{{ slideGrupo.dia12 }} {{ slideGrupo.data12 }} </td>
+                                            <td colspan="1" class="placar-jogo-informacoes-local">{{ slideGrupo.local12 }}</td>
+                                            <td colspan="2">{{ slideGrupo.horas12 }}</td>
                                         </tr>
                                         <tr class="linhaTab" style="border-bottom: 1pt solid">
-                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">RUS</td>
+                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">{{ slideGrupo.time121 }}</td>
                                             <td>band</td>
                                             <td align="center" class="placar-jogo-informacoes-local">x</td>
                                             <td>band</td>
-                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">ARU</td>
+                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">{{ slideGrupo.time122 }}</td>
                                         </tr>
 
                                     </table>
@@ -167,29 +167,29 @@
                                 <ion-slide *ngSwitchCase="'2'">
                                     <table id="tabela2" class="placar-jogo-informacoes">
                                         <tr style="border-top: 1pt solid">
-                                            <td colspan="2" style="padding: 2%">Dia e Data </td>
-                                            <td colspan="1" class="placar-jogo-informacoes-local">Local</td>
-                                            <td colspan="2">Horas</td>
+                                            <td colspan="2" style="padding: 2%">{{ slideGrupo.dia2 }} {{ slideGrupo.data2 }} </td>
+                                            <td colspan="1" class="placar-jogo-informacoes-local">{{ slideGrupo.local2 }}</td>
+                                            <td colspan="2">{{ slideGrupo.horas2 }}</td>
                                         </tr>
 
                                         <tr class="linhaTab" style="border-bottom: 1pt solid">
-                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">RUS</td>
+                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">{{ slideGrupo.time21 }}</td>
                                             <td>band</td>
                                             <td align="center" class="placar-jogo-informacoes-local">x</td>
                                             <td>band</td>
-                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">ARU</td>
+                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">{{ slideGrupo.time22 }}</td>
                                         </tr>
                                         <tr>
-                                            <td colspan="2" style="padding: 2%">Dia e Data </td>
-                                            <td colspan="1" class="placar-jogo-informacoes-local">Local</td>
-                                            <td colspan="2">Horas</td>
+                                            <td colspan="2" style="padding: 2%">{{ slideGrupo.dia22 }} {{ slideGrupo.data22 }} </td>
+                                            <td colspan="1" class="placar-jogo-informacoes-local">{{ slideGrupo.local22 }}</td>
+                                            <td colspan="2">{{ slideGrupo.horas22 }}</td>
                                         </tr>
                                         <tr class="linhaTab" style="border-bottom: 1pt solid">
-                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">RUS</td>
+                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">{{ slideGrupo.time221 }}</td>
                                             <td>band</td>
                                             <td align="center" class="placar-jogo-informacoes-local">x</td>
                                             <td>band</td>
-                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">ARU</td>
+                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">{{ slideGrupo.time222 }}</td>
                                         </tr>
 
                                     </table>
@@ -197,29 +197,29 @@
                                 <ion-slide *ngSwitchCase="'3'">
                                     <table id="tabela2" class="placar-jogo-informacoes">
                                         <tr style="border-top: 1pt solid">
-                                            <td colspan="2" style="padding: 2%">Dia e Data </td>
-                                            <td colspan="1" class="placar-jogo-informacoes-local">Local</td>
-                                            <td colspan="2">Horas</td>
+                                            <td colspan="2" style="padding: 2%">{{ slideGrupo.dia3 }} {{ slideGrupo.data3 }} </td>
+                                            <td colspan="1" class="placar-jogo-informacoes-local">{{ slideGrupo.local3 }}</td>
+                                            <td colspan="2">{{ slideGrupo.horas3 }}</td>
                                         </tr>
 
                                         <tr class="linhaTab" style="border-bottom: 1pt solid">
-                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">RUS</td>
+                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">{{ slideGrupo.time31 }}</td>
                                             <td>band</td>
                                             <td align="center" class="placar-jogo-informacoes-local">x</td>
                                             <td>band</td>
-                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">ARU</td>
+                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">{{ slideGrupo.time32 }}</td>
                                         </tr>
                                         <tr>
-                                            <td colspan="2" style="padding: 2%">Dia e Data </td>
-                                            <td colspan="1" class="placar-jogo-informacoes-local">Local</td>
-                                            <td colspan="2">Horas</td>
+                                            <td colspan="2" style="padding: 2%">{{ slideGrupo.dia32 }} {{ slideGrupo.data32 }} </td>
+                                            <td colspan="1" class="placar-jogo-informacoes-local">{{ slideGrupo.local32 }}</td>
+                                            <td colspan="2">{{ slideGrupo.horas32 }}</td>
                                         </tr>
                                         <tr class="linhaTab" style="border-bottom: 1pt solid">
-                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">RUS</td>
+                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">{{ slideGrupo.time321 }}</td>
                                             <td>band</td>
                                             <td align="center" class="placar-jogo-informacoes-local">x</td>
                                             <td>band</td>
-                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">ARU</td>
+                                            <td class="placar-jogo-informacoes-local" style="font-size:25px;">{{ slideGrupo.time322 }}</td>
                                         </tr>
 
                                     </table>
