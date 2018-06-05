@@ -1,12 +1,7 @@
-@font-face {
-    font-family: "proximanova-bold";
-    src: url('../assets/fonts/proximanova-bold.ttf') format('truetype');
-}
-
-@font-face{
+/*@font-face{
     font-family: proximanova-regular;
     src: url('../assets/fonts/proximanova-regular.ttf') format('truetype');
-}
+}*/
 
 ion-icon {
     font-size: 26px;
@@ -30,17 +25,6 @@ ion-buttons{
     display: block !important;
     width: 16% !important;
 }
-
-.placar-jogo-informacoes{
-    color:#666;    
-    font-family: "proximanova-bold";
-    text-transform:uppercase;
-}
-
-.placar-jogo-informacoes-local{
-    font-family: "proximanova-regular";
-}
-
 ion-header{
     border-bottom: 1px solid #666
 }

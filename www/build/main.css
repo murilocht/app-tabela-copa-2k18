@@ -30530,16 +30530,10 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
-@font-face {
-  font-family: "proximanova-bold";
-  src: url("../assets/fonts/proximanova-bold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: proximanova-regular;
-  src: url("../assets/fonts/proximanova-regular.ttf") format("truetype");
-}
-
+/*@font-face{
+    font-family: proximanova-regular;
+    src: url('../assets/fonts/proximanova-regular.ttf') format('truetype');
+}*/
 ion-icon {
   font-size: 26px;
 }
@@ -30563,16 +30557,6 @@ ion-buttons {
   width: 16% !important;
 }
 
-.placar-jogo-informacoes {
-  color: #666;
-  font-family: "proximanova-bold";
-  text-transform: uppercase;
-}
-
-.placar-jogo-informacoes-local {
-  font-family: "proximanova-regular";
-}
-
 ion-header {
   border-bottom: 1px solid #666;
 }
@@ -30583,46 +30567,23 @@ ion-header {
 
 #conteudo {
   top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
   height: 100%;
   position: absolute;
-  padding-bottom: 0%;
+  padding: 0%;
 }
 
 #grupo {
-  padding-top: 3%;
+  padding-top: 2%;
   height: 47%;
-  background-color: white;
-}
-
-#rodadaGrupo {
-  height: 69%;
-  background-color: white;
-}
-
-#cardRodadas {
-  height: 80%;
-  margin-top: 0%;
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-  margin-bottom: 0%;
-}
-
-#jogos {
-  width: 100%;
-  text-align: center;
-  margin-top: 0%;
-  margin-bottom: 0%;
 }
 
 #tabela {
   table-layout: auto;
   width: 95%;
   height: 85%;
-}
-
-#headerCard {
-  background-color: #F5EED5;
-  padding: 0%;
 }
 
 #titulo {
@@ -30633,12 +30594,37 @@ ion-header {
   border-bottom: 1pt solid;
 }
 
-.selecoes {
-  border-right: 1pt solid #666;
+.bordaLado {
+  border-right: 1pt solid;
+}
+
+#rodadaGrupo {
+  height: 63%;
+}
+
+#jogos {
+  width: 100%;
+  text-align: center;
+  margin: 0%;
+}
+
+#cardRodadas {
+  height: 83%;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#headerCard {
+  background-color: #F5EED5;
+  padding: 0%;
+}
+
+#cardCorpo {
+  padding: 2%;
 }
 
 #tabela2 {
-  margin-top: 5%;
+  vertical-align: auto;
   table-layout: auto;
   width: 100%;
   font-size: 11px;
@@ -30646,5 +30632,5 @@ ion-header {
 }
 
 .linhaTab td {
-  padding-bottom: 13%;
+  padding-bottom: 5%;
 }
