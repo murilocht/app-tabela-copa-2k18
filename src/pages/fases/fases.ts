@@ -10,7 +10,7 @@ import { OitavasPage } from '../oitavas/oitavas';
 export class FasesPage {
   @ViewChild('mySlider') slider: Slides;
 
-  selectedSegment: string;
+  guia:string
 
   slideGrupos: Array<{titulo: string, selecao1: string, selecao2: string, selecao3: string, selecao4: string,
 
@@ -22,10 +22,9 @@ export class FasesPage {
     
     dia3: string, data3:string, local3:string, horas3:string, time31:string, time32:string,
     dia32: string, data32:string, local32:string, horas32:string, time321:string, time322:String}>;
-  //slideRodadas: Array<{id:string, titulo: string}>;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.selectedSegment = "1";
+    this.guia = "1"
     this.slideGrupos = [
       { titulo: 'Grupo A', selecao1: 'ARA', selecao2: 'EGI', selecao3: 'RUS', selecao4: 'URU',
         dia1: 'Qui', data1:'14/06/2018', local1:'Olímpico Lujniki', horas1:'12:00', time11:'RUS', time12:'ARA',
