@@ -30530,10 +30530,6 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
-/*@font-face{
-    font-family: proximanova-regular;
-    src: url('../assets/fonts/proximanova-regular.ttf') format('truetype');
-}*/
 ion-icon {
   font-size: 26px;
 }
@@ -30550,87 +30546,41 @@ ion-title {
   text-align: center;
 }
 
-ion-buttons {
-  padding-right: 2%;
-  background-color: white;
-  display: block !important;
-  width: 16% !important;
-}
-
 ion-header {
   border-bottom: 1px solid #666;
 }
 
-#main {
-  position: relative;
+@media only screen and (max-width: 360px) {
+  ion-content {
+    font-size: 8pt;
+  }
 }
 
-#conteudo {
-  top: 0%;
-  right: 0%;
-  bottom: 0%;
-  left: 0%;
-  height: 100%;
-  position: absolute;
-  padding: 0%;
+@media only screen and (max-width: 320px) {
+  ion-buttons {
+    margin-right: 6%;
+    display: block !important;
+    width: 8%;
+  }
 }
 
-#grupo {
-  padding-top: 2%;
-  height: 47%;
+@media only screen and (min-width: 321px) {
+  ion-buttons {
+    margin-right: 6%;
+    margin-left: 4%;
+    display: block !important;
+    width: 6%;
+  }
 }
 
-#tabela {
-  table-layout: auto;
-  width: 95%;
-  height: 85%;
-}
-
-#titulo {
-  margin-top: 0%;
-}
-
-#tabela tr {
-  border-bottom: 1pt solid;
-}
-
-.bordaLado {
-  border-right: 1pt solid;
-}
-
-#rodadaGrupo {
-  height: 63%;
-}
-
-#jogos {
-  width: 100%;
-  text-align: center;
-  margin: 0%;
-}
-
-#cardRodadas {
-  height: 83%;
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-}
-
-#headerCard {
-  background-color: #F5EED5;
-  padding: 0%;
-}
-
-#cardCorpo {
-  padding: 2%;
-}
-
-#tabela2 {
-  vertical-align: auto;
-  table-layout: auto;
-  width: 100%;
-  font-size: 11px;
-  height: 85%;
-}
-
-.linhaTab td {
-  padding-bottom: 5%;
+@media only screen and (min-width: 768px) {
+  ion-content {
+    font-size: 18pt;
+  }
+  ion-buttons {
+    margin-right: 2%;
+    margin-left: 2%;
+    display: block !important;
+    width: 3%;
+  }
 }

@@ -11,108 +11,77 @@
     </ion-navbar>
 </ion-header>
 
-<ion-content id="main">
-    <ion-slides>
-        <ion-slide *ngFor="let slideGrupo of slideGrupos">
-            <ion-grid id="conteudo">
-                <ion-row id="grupo">
-                    <table id="tabela" align="center">
-                        
-                            <tr>
-                                <td colspan="12">
-                                    <h2 id="titulo">{{ slideGrupo.titulo }}</h2>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2" class="bordaLado">POS.</td>
-                                <td>P</td>
-                                <td>J</td>
-                                <td>V</td>
-                                <td>E</td>
-                                <td>D</td>
-                                <td>GP</td>
-                                <td>GC</td>
-                                <td>SG</td>
-                                <td>%</td>
-                                <td>JOG.</td>
-                            </tr>
-                      
-                            <tr>
-                                <td>
-                                    1
-                                </td>
-                                <td class="bordaLado">
-                                    {{ slideGrupo.selecao1 }}
-                                </td>
-                                <td bgcolor="#F5EED5">0</td>
-                                <td>0</td>
-                                <td bgcolor="#F5EED5">0</td>
-                                <td>0</td>
-                                <td bgcolor="#F5EED5">0</td>
-                                <td>0</td>
-                                <td bgcolor="#F5EED5">0</td>
-                                <td>0</td>
-                                <td bgcolor="#F5EED5">0.0</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    1
-                                </td>
-                                <td class="bordaLado">
-                                    {{ slideGrupo.selecao2 }}
-                                </td>
-                                <td bgcolor="#F5EED5">0</td>
-                                <td>0</td>
-                                <td bgcolor="#F5EED5">0</td>
-                                <td>0</td>
-                                <td bgcolor="#F5EED5">0</td>
-                                <td>0</td>
-                                <td bgcolor="#F5EED5">0</td>
-                                <td>0</td>
-                                <td bgcolor="#F5EED5">0.0</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    1
-                                </td>
-                                <td class="bordaLado">
-                                    {{ slideGrupo.selecao3 }}
-                                </td>
-                                <td bgcolor="#F5EED5">0</td>
-                                <td>0</td>
-                                <td bgcolor="#F5EED5">0</td>
-                                <td>0</td>
-                                <td bgcolor="#F5EED5">0</td>
-                                <td>0</td>
-                                <td bgcolor="#F5EED5">0</td>
-                                <td>0</td>
-                                <td bgcolor="#F5EED5">0.0</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    1
-                                </td>
-                                <td class="bordaLado">
-                                    {{ slideGrupo.selecao4 }}
-                                </td>
-                                <td bgcolor="#F5EED5">0</td>
-                                <td>0</td>
-                                <td bgcolor="#F5EED5">0</td>
-                                <td>0</td>
-                                <td bgcolor="#F5EED5">0</td>
-                                <td>0</td>
-                                <td bgcolor="#F5EED5">0</td>
-                                <td>0</td>
-                                <td bgcolor="#F5EED5">0.0</td>
-                                <td></td>
-                            </tr>
-                       
-                    </table>
-                </ion-row>
-                <ion-row id="rodadaGrupo">
+<ion-content>
+    <ion-grid>
+        <ion-row>
+            <ion-col style="background-color: thistle">POS.</ion-col>
+            <ion-col style="background-color: rgb(235, 20, 235)" col-1>P</ion-col>
+            <ion-col style="background-color: rgb(191, 216, 194)" col-1>J</ion-col>
+            <ion-col col-1>V</ion-col>
+            <ion-col col-1>E</ion-col>
+            <ion-col col-1>D</ion-col>
+            <ion-col col-1>GP</ion-col>
+            <ion-col col-1>GC</ion-col>
+            <ion-col col-1>SG</ion-col>
+            <ion-col style="background-color: rgb(235, 20, 235)" col-1>%</ion-col>
+            <ion-col>JOG.</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>ARA</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col style="background-color: rgb(235, 20, 235)" col-1>0.0</ion-col>
+            <ion-col>0</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>RUS</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col style="background-color: rgb(235, 20, 235)" col-1>0.0</ion-col>
+            <ion-col>0</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>BRA</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col style="background-color: rgb(235, 20, 235)" col-1>0.0</ion-col>
+            <ion-col>0</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>ARG</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col col-1>0</ion-col>
+            <ion-col style="background-color: rgb(235, 20, 235)" col-1>0.0</ion-col>
+            <ion-col>0</ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>
+
+<!-- <ion-row id="rodadaGrupo">
 
                     <h2 id="jogos">Jogos</h2>
 
@@ -136,90 +105,90 @@
                             <ion-slides [ngSwitch]="guia">
                                 <ion-slide *ngSwitchCase="'1'">
                                     <table id="tabela2">
-                                        <tr>
-                                            <td colspan="2">{{ slideGrupo.dia1 }} {{ slideGrupo.data1 }} </td>
-                                            <td colspan="1">{{ slideGrupo.local1 }}</td>
-                                            <td colspan="2">{{ slideGrupo.horas1 }}</td>
-                                        </tr>
+                                        
+                                            <ion-col colspan="2">{{ slideGrupo.dia1 }} {{ slideGrupo.data1 }} </ion-col>
+                                            <ion-col colspan="1">{{ slideGrupo.local1 }}</ion-col>
+                                            <ion-col colspan="2">{{ slideGrupo.horas1 }}</ion-col>
+                                        
                                         <tr class="linhaTab" style="border-bottom: 1pt solid">
-                                            <td style="font-size:25px;">{{ slideGrupo.time11 }}</td>
-                                            <td><img src="../../assets/bandeiras/{{slideGrupo.selecao1}}.png"></td>
-                                            <td align="center">x</td>
-                                            <td><img src="../../assets/bandeiras/{{slideGrupo.selecao2}}.png"></td>
-                                            <td style="font-size:25px;">{{ slideGrupo.time12 }}</td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2">{{ slideGrupo.dia12 }} {{ slideGrupo.data12 }} </td>
-                                            <td colspan="1">{{ slideGrupo.local12 }}</td>
-                                            <td colspan="2">{{ slideGrupo.horas12 }}</td>
-                                        </tr>
+                                            <ion-col style="font-size:25px;">{{ slideGrupo.time11 }}</ion-col>
+                                            <ion-col><img src="../../assets/rr.gif"></ion-col>
+                                            <ion-col align="center">x</ion-col>
+                                            <ion-col><img src="../../assets/bandeiras/{{slideGrupo.selecao2}}.png"></ion-col>
+                                            <ion-col style="font-size:25px;">{{ slideGrupo.time12 }}</ion-col>
+                                        
+                                        
+                                            <ion-col colspan="2">{{ slideGrupo.dia12 }} {{ slideGrupo.data12 }} </ion-col>
+                                            <ion-col colspan="1">{{ slideGrupo.local12 }}</ion-col>
+                                            <ion-col colspan="2">{{ slideGrupo.horas12 }}</ion-col>
+                                        
                                         <tr class="linhaTab">
-                                            <td style="font-size:25px;">{{ slideGrupo.time121 }}</td>
-                                            <td><img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.png"></td>
-                                            <td align="center">x</td>
-                                            <td><img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.png"></td>
-                                            <td style="font-size:25px;">{{ slideGrupo.time122 }}</td>
-                                        </tr>
+                                            <ion-col style="font-size:25px;">{{ slideGrupo.time121 }}</ion-col>
+                                            <ion-col><img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.png"></ion-col>
+                                            <ion-col align="center">x</ion-col>
+                                            <ion-col><img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.png"></ion-col>
+                                            <ion-col style="font-size:25px;">{{ slideGrupo.time122 }}</ion-col>
+                                        
 
                                     </table>
                                 </ion-slide>
                                 <ion-slide *ngSwitchCase="'2'">
                                     <table id="tabela2">
-                                        <tr>
-                                            <td colspan="2">{{ slideGrupo.dia2 }} {{ slideGrupo.data2 }} </td>
-                                            <td colspan="1">{{ slideGrupo.local2 }}</td>
-                                            <td colspan="2">{{ slideGrupo.horas2 }}</td>
-                                        </tr>
+                                        
+                                            <ion-col colspan="2">{{ slideGrupo.dia2 }} {{ slideGrupo.data2 }} </ion-col>
+                                            <ion-col colspan="1">{{ slideGrupo.local2 }}</ion-col>
+                                            <ion-col colspan="2">{{ slideGrupo.horas2 }}</ion-col>
+                                        
 
                                         <tr class="linhaTab" style="border-bottom: 1pt solid">
-                                            <td style="font-size:25px;">{{ slideGrupo.time21 }}</td>
-                                            <td><img src="../../assets/bandeiras/{{slideGrupo.selecao1}}.png"></td>
-                                            <td align="center">x</td>
-                                            <td><img src="../../assets/bandeiras/{{slideGrupo.selecao2}}.png"></td>
-                                            <td style="font-size:25px;">{{ slideGrupo.time22 }}</td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2">{{ slideGrupo.dia22 }} {{ slideGrupo.data22 }} </td>
-                                            <td colspan="1">{{ slideGrupo.local22 }}</td>
-                                            <td colspan="2">{{ slideGrupo.horas22 }}</td>
-                                        </tr>
+                                            <ion-col style="font-size:25px;">{{ slideGrupo.time21 }}</ion-col>
+                                            <ion-col><img src="../../assets/bandeiras/{{slideGrupo.selecao1}}.png"></ion-col>
+                                            <ion-col align="center">x</ion-col>
+                                            <ion-col><img src="../../assets/bandeiras/{{slideGrupo.selecao2}}.png"></ion-col>
+                                            <ion-col style="font-size:25px;">{{ slideGrupo.time22 }}</ion-col>
+                                        
+                                        
+                                            <ion-col colspan="2">{{ slideGrupo.dia22 }} {{ slideGrupo.data22 }} </ion-col>
+                                            <ion-col colspan="1">{{ slideGrupo.local22 }}</ion-col>
+                                            <ion-col colspan="2">{{ slideGrupo.horas22 }}</ion-col>
+                                        
                                         <tr class="linhaTab">
-                                            <td style="font-size:25px;">{{ slideGrupo.time221 }}</td>
-                                            <td><img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.png"></td>
-                                            <td align="center">x</td>
-                                            <td><img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.png"></td>
-                                            <td style="font-size:25px;">{{ slideGrupo.time222 }}</td>
-                                        </tr>
+                                            <ion-col style="font-size:25px;">{{ slideGrupo.time221 }}</ion-col>
+                                            <ion-col><img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.png"></ion-col>
+                                            <ion-col align="center">x</ion-col>
+                                            <ion-col><img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.png"></ion-col>
+                                            <ion-col style="font-size:25px;">{{ slideGrupo.time222 }}</ion-col>
+                                        
 
                                     </table>
                                 </ion-slide>
                                 <ion-slide *ngSwitchCase="'3'">
                                     <table id="tabela2">
-                                        <tr>
-                                            <td colspan="2">{{ slideGrupo.dia3 }} {{ slideGrupo.data3 }} </td>
-                                            <td colspan="1">{{ slideGrupo.local3 }}</td>
-                                            <td colspan="2">{{ slideGrupo.horas3 }}</td>
-                                        </tr>
+                                        
+                                            <ion-col colspan="2">{{ slideGrupo.dia3 }} {{ slideGrupo.data3 }} </ion-col>
+                                            <ion-col colspan="1">{{ slideGrupo.local3 }}</ion-col>
+                                            <ion-col colspan="2">{{ slideGrupo.horas3 }}</ion-col>
+                                        
 
                                         <tr class="linhaTab" style="border-bottom: 1pt solid">
-                                            <td style="font-size:25px;">{{ slideGrupo.time31 }}</td>
-                                            <td><img src="../../assets/bandeiras/{{slideGrupo.selecao1}}.png"></td>
-                                            <td align="center">x</td>
-                                            <td><img src="../../assets/bandeiras/{{slideGrupo.selecao2}}.png"></td>
-                                            <td style="font-size:25px;">{{ slideGrupo.time32 }}</td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2" style="padding: 2%">{{ slideGrupo.dia32 }} {{ slideGrupo.data32 }} </td>
-                                            <td colspan="1">{{ slideGrupo.local32 }}</td>
-                                            <td colspan="2">{{ slideGrupo.horas32 }}</td>
-                                        </tr>
+                                            <ion-col style="font-size:25px;">{{ slideGrupo.time31 }}</ion-col>
+                                            <ion-col><img src="../../assets/bandeiras/{{slideGrupo.selecao1}}.png"></ion-col>
+                                            <ion-col align="center">x</ion-col>
+                                            <ion-col><img src="../../assets/bandeiras/{{slideGrupo.selecao2}}.png"></ion-col>
+                                            <ion-col style="font-size:25px;">{{ slideGrupo.time32 }}</ion-col>
+                                        
+                                        
+                                            <ion-col colspan="2" style="padding: 2%">{{ slideGrupo.dia32 }} {{ slideGrupo.data32 }} </ion-col>
+                                            <ion-col colspan="1">{{ slideGrupo.local32 }}</ion-col>
+                                            <ion-col colspan="2">{{ slideGrupo.horas32 }}</ion-col>
+                                        
                                         <tr class="linhaTab">
-                                            <td style="font-size:25px;">{{ slideGrupo.time321 }}</td>
-                                            <td><img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.png"></td>
-                                            <td align="center">x</td>
-                                            <td><img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.png"></td>
-                                            <td style="font-size:25px;">{{ slideGrupo.time322 }}</td>
-                                        </tr>
+                                            <ion-col style="font-size:25px;">{{ slideGrupo.time321 }}</ion-col>
+                                            <ion-col><img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.png"></ion-col>
+                                            <ion-col align="center">x</ion-col>
+                                            <ion-col><img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.png"></ion-col>
+                                            <ion-col style="font-size:25px;">{{ slideGrupo.time322 }}</ion-col>
+                                        
 
                                     </table>
                                 </ion-slide>
@@ -231,4 +200,4 @@
             </ion-grid>
         </ion-slide>
     </ion-slides>
-</ion-content>
+</ion-content>-->
