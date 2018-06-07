@@ -1,0 +1,28 @@
+#main{
+    position: relative
+}
+
+#conteudo{
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    position: absolute;
+    padding: 0%
+}
+
+#bloco-1{
+    top: 0%;
+    background-color: aqua;
+    height: 45%;
+    padding: 0%;
+    ion-row{
+        height: 15%;
+    }
+}
+
+#bloco-2{
+    background-color: brown;
+    height: 55%;
+}
