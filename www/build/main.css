@@ -30551,12 +30551,6 @@ ion-header {
   border-bottom: 1px solid #666;
 }
 
-@media only screen and (max-width: 360px) {
-  ion-content {
-    font-size: 8pt;
-  }
-}
-
 @media only screen and (max-width: 320px) {
   ion-buttons {
     margin-right: 6%;
@@ -30591,7 +30585,7 @@ ion-header {
 }
 
 #conteudo {
-  top: 0%;
+  top: 4%;
   right: 0%;
   bottom: 0%;
   left: 0%;
@@ -30600,8 +30594,22 @@ ion-header {
   padding: 0%;
 }
 
+@media only screen and (max-width: 375px) {
+  #bloco-1 ion-row {
+    font-size: 10pt;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #bloco-1 ion-row {
+    font-size: 8pt;
+  }
+  #row-maior {
+    height: 43px;
+  }
+}
+
 #bloco-1 {
-  top: 0%;
   background-color: aqua;
   height: 45%;
   padding: 0%;
@@ -30609,9 +30617,62 @@ ion-header {
 
 #bloco-1 ion-row {
   height: 15%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #bloco-2 {
-  background-color: brown;
   height: 55%;
+  padding: 0%;
+}
+
+#bloco-2 p {
+  margin: 0%;
+  height: 13%;
+  background-color: blueviolet;
+}
+
+#row-times {
+  height: 87%;
+  background-color: tomato;
+}
+
+#bloco-2-card {
+  height: 84%;
+}
+
+#bloco-2-card ion-card-header {
+  padding: 0%;
+}
+
+#bloco-2-card ion-card-content {
+  padding: 0%;
+}
+
+#row-maior {
+  background-color: aqua;
+}
+
+@media only screen and (min-width: 360px) {
+  #row-maior {
+    height: 55px;
+    background-color: aqua;
+  }
+}
+
+@media only screen and (min-width: 411px) {
+  #bloco-1 ion-row {
+    font-size: 13pt;
+  }
+  #row-maior {
+    height: 74px;
+  }
+}
+
+@media only screen and (min-height: 812px) {
+  #row-maior {
+    height: 90px;
+  }
 }
