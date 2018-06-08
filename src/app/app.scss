@@ -19,10 +19,6 @@ ion-header{
     border-bottom: 1px solid white
 }
 
-////////
-
-
-
 @media only screen and (max-width: 320px) {    
     ion-buttons{
         margin-right: 6%;
@@ -85,4 +81,8 @@ ion-header ion-icon.back-button-icon.icon {
 
 ion-header ion-icon {
     color: map-get($colors, light);
+}
+
+ion-segment-button {
+    color: black !important;            
 }

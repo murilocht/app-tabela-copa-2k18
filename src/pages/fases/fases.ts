@@ -38,7 +38,7 @@ export class FasesPage {
         dia12: 'Sex', data12:'15/06/2018', local12:'Ecaterimburgo', horas12:'09:00', time121:'EGI', time122:'URU',
         
         //dados da 2ª rodada
-        dia2:  'Ter', data2: '19/06/2018', local2: 'S. Petersburgo', horas2: '15:00', time21: 'RUS', time22: 'EGI',
+        dia2:  'Ter', data2: '19/06/2018', local2: 'Petersburgo', horas2: '15:00', time21: 'RUS', time22: 'EGI',
         dia22:  'Qua', data22: '20/06/2018', local22: 'Rostov', horas22: '12:00', time221: 'URU', time222: 'ARA',
         
         //dados da 3ª rodada
@@ -47,7 +47,7 @@ export class FasesPage {
       
         //esse é o grupo B, mesma coisa do A....
       { titulo: 'Grupo B', selecao1: 'ESP', selecao2: 'IRA', selecao3: 'MAR', selecao4: 'POR',
-        dia1: '', data1:'', local1:'', horas1:'', time11:'', time12:'',
+        dia1: 'Sex', data1:'', local1:'', horas1:'', time11:'', time12:'',
         dia12: '', data12:'', local12:'', horas12:'', time121:'', time122:'',
         
         dia2:  '', data2: '', local2: '', horas2: '', time21: '', time22: '',
