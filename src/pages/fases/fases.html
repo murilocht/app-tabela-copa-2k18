@@ -1,6 +1,8 @@
 <ion-header no-border>
     <ion-navbar color="branco">
-        <ion-title><p>Fase de Grupos</p></ion-title>
+        <ion-title>
+            <p>Fase de Grupos</p>
+        </ion-title>
 
         <ion-buttons end>
             <button ion-button clear (click)="proximaPagina()">
@@ -17,7 +19,13 @@
             <div id="conteudo">
                 <ion-grid id="bloco-1">
                     <ion-row>
-                        <ion-col>{{ slideGrupo.titulo }}</ion-col>
+                        <ion-col style="font-size: 15pt">
+                            <div id="text">
+                                <span class='cut left'></span>
+                                {{ slideGrupo.titulo }}
+                                <span class='cut right'></span>
+                            </div>
+                        </ion-col>
                     </ion-row>
                     <ion-row>
                         <ion-col>POS.</ion-col>
@@ -86,12 +94,12 @@
                     </ion-row>
                 </ion-grid>
                 <ion-grid id="bloco-2">
-                    <p>Jogos</p>
+                    <p  style="padding-top: 2%; font-size: 17pt">Jogos</p>
                     <ion-row id="row-times">
                         <ion-col>
                             <ion-card id="bloco-2-card">
-                                <ion-card-header>
-                                    <ion-segment [(ngModel)]="guia">
+                                <ion-card-header color="secondary">
+                                    <ion-segment [(ngModel)]="guia" color="dark">
                                         <ion-segment-button value="1">
                                             1ª Rodada
                                         </ion-segment-button>
@@ -107,81 +115,173 @@
                                     <div [ngSwitch]="guia" id="card-corpo">
                                         <ion-list *ngSwitchCase="'1'">
                                             <ion-grid>
-                                                <ion-row>
+                                                <ion-row class="row-menor">
                                                     <ion-col>{{ slideGrupo.dia1 }}</ion-col>
                                                     <ion-col>{{ slideGrupo.data1 }}</ion-col>
                                                     <ion-col>{{ slideGrupo.local1 }}</ion-col>
                                                     <ion-col>{{ slideGrupo.horas1 }}</ion-col>
                                                 </ion-row>
                                                 <ion-row id="row-maior">
-                                                    <ion-col>{{ slideGrupo.time11 }}</ion-col>
+                                                    <ion-col style="font-size:15pt">
+                                                        <tr>
+                                                            <td>{{ slideGrupo.time11 }}</td>
+                                                            <td>
+                                                                <img src="../../assets/ff.gif">
+                                                            </td>
+                                                        </tr>
+                                                    </ion-col>
+
                                                     <ion-col>x</ion-col>
-                                                    <ion-col>{{ slideGrupo.time12 }}</ion-col>
+                                                    <ion-col style="font-size:15pt">
+                                                        <tr>
+                                                            <td>
+                                                                <img src="../../assets/ff.gif">
+                                                            </td>
+                                                            <td>{{ slideGrupo.time12 }}</td>
+
+                                                        </tr>
+                                                    </ion-col>
                                                 </ion-row>
-                                                <ion-row>
-                                                        <ion-col>{{ slideGrupo.dia12 }}</ion-col>
-                                                        <ion-col>{{ slideGrupo.data12 }}</ion-col>
-                                                        <ion-col>{{ slideGrupo.local12 }}</ion-col>
-                                                        <ion-col>{{ slideGrupo.horas12 }}</ion-col>
+                                                <ion-row class="row-menor">
+                                                    <ion-col col-auto>{{ slideGrupo.dia12 }}</ion-col>
+                                                    <ion-col col-auto>{{ slideGrupo.data12 }}</ion-col>
+                                                    <ion-col col-auto>{{ slideGrupo.local12 }}</ion-col>
+                                                    <ion-col col-auto>{{ slideGrupo.horas12 }}</ion-col>
                                                 </ion-row>
                                                 <ion-row id="row-maior">
-                                                    <ion-col>{{ slideGrupo.time121 }}</ion-col>
+                                                    <ion-col style="font-size:15pt">
+                                                        <tr>
+
+                                                            <td>{{ slideGrupo.time121 }}</td>
+                                                            <td>
+                                                                <img src="../../assets/ff.gif">
+                                                            </td>
+                                                        </tr>
+                                                    </ion-col>
                                                     <ion-col>x</ion-col>
-                                                    <ion-col>{{ slideGrupo.time122 }}</ion-col>
+                                                    <ion-col style="font-size:15pt">
+                                                        <tr>
+                                                            <td>
+                                                                <img src="../../assets/ff.gif">
+                                                            </td>
+                                                            <td>{{ slideGrupo.time122 }}</td>
+
+                                                        </tr>
+                                                    </ion-col>
                                                 </ion-row>
                                             </ion-grid>
                                         </ion-list>
 
                                         <ion-list *ngSwitchCase="'2'">
                                             <ion-grid>
-                                                <ion-row>
+                                                <ion-row class="row-menor">
                                                     <ion-col>q1</ion-col>
                                                     <ion-col>2</ion-col>
                                                     <ion-col>3</ion-col>
                                                     <ion-col>4</ion-col>
                                                 </ion-row>
                                                 <ion-row id="row-maior">
-                                                    <ion-col>1</ion-col>
-                                                    <ion-col>2</ion-col>
-                                                    <ion-col>3</ion-col>
+                                                    <ion-col style="font-size:15pt">
+                                                        <tr>
+                                                            <td>ff</td>
+                                                            <td>
+                                                                <img src="../../assets/ff.gif">
+                                                            </td>
+                                                        </tr>
+                                                    </ion-col>
+                                                    <ion-col>x</ion-col>
+                                                    <ion-col style="font-size:15pt">
+                                                        <tr>
+                                                            <td>
+                                                                <img src="../../assets/ff.gif">
+                                                            </td>
+                                                            <td>ssd</td>
+
+                                                        </tr>
+                                                    </ion-col>
                                                 </ion-row>
-                                                <ion-row>
+                                                <ion-row class="row-menor">
                                                     <ion-col>1</ion-col>
                                                     <ion-col>2</ion-col>
                                                     <ion-col>3</ion-col>
                                                     <ion-col>4</ion-col>
                                                 </ion-row>
                                                 <ion-row id="row-maior">
-                                                    <ion-col>1</ion-col>
-                                                    <ion-col>2</ion-col>
-                                                    <ion-col>3</ion-col>
+                                                    <ion-col style="font-size:15pt">
+                                                        <tr>
+                                                            <td>hh</td>
+                                                            <td>
+                                                                <img src="../../assets/ff.gif">
+                                                            </td>
+                                                        </tr>
+                                                    </ion-col>
+                                                    <ion-col>x</ion-col>
+                                                    <ion-col style="font-size:15pt">
+                                                        <tr>
+                                                            <td>
+                                                                <img src="../../assets/ff.gif">
+                                                            </td>
+                                                            <td>uge</td>
+
+                                                        </tr>
+                                                    </ion-col>
                                                 </ion-row>
                                             </ion-grid>
                                         </ion-list>
 
                                         <ion-list *ngSwitchCase="'3'">
                                             <ion-grid>
-                                                <ion-row>
+                                                <ion-row class="row-menor">
                                                     <ion-col>d1</ion-col>
                                                     <ion-col>2</ion-col>
                                                     <ion-col>3</ion-col>
                                                     <ion-col>4</ion-col>
                                                 </ion-row>
                                                 <ion-row id="row-maior">
-                                                    <ion-col>1</ion-col>
-                                                    <ion-col>2</ion-col>
-                                                    <ion-col>3</ion-col>
+                                                    <ion-col style="font-size:15pt">
+                                                        <tr>
+                                                            <td>ggf</td>
+                                                            <td>
+                                                                <img src="../../assets/ff.gif">
+                                                            </td>
+                                                        </tr>
+                                                    </ion-col>
+                                                    <ion-col>x</ion-col>
+                                                    <ion-col style="font-size:15pt">
+                                                        <tr>
+                                                            <td>
+                                                                <img src="../../assets/ff.gif">
+                                                            </td>
+                                                            <td>tyf</td>
+
+                                                        </tr>
+                                                    </ion-col>
                                                 </ion-row>
-                                                <ion-row>
+                                                <ion-row class="row-menor">
                                                     <ion-col>1</ion-col>
                                                     <ion-col>2</ion-col>
                                                     <ion-col>3</ion-col>
                                                     <ion-col>4</ion-col>
                                                 </ion-row>
                                                 <ion-row id="row-maior">
-                                                    <ion-col>1</ion-col>
-                                                    <ion-col>2</ion-col>
-                                                    <ion-col>3</ion-col>
+                                                    <ion-col style="font-size:15pt">
+                                                        <tr>
+                                                            <td>uu</td>
+                                                            <td>
+                                                                <img src="../../assets/ff.gif">
+                                                            </td>
+                                                        </tr>
+                                                    </ion-col>
+                                                    <ion-col>x</ion-col>
+                                                    <ion-col style="font-size:15pt">
+                                                        <tr>
+                                                            <td>
+                                                                <img src="../../assets/ff.gif">
+                                                            </td>
+                                                            <td>uiu</td>
+
+                                                        </tr>
+                                                    </ion-col>
                                                 </ion-row>
                                             </ion-grid>
                                         </ion-list>

@@ -30631,9 +30631,12 @@ ion-header ion-icon {
   #row-maior {
     margin-bottom: 2%;
   }
+  .row-menor {
+    margin-top: 5%;
+  }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (width: 320px) {
   #bloco-1 ion-row {
     font-size: 8pt;
   }
@@ -30643,10 +30646,13 @@ ion-header ion-icon {
   #bloco-2 ion-row {
     font-size: 8pt;
   }
+  .row-menor {
+    margin-top: 5%;
+  }
 }
 
 #bloco-1 {
-  height: 45%;
+  height: 40%;
   padding: 0%;
 }
 
@@ -30659,7 +30665,7 @@ ion-header ion-icon {
 }
 
 #bloco-2 {
-  height: 55%;
+  height: 60%;
   padding: 0%;
 }
 
@@ -30673,7 +30679,13 @@ ion-header ion-icon {
 }
 
 #bloco-2-card {
-  height: 84%;
+  margin-top: 0%;
+  height: 90%;
+}
+
+#bloco-2-card ion-row {
+  color: black;
+  font-weight: bold;
 }
 
 #bloco-2-card ion-card-header {
@@ -30684,7 +30696,7 @@ ion-header ion-icon {
   padding: 0%;
 }
 
-@media only screen and (min-width: 360px) {
+@media only screen and (width: 360px) {
   #bloco-1 ion-row {
     font-size: 9pt;
   }
@@ -30694,19 +30706,75 @@ ion-header ion-icon {
   #bloco-2 ion-row {
     font-size: 9pt;
   }
+  .row-menor {
+    margin-top: 5%;
+  }
 }
 
-@media only screen and (min-width: 411px) {
+@media only screen and (width: 411px) {
   #bloco-1 ion-row {
     font-size: 13pt;
   }
   #row-maior {
     height: 74px;
   }
+  .row-menor {
+    margin-top: 5%;
+  }
 }
 
-@media only screen and (min-height: 812px) {
+@media only screen and (height: 812px) {
   #row-maior {
     height: 90px;
   }
+  .row-menor {
+    margin-top: 5%;
+  }
+}
+
+ion-card-content {
+  background-image: url("../../assets/dada.png");
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+ion-card-header {
+  background-color: #E5C684;
+}
+
+#text {
+  background-color: black;
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  position: relative;
+}
+
+.cut {
+  background: #666;
+  /* A cor dos elementos antes e depois */
+  display: block;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  width: 100px;
+}
+
+.left {
+  -webkit-transform: skew(16deg) translateX(-70px);
+  transform: skew(16deg) translateX(-70px);
+  left: 0;
+}
+
+.right {
+  -webkit-transform: skew(-16deg) translateX(70px);
+  transform: skew(-16deg) translateX(70px);
+  right: 0;
+}
+
+ion-scroll {
+  height: 150px;
 }
