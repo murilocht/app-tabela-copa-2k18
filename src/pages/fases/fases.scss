@@ -12,9 +12,12 @@
     padding: 0%
 }
 
-@media only screen and (max-width: 375px) {    
+@media only screen and (width: 375px) {    
     #bloco-1 ion-row {
         font-size: 10pt;
+    }
+    #row-maior{
+        margin-bottom: 2%
     }
 }
 
@@ -25,10 +28,13 @@
     #row-maior{
         height: 43px;
     }
+    #bloco-2 ion-row {
+        font-size: 8pt;
+    }
 }
 
 #bloco-1{
-    background-color: aqua;
+    //background-color: aqua;
     height: 45%;
     padding: 0%;
     ion-row{
@@ -44,13 +50,13 @@
     p{
         margin: 0%;
         height: 13%;
-        background-color: blueviolet
+        //background-color: blueviolet
     }
 }
 
 #row-times{
     height: 87%;
-    background-color: tomato
+    //background-color: tomato
 }
 
 #bloco-2-card{
@@ -64,13 +70,18 @@
 }
 
 #row-maior{
-    background-color: aqua
+    //background-color: aqua
 }
 
 @media only screen and (min-width: 360px) {
+    #bloco-1 ion-row {
+        font-size: 9pt;
+    }
     #row-maior{
         height: 55px;
-        background-color: aqua
+    }
+    #bloco-2 ion-row {
+        font-size: 9pt;
     }
 }
 
@@ -88,3 +99,4 @@
         height: 90px;
     }
 }
+

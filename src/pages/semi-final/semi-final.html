@@ -1,6 +1,6 @@
 <ion-header no-border>
     <ion-navbar>
-        <ion-title>Semifinal</ion-title>
+        <ion-title><p>Semifinal</p></ion-title>
 
         <ion-buttons end>
             <button ion-button clear (click)="proximaPagina()">
@@ -14,8 +14,8 @@
 <ion-content>
 
     <div align="center">
-        <fieldset style="border-radius: 4px; color: #666; border: 1px solid; width: 85%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">
-            <legend style="border-radius: 8px; color: #666; border: 1px solid">{{ fieldset.titulo }}</legend>
+        <fieldset style="border-radius: 4px; border: 1px solid; width: 85%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">
+            <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>
             <div>
                 <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}
                     <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}

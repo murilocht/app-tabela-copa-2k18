@@ -1,6 +1,6 @@
 <ion-header no-border>
-    <ion-navbar>
-        <ion-title>Fase de Grupos</ion-title>
+    <ion-navbar color="branco">
+        <ion-title><p>Fase de Grupos</p></ion-title>
 
         <ion-buttons end>
             <button ion-button clear (click)="proximaPagina()">
@@ -33,7 +33,7 @@
                         <ion-col>JOG.</ion-col>
                     </ion-row>
                     <ion-row>
-                        <ion-col>ARA</ion-col>
+                        <ion-col>{{ slideGrupo.selecao1 }}</ion-col>
                         <ion-col col-1>0</ion-col>
                         <ion-col col-1>0</ion-col>
                         <ion-col col-1>0</ion-col>
@@ -46,7 +46,7 @@
                         <ion-col>0</ion-col>
                     </ion-row>
                     <ion-row>
-                        <ion-col>RUS</ion-col>
+                        <ion-col>{{ slideGrupo.selecao2 }}</ion-col>
                         <ion-col col-1>0</ion-col>
                         <ion-col col-1>0</ion-col>
                         <ion-col col-1>0</ion-col>
@@ -59,7 +59,7 @@
                         <ion-col>0</ion-col>
                     </ion-row>
                     <ion-row>
-                        <ion-col>BRA</ion-col>
+                        <ion-col>{{ slideGrupo.selecao3 }}</ion-col>
                         <ion-col col-1>0</ion-col>
                         <ion-col col-1>0</ion-col>
                         <ion-col col-1>0</ion-col>
@@ -72,7 +72,7 @@
                         <ion-col>0</ion-col>
                     </ion-row>
                     <ion-row>
-                        <ion-col>ARG</ion-col>
+                        <ion-col>{{ slideGrupo.selecao4 }}</ion-col>
                         <ion-col col-1>0</ion-col>
                         <ion-col col-1>0</ion-col>
                         <ion-col col-1>0</ion-col>
@@ -108,26 +108,26 @@
                                         <ion-list *ngSwitchCase="'1'">
                                             <ion-grid>
                                                 <ion-row>
-                                                    <ion-col>1</ion-col>
-                                                    <ion-col>2</ion-col>
-                                                    <ion-col>3</ion-col>
-                                                    <ion-col>4</ion-col>
+                                                    <ion-col>{{ slideGrupo.dia1 }}</ion-col>
+                                                    <ion-col>{{ slideGrupo.data1 }}</ion-col>
+                                                    <ion-col>{{ slideGrupo.local1 }}</ion-col>
+                                                    <ion-col>{{ slideGrupo.horas1 }}</ion-col>
                                                 </ion-row>
                                                 <ion-row id="row-maior">
-                                                    <ion-col>1</ion-col>
-                                                    <ion-col>2</ion-col>
-                                                    <ion-col>3</ion-col>
+                                                    <ion-col>{{ slideGrupo.time11 }}</ion-col>
+                                                    <ion-col>x</ion-col>
+                                                    <ion-col>{{ slideGrupo.time12 }}</ion-col>
                                                 </ion-row>
                                                 <ion-row>
-                                                    <ion-col>1</ion-col>
-                                                    <ion-col>2</ion-col>
-                                                    <ion-col>3</ion-col>
-                                                    <ion-col>4</ion-col>
+                                                        <ion-col>{{ slideGrupo.dia12 }}</ion-col>
+                                                        <ion-col>{{ slideGrupo.data12 }}</ion-col>
+                                                        <ion-col>{{ slideGrupo.local12 }}</ion-col>
+                                                        <ion-col>{{ slideGrupo.horas12 }}</ion-col>
                                                 </ion-row>
                                                 <ion-row id="row-maior">
-                                                    <ion-col>1</ion-col>
-                                                    <ion-col>2</ion-col>
-                                                    <ion-col>3</ion-col>
+                                                    <ion-col>{{ slideGrupo.time121 }}</ion-col>
+                                                    <ion-col>x</ion-col>
+                                                    <ion-col>{{ slideGrupo.time122 }}</ion-col>
                                                 </ion-row>
                                             </ion-grid>
                                         </ion-list>

@@ -23,11 +23,12 @@ export class FasesPage {
     dia3: string, data3:string, local3:string, horas3:string, time31:string, time32:string,
     dia32: string, data32:string, local32:string, horas32:string, time321:string, time322:String}>;
 
+    
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.guia = "1"
     this.slideGrupos = [
       { titulo: 'Grupo A', selecao1: 'ARA', selecao2: 'EGI', selecao3: 'RUS', selecao4: 'URU',
-        dia1: 'Qui', data1:'14/06/2018', local1:'Olímpico Lujniki', horas1:'12:00', time11:'RUS', time12:'ARA',
+        dia1: 'Qui', data1:'14/06/2018', local1:'Olím. Lujniki', horas1:'12:00', time11:'RUS', time12:'ARA',
         dia12: 'Sex', data12:'15/06/2018', local12:'Ecaterimburgo', horas12:'09:00', time121:'EGI', time122:'URU',
         
         dia2:  'Ter', data2: '19/06/2018', local2: 'São Petersburgo', horas2: '15:00', time21: 'RUS', time22: 'EGI',

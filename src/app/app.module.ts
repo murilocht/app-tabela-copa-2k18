@@ -12,6 +12,7 @@ import { QuartasPage } from '../pages/quartas/quartas';
 import { SemiFinalPage } from '../pages/semi-final/semi-final';
 import { ThirdLugarPage } from '../pages/third-lugar/third-lugar';
 import { FinalPage } from '../pages/final/final';
+import { SplashPage } from '../pages/splash/splash';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FinalPage } from '../pages/final/final';
     QuartasPage,
     SemiFinalPage,
     ThirdLugarPage,
-    FinalPage
+    FinalPage,
+    SplashPage
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,8 @@ import { FinalPage } from '../pages/final/final';
     QuartasPage,
     SemiFinalPage,
     ThirdLugarPage,
-    FinalPage
+    FinalPage,
+    SplashPage
   ],
   providers: [
     StatusBar,
