@@ -3,6 +3,7 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
+import { HttpClientModule } from '@angular/common/http';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -13,6 +14,7 @@ import { SemiFinalPage } from '../pages/semi-final/semi-final';
 import { ThirdLugarPage } from '../pages/third-lugar/third-lugar';
 import { FinalPage } from '../pages/final/final';
 import { SplashPage } from '../pages/splash/splash';
+import { DadosTabelaProvider } from '../providers/dados-tabela/dados-tabela';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,7 @@ import { SplashPage } from '../pages/splash/splash';
     SplashPage
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     IonicModule.forRoot(MyApp)
   ],
@@ -45,7 +48,8 @@ import { SplashPage } from '../pages/splash/splash';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    DadosTabelaProvider
   ]
 })
 export class AppModule {}

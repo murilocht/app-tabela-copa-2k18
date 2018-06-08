@@ -30778,3 +30778,8 @@ ion-card-header {
 ion-scroll {
   height: 150px;
 }
+
+.centerImage {
+  text-align: center;
+  display: block;
+}
