@@ -119,6 +119,8 @@ export class FasesPage {
         dia3:  'Qui', data3: '28/06/2018', local3: 'Kaliningrado', horas3: '15:00', time31: 'ING', time32: 'BEL',
         dia32:  'Qui', data32: '28/06/2018', local32: 'Saransk', horas32: '15:00', time321: 'PAN', time322: 'TUN'},
         
+      ///oia a poi
+
         //grupo H
       { titulo: 'Grupo H', selecao1: 'COL', selecao2: 'JAP', selecao3: 'POL', selecao4: 'SEN',
         dia1: 'Ter', data1:'19/06/2018', local1:'Saransk', horas1:'09:00', time11:'COL', time12:'JAP',
