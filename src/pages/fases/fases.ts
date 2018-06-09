@@ -38,11 +38,8 @@ export class FasesPage {
         dia12: 'Sex', data12:'15/06/2018', local12:'Ecaterimburgo', horas12:'09:00', time121:'EGI', time122:'URU',
         
         //dados da 2ª rodada
-<<<<<<< HEAD
+
         dia2:  'Ter', data2: '19/06/2018', local2: 'S.Petersburgo', horas2: '15:00', time21: 'RUS', time22: 'EGI',
-=======
-        dia2:  'Ter', data2: '19/06/2018', local2: 'Petersburgo', horas2: '15:00', time21: 'RUS', time22: 'EGI',
->>>>>>> 7c72346da57c31ca0b562857a4e5d1219895031f
         dia22:  'Qua', data22: '20/06/2018', local22: 'Rostov', horas22: '12:00', time221: 'URU', time222: 'ARA',
         
         //dados da 3ª rodada
@@ -51,13 +48,10 @@ export class FasesPage {
       
         //grupo B
       { titulo: 'Grupo B', selecao1: 'ESP', selecao2: 'IRA', selecao3: 'MAR', selecao4: 'POR',
-<<<<<<< HEAD
+
         dia1: 'Sex', data1:'15/06/2018', local1:'S.Petersburgo', horas1:'12:00', time11:'MAR', time12:'IRA',
         dia12: 'Sex', data12:'15/06/2018', local12:'Olím.Sochi ', horas12:'15:00', time121:'POR', time122:'ESP',
-=======
-        dia1: 'Sex', data1:'', local1:'', horas1:'', time11:'', time12:'',
-        dia12: '', data12:'', local12:'', horas12:'', time121:'', time122:'',
->>>>>>> 7c72346da57c31ca0b562857a4e5d1219895031f
+
         
         dia2:  'Qua', data2: '20/06/2018', local2: 'Olím.Lujniki', horas2: '09:00', time21: 'POR', time22: 'MAR',
         dia22:  'Qua', data22: '20/06/2018', local22: 'Ar.Kazan', horas22: '15:00', time221: 'IRA', time222: 'ESP',
