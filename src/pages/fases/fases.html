@@ -27,7 +27,7 @@
                             </div>
                         </ion-col>
                     </ion-row>
-                    <ion-row style="background-color: rgb(6, 70, 105)">
+                    <ion-row>
                         <ion-col>POS.</ion-col>
                         <ion-col col-1>P</ion-col>
                         <ion-col col-1>J</ion-col>
@@ -40,7 +40,7 @@
                         <ion-col col-1>%</ion-col>
                         <ion-col>JOG.</ion-col>
                     </ion-row>
-                    <ion-row >
+                    <ion-row style="background-color: #0074B1">
                         <ion-col>{{ slideGrupo.selecao1 }}</ion-col>
                         <ion-col col-1 >0</ion-col>
                         <ion-col col-1>0</ion-col>
@@ -53,7 +53,7 @@
                         <ion-col col-1>0.0</ion-col>
                         <ion-col>0</ion-col>
                     </ion-row>
-                    <ion-row style="background-color: rgb(6, 70, 105)">
+                    <ion-row>
                         <ion-col>{{ slideGrupo.selecao2 }}</ion-col>
                         <ion-col col-1>0</ion-col>
                         <ion-col col-1>0</ion-col>
@@ -66,7 +66,7 @@
                         <ion-col col-1>0.0</ion-col>
                         <ion-col>0</ion-col>
                     </ion-row>
-                    <ion-row >
+                    <ion-row style="background-color: #0074B1">
                         <ion-col>{{ slideGrupo.selecao3 }}</ion-col>
                         <ion-col col-1>0</ion-col>
                         <ion-col col-1>0</ion-col>
@@ -79,7 +79,7 @@
                         <ion-col col-1>0.0</ion-col>
                         <ion-col>0</ion-col>
                     </ion-row>
-                    <ion-row style="background-color: rgb(6, 70, 105)">
+                    <ion-row>
                         <ion-col>{{ slideGrupo.selecao4 }}</ion-col>
                         <ion-col col-1>0</ion-col>
                         <ion-col col-1>0</ion-col>
@@ -99,7 +99,7 @@
                         <ion-col>
                             <ion-card id="bloco-2-card">
                                 <ion-card-header color="secondary">
-                                    <ion-segment [(ngModel)]="guia" style="background-color: rgb(180, 16, 16)">
+                                    <ion-segment [(ngModel)]="guia" style="background-color: rgb(66, 117, 230)">
                                         <ion-segment-button value="1">
                                             1ª Rodada
                                         </ion-segment-button>
@@ -126,7 +126,7 @@
                                                         <tr>
                                                             <td>{{ slideGrupo.time11 }}</td>
                                                             <td>
-                                                                <img src="../../assets/ff.gif">
+                                                                <img src="../../assets/{{slideGrupo.selecao3}}.gif">
                                                             </td>
                                                         </tr>
                                                     </ion-col>
@@ -135,7 +135,7 @@
                                                     <ion-col style="font-size:15pt">
                                                         <tr>
                                                             <td>
-                                                                <img src="../../assets/ff.gif">
+                                                                <img src="../../assets/{{slideGrupo.selecao1}}.gif">
                                                             </td>
                                                             <td>{{ slideGrupo.time12 }}</td>
 
@@ -154,7 +154,7 @@
 
                                                             <td>{{ slideGrupo.time121 }}</td>
                                                             <td>
-                                                                <img src="../../assets/ff.gif">
+                                                                <img src="../../assets/{{slideGrupo.selecao2}}.gif">
                                                             </td>
                                                         </tr>
                                                     </ion-col>
@@ -162,7 +162,7 @@
                                                     <ion-col style="font-size:15pt">
                                                         <tr>
                                                             <td>
-                                                                <img src="../../assets/ff.gif">
+                                                                <img src="../../assets/{{slideGrupo.selecao4}}.gif">
                                                             </td>
                                                             <td>{{ slideGrupo.time122 }}</td>
 
