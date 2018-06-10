@@ -47,49 +47,49 @@ export class FasesPage {
         dia32:  'Seg', data32: '25/06/2018', local32: 'Volgogrado', horas32: '11:00', time321: 'ARA', time322: 'EGI'},
       
         //grupo B
-      { titulo: 'Grupo B', selecao1: 'ESP', selecao2: 'IRA', selecao3: 'MAR', selecao4: 'POR',
+      { titulo: 'Grupo B', selecao1: 'IRA', selecao2: 'POR', selecao3: 'MAR', selecao4: 'ESP',
 
         dia1: 'Sex', data1:'15/06/2018', local1:'S.Petersburgo', horas1:'12:00', time11:'MAR', time12:'IRA',
         dia12: 'Sex', data12:'15/06/2018', local12:'Olím.Sochi ', horas12:'15:00', time121:'POR', time122:'ESP',
 
         
-        dia2:  'Qua', data2: '20/06/2018', local2: 'Olím.Lujniki', horas2: '09:00', time21: 'POR', time22: 'MAR',
-        dia22:  'Qua', data22: '20/06/2018', local22: 'Ar.Kazan', horas22: '15:00', time221: 'IRA', time222: 'ESP',
+        dia2:  'Qua', data2: '20/06/2018', local2: 'Olím.Lujniki', horas2: '09:00', time21: 'MAR', time22: 'POR',
+        dia22:  'Qua', data22: '20/06/2018', local22: 'Ar.Kazan', horas22: '15:00', time221: 'ESP', time222: 'IRA',
         
-        dia3:  'Seg', data3: '25/06/2018', local3: 'Saransk', horas3: '15:00', time31: 'IRA', time32: 'POR',
-        dia32:  'Seg', data32: '25/06/2018', local32: 'Kaliningrado', horas32: '15:00', time321: 'ESP', time322: 'MAR'},
+        dia3:  'Seg', data3: '25/06/2018', local3: 'Saransk', horas3: '15:00', time31: 'ESP', time32: 'MAR',
+        dia32:  'Seg', data32: '25/06/2018', local32: 'Kaliningrado', horas32: '15:00', time321: 'IRA', time322: 'POR'},
         
         //grupo C 
-        { titulo: 'Grupo C', selecao1: 'AUS', selecao2: 'DIN', selecao3: 'FRA', selecao4: 'PER',
+        { titulo: 'Grupo C', selecao1: 'AUS', selecao2: 'PER', selecao3: 'FRA', selecao4: 'DIN',
         dia1: 'Sab', data1:'16/06/2018', local1:'Ar.Kazan', horas1:'07:00', time11:'FRA', time12:'AUS',
         dia12: 'Sab', data12:'16/06/2018', local12:'Saransk', horas12:'13:00', time121:'PER', time122:'DIN',
         
-        dia2:  'Qui', data2: '21/06/2018', local2: 'Samara', horas2: '09:00', time21: 'DIN', time22: 'AUS',
-        dia22:  'Qui', data22: '21/06/2018', local22: 'Ecaterimburgo', horas22: '12:00', time221: 'FRA', time222: '',
+        dia2:  'Qui', data2: '21/06/2018', local2: 'Samara', horas2: '09:00', time21: 'FRA', time22: 'PER',
+        dia22:  'Qui', data22: '21/06/2018', local22: 'Ecaterimburgo', horas22: '12:00', time221: 'DIN', time222: 'AUS',
         
         dia3:  'Ter', data3: '26/06/2018', local3: 'Olím.Lujniki', horas3: '11:00', time31: 'DIN', time32: 'FRA',
         dia32:  'Ter', data32: '26/06/2018', local32: 'Olím.Sochi', horas32: '11:00', time321: 'AUS', time322: 'PER'},
         //grupo D 
-      { titulo: 'Grupo D', selecao1: 'ARG', selecao2: 'CRO', selecao3: 'ISL', selecao4: 'NIG',
+      { titulo: 'Grupo D', selecao1: 'ISL', selecao2: 'CRO', selecao3: 'ARG', selecao4: 'NIG',
         dia1: 'Sab', data1:'16/06/2018', local1:'Spartak', horas1:'10:00', time11:'ARG', time12:'ISL',
         dia12: 'Sab', data12:'16/06/2018', local12:'Kaliningrado', horas12:'16:00', time121:'CRO', time122:'NIG',
         
-        dia2:  'Qui', data2: '21/06/2018', local2: 'N.Novgorod', horas2: '15:00', time21: 'ARG', time22: 'CRO',
-        dia22:  'Qui', data22: '21/06/2018', local22: 'Volgogrado', horas22: '12:00', time221: 'NIG', time222: 'ISL',
+        dia2:  'Qui', data2: '21/06/2018', local2: 'N.Novgorod', horas2: '15:00',time222: 'ISL', time22: 'CRO',
+        dia22:  'Qui', data22: '21/06/2018', local22: 'Volgogrado', horas22: '12:00', time221: 'NIG', time21: 'ARG' ,
         
-        dia3:  'Ter', data3: '26/06/2018', local3: 'S.Petersburgo', horas3: '15:00', time31: 'NIG', time32: 'ARG',
-        dia32:  'Ter', data32: '26/06/2018', local32: 'Rostov', horas32: '15:00', time321: 'ISL', time322: 'CRO'},
+        dia3:  'Ter', data3: '26/06/2018', local3: 'S.Petersburgo', horas3: '15:00', time31: 'NIG',  time321: 'ISL',
+        dia32:  'Ter', data32: '26/06/2018', local32: 'Rostov', horas32: '15:00',time32: 'ARG', time322: 'CRO'},
 
         //grupo E
-      { titulo: 'Grupo E', selecao1: 'BRA', selecao2: 'COS', selecao3: 'SER', selecao4: 'SUI',
-        dia1: 'Dom', data1:'17/06/2018', local1:'Samara', horas1:'09:00', time11:'COS', time12:'SER',
-        dia12: 'Dom', data12:'17/06/2018', local12:'Rostov', horas12:'15:00', time121:'BRA', time122:'SUI',
+      { titulo: 'Grupo E', selecao1: 'SUI', selecao2: 'COS', selecao3: 'BRA', selecao4: 'SER' ,
+        dia1: 'Dom', data1:'17/06/2018', local1:'Samara', horas1:'15:00',time121:'COS'  , time12:'SUI',
+        dia12: 'Dom', data12:'17/06/2018', local12:'Rostov',  horas12:'09:00', time11:'BRA', time122:'SER' ,
         
-        dia2:  'Sex', data2: '22/06/2018', local2: 'S.Petersburgo', horas2: '09:00', time21: 'BRA', time22: 'COS',
-        dia22:  'Ser', data22: '22/06/2018', local22: 'Kaliningrado', horas22: '15:00', time221: 'SER', time222: 'SUI',
+        dia2:  'Sex', data2: '22/06/2018', local2: 'S.Petersburgo', horas2: '09:00', time22:'COS',time21: 'BRA',
+        dia22:  'Ser', data22: '22/06/2018', local22: 'Kaliningrado', horas22: '15:00',  time222: 'SER' ,time221: 'SUI',
         
-        dia3:  'Qua', data3: '27/06/2018', local3: 'Spartak', horas3: '15:00', time31: 'SER', time32: 'BRA',
-        dia32:  'Qua', data32: '27/06/2018', local32: 'N.Novgorod', horas32: '15:00', time321: 'SUI', time322: 'COS'},
+        dia3:  'Qua', data3: '27/06/2018', local3: 'Spartak', horas3: '15:00', time31: 'SER', time322: 'BRA' ,
+        dia32:  'Qua', data32: '27/06/2018', local32: 'N.Novgorod', horas32: '15:00', time321: 'SUI',time32: 'COS' },
 
         //grupo F
       { titulo: 'Grupo F', selecao1: 'ALE', selecao2: 'COR', selecao3: 'MEX', selecao4: 'SUE',

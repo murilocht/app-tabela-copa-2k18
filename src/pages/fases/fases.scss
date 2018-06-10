@@ -67,7 +67,7 @@
 
 #bloco-2-card{
     ion-row{
-        color: black;
+        color: rgb(0, 0, 0);
         font-weight: bold
     }
     margin-top: 0%;
@@ -119,7 +119,7 @@
 
 ion-card-content{
     
-        background-image: url('../../assets/dada.png');
+        background-image: url('../../assets/bg3.jpg');
         width: 100%;
         height: 100%;
         background-size: 100% 100%;
@@ -129,10 +129,11 @@ ion-card-content{
 }
 
 ion-card-header {
-    background-color: #E5C684;
+    background-color: rgb(209, 199, 176);
 }
 #text{
     background-color: black;
+    font-weight: bold;
     margin: 0%;
     padding: 0%;
     overflow: hidden;
