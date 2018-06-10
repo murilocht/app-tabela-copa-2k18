@@ -15,10 +15,6 @@ import { ThirdLugarPage } from '../pages/third-lugar/third-lugar';
 import { FinalPage } from '../pages/final/final';
 import { SplashPage } from '../pages/splash/splash';
 
-import { AngularFireModule } from 'angularfire2';          
-import { AngularFireAuthModule } from 'angularfire2/auth';
-import { AngularFireDatabaseModule } from 'angularfire2/database';
-
 @NgModule({
   declarations: [
     MyApp,
@@ -34,17 +30,7 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
   imports: [
     HttpClientModule,
     BrowserModule,
-    IonicModule.forRoot(MyApp),
-    AngularFireModule.initializeApp({
-      apiKey: "AIzaSyDnhX2YabACd_87STpCDPnttoUkpu07CsM",
-      authDomain: "howchat-3524a.firebaseapp.com",
-      databaseURL: "https://howchat-3524a.firebaseio.com",
-      projectId: "howchat-3524a",
-      storageBucket: "howchat-3524a.appspot.com",
-      messagingSenderId: "389220435198"
-    }),
-    AngularFireAuthModule,
-    AngularFireDatabaseModule
+    IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
