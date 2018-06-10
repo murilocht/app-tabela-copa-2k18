@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { QuartasPage } from '../quartas/quartas';
 
-
 @IonicPage()
 @Component({
   selector: 'page-oitavas',
@@ -13,6 +12,7 @@ export class OitavasPage {
   fieldsets: Array<{titulo: string, dia: string, data: string, local: string, hora: string, time1: string, time2: string}>;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+
     this.fieldsets = [
       {titulo: 'Oitavas 1', dia: 'Sab', data: '30/06/2018', local: 'Olímpico de Sochi', hora: '15:00', time1: '1º A', time2: '2º B'},
       {titulo: 'Oitavas 2', dia: 'Sab', data: '30/06/2018', local: 'Arena Kazan', hora: '11:00', time1: '1º C', time2: '2º D'},

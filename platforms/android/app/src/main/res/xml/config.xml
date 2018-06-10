@@ -53,4 +53,7 @@
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="FadeSplashScreen" value="false" />
     <preference name="AutoHideSplashScreen" value="false" />
+    <feature name="CDVOrientation">
+        <param name="android-package" value="cordova.plugins.screenorientation.CDVOrientation" />
+    </feature>
 </widget>

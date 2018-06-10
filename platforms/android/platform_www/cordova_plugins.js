@@ -23,6 +23,20 @@ module.exports = [
     "clobbers": [
       "window.Keyboard"
     ]
+  },
+  {
+    "id": "es6-promise-plugin.Promise",
+    "file": "plugins/es6-promise-plugin/www/promise.js",
+    "pluginId": "es6-promise-plugin",
+    "runs": true
+  },
+  {
+    "id": "cordova-plugin-screen-orientation.screenorientation",
+    "file": "plugins/cordova-plugin-screen-orientation/www/screenorientation.js",
+    "pluginId": "cordova-plugin-screen-orientation",
+    "clobbers": [
+      "cordova.plugins.screenorientation"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -32,7 +46,9 @@ module.exports.metadata =
   "cordova-plugin-whitelist": "1.3.3",
   "cordova-plugin-device": "2.0.2",
   "cordova-plugin-ionic-webview": "1.1.19",
-  "cordova-plugin-ionic-keyboard": "2.0.5"
+  "cordova-plugin-ionic-keyboard": "2.0.5",
+  "es6-promise-plugin": "4.2.2",
+  "cordova-plugin-screen-orientation": "3.0.1"
 };
 // BOTTOM OF METADATA
 });

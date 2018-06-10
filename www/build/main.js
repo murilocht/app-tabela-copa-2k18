@@ -1,13 +1,13 @@
 webpackJsonp([7],{
 
-/***/ 101:
+/***/ 158:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FasesPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__oitavas_oitavas__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__oitavas_oitavas__ = __webpack_require__(159);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -29,7 +29,7 @@ var FasesPage = /** @class */ (function () {
             //esse é o grupo A, essas são as seleções 
             { titulo: 'Grupo A', selecao1: 'ARA', selecao2: 'EGI', selecao3: 'RUS', selecao4: 'URU',
                 //dados da 1ª rodada, incluindo dia, quem vs quem, hora e tal...
-                dia1: 'Qui', data1: '14/06/2018', local1: 'Olím. Lujniki', horas1: '12:00', time11: 'RUS', time12: 'ARA',
+                dia1: 'Qui', data1: '14/06/2018', local1: ' Lujniki', horas1: '12:00', time11: 'RUS', time12: 'ARA',
                 dia12: 'Sex', data12: '15/06/2018', local12: 'Ecaterimburgo', horas12: '09:00', time121: 'EGI', time122: 'URU',
                 //dados da 2ª rodada
                 dia2: 'Ter', data2: '19/06/2018', local2: 'S.Petersburgo', horas2: '15:00', time21: 'RUS', time22: 'EGI',
@@ -40,8 +40,8 @@ var FasesPage = /** @class */ (function () {
             //grupo B
             { titulo: 'Grupo B', selecao1: 'IRA', selecao2: 'POR', selecao3: 'MAR', selecao4: 'ESP',
                 dia1: 'Sex', data1: '15/06/2018', local1: 'S.Petersburgo', horas1: '12:00', time11: 'MAR', time12: 'IRA',
-                dia12: 'Sex', data12: '15/06/2018', local12: 'Olím.Sochi ', horas12: '15:00', time121: 'POR', time122: 'ESP',
-                dia2: 'Qua', data2: '20/06/2018', local2: 'Olím.Lujniki', horas2: '09:00', time21: 'MAR', time22: 'POR',
+                dia12: 'Sex', data12: '15/06/2018', local12: 'Sochi ', horas12: '15:00', time121: 'POR', time122: 'ESP',
+                dia2: 'Qua', data2: '20/06/2018', local2: 'Lujniki', horas2: '09:00', time21: 'MAR', time22: 'POR',
                 dia22: 'Qua', data22: '20/06/2018', local22: 'Ar.Kazan', horas22: '15:00', time221: 'ESP', time222: 'IRA',
                 dia3: 'Seg', data3: '25/06/2018', local3: 'Saransk', horas3: '15:00', time31: 'ESP', time32: 'MAR',
                 dia32: 'Seg', data32: '25/06/2018', local32: 'Kaliningrado', horas32: '15:00', time321: 'IRA', time322: 'POR' },
@@ -51,13 +51,13 @@ var FasesPage = /** @class */ (function () {
                 dia12: 'Sab', data12: '16/06/2018', local12: 'Saransk', horas12: '13:00', time121: 'PER', time122: 'DIN',
                 dia2: 'Qui', data2: '21/06/2018', local2: 'Samara', horas2: '09:00', time21: 'FRA', time22: 'PER',
                 dia22: 'Qui', data22: '21/06/2018', local22: 'Ecaterimburgo', horas22: '12:00', time221: 'DIN', time222: 'AUS',
-                dia3: 'Ter', data3: '26/06/2018', local3: 'Olím.Lujniki', horas3: '11:00', time31: 'DIN', time32: 'FRA',
-                dia32: 'Ter', data32: '26/06/2018', local32: 'Olím.Sochi', horas32: '11:00', time321: 'AUS', time322: 'PER' },
+                dia3: 'Ter', data3: '26/06/2018', local3: 'Lujniki', horas3: '11:00', time31: 'DIN', time32: 'FRA',
+                dia32: 'Ter', data32: '26/06/2018', local32: 'Sochi', horas32: '11:00', time321: 'AUS', time322: 'PER' },
             //grupo D 
             { titulo: 'Grupo D', selecao1: 'ISL', selecao2: 'CRO', selecao3: 'ARG', selecao4: 'NIG',
                 dia1: 'Sab', data1: '16/06/2018', local1: 'Spartak', horas1: '10:00', time11: 'ARG', time12: 'ISL',
                 dia12: 'Sab', data12: '16/06/2018', local12: 'Kaliningrado', horas12: '16:00', time121: 'CRO', time122: 'NIG',
-                dia2: 'Qui', data2: '21/06/2018', local2: 'N.Novgorod', horas2: '15:00', time222: 'ISL', time22: 'CRO',
+                dia2: 'Qui', data2: '21/06/2018', local2: 'Novgorod', horas2: '15:00', time222: 'ISL', time22: 'CRO',
                 dia22: 'Qui', data22: '21/06/2018', local22: 'Volgogrado', horas22: '12:00', time221: 'NIG', time21: 'ARG',
                 dia3: 'Ter', data3: '26/06/2018', local3: 'S.Petersburgo', horas3: '15:00', time31: 'NIG', time321: 'ISL',
                 dia32: 'Ter', data32: '26/06/2018', local32: 'Rostov', horas32: '15:00', time32: 'ARG', time322: 'CRO' },
@@ -68,24 +68,24 @@ var FasesPage = /** @class */ (function () {
                 dia2: 'Sex', data2: '22/06/2018', local2: 'S.Petersburgo', horas2: '09:00', time22: 'COS', time21: 'BRA',
                 dia22: 'Ser', data22: '22/06/2018', local22: 'Kaliningrado', horas22: '15:00', time222: 'SER', time221: 'SUI',
                 dia3: 'Qua', data3: '27/06/2018', local3: 'Spartak', horas3: '15:00', time31: 'SER', time322: 'BRA',
-                dia32: 'Qua', data32: '27/06/2018', local32: 'N.Novgorod', horas32: '15:00', time321: 'SUI', time32: 'COS' },
+                dia32: 'Qua', data32: '27/06/2018', local32: 'Novgorod', horas32: '15:00', time321: 'SUI', time32: 'COS' },
             //grupo F
             { titulo: 'Grupo F', selecao1: 'ALE', selecao2: 'COR', selecao3: 'MEX', selecao4: 'SUE',
-                dia1: 'Dom', data1: '16/06/2018', local1: 'Olím.Lujniki', horas1: '12:00', time11: 'ALE', time12: 'MEX',
-                dia12: 'Seg', data12: '16/06/2018', local12: 'N.Novgorod', horas12: '09:00', time121: 'SUE', time122: 'COR',
+                dia1: 'Dom', data1: '16/06/2018', local1: 'Lujniki', horas1: '12:00', time11: 'ALE', time12: 'MEX',
+                dia12: 'Seg', data12: '16/06/2018', local12: 'Novgorod', horas12: '09:00', time121: 'SUE', time122: 'COR',
                 dia2: 'Sab', data2: '23/06/2018', local2: 'Rostov', horas2: '12:00', time21: 'COR', time22: 'MEX',
-                dia22: 'Sab', data22: '23/06/2018', local22: 'Olím.Sochi', horas22: '15:00', time221: 'ALE', time222: 'SUE',
+                dia22: 'Sab', data22: '23/06/2018', local22: 'Sochi', horas22: '15:00', time221: 'ALE', time222: 'SUE',
                 dia3: 'Qua', data3: '27/06/2018', local3: 'Ar.Kazan', horas3: '11:00', time31: 'COR', time32: 'ALE',
                 dia32: 'Qua', data32: '27/06/2018', local32: 'Ecaterimburgo', horas32: '11:00', time321: 'MEX', time322: 'SUE' },
             //grupo G
             { titulo: 'Grupo G', selecao1: 'BEL', selecao2: 'ING', selecao3: 'PAN', selecao4: 'TUN',
-                dia1: 'Seg', data1: '18/06/2018', local1: 'Olím.Sochi', horas1: '12:00', time11: 'BEL', time12: 'PAN',
+                dia1: 'Seg', data1: '18/06/2018', local1: 'Sochi', horas1: '12:00', time11: 'BEL', time12: 'PAN',
                 dia12: 'Seg', data12: '18/06/2018', local12: 'Volgograd', horas12: '15:00', time121: 'TUN', time122: 'ING',
                 dia2: 'Sab', data2: '23/06/2018', local2: 'Spartak', horas2: '09:00', time21: 'BEL', time22: 'TUN',
-                dia22: 'Dom', data22: '23/06/2018', local22: 'N.Novgorod', horas22: '09:00', time221: 'ING', time222: 'PAN',
+                dia22: 'Dom', data22: '23/06/2018', local22: 'Novgorod', horas22: '09:00', time221: 'ING', time222: 'PAN',
                 dia3: 'Qui', data3: '28/06/2018', local3: 'Kaliningrado', horas3: '15:00', time31: 'ING', time32: 'BEL',
                 dia32: 'Qui', data32: '28/06/2018', local32: 'Saransk', horas32: '15:00', time321: 'PAN', time322: 'TUN' },
-            ///oia a poi
+            //oia a poi
             //grupo H
             { titulo: 'Grupo H', selecao1: 'COL', selecao2: 'JAP', selecao3: 'POL', selecao4: 'SEN',
                 dia1: 'Ter', data1: '19/06/2018', local1: 'Saransk', horas1: '09:00', time11: 'COL', time12: 'JAP',
@@ -99,15 +99,25 @@ var FasesPage = /** @class */ (function () {
     FasesPage.prototype.proximaPagina = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__oitavas_oitavas__["a" /* OitavasPage */]);
     };
+    FasesPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        setTimeout(function () {
+            _this.content.scrollToBottom(300);
+        }, 1000);
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Content */])
+    ], FasesPage.prototype, "content", void 0);
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])('mySlider'),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Slides */])
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Slides */])
     ], FasesPage.prototype, "slider", void 0);
     FasesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-fases',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\fases\fases.html"*/'<ion-header no-border>\n\n    <ion-navbar color="branco">\n\n        <ion-title>\n\n            <p>Fase de Grupos</p>\n\n        </ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content id="main">\n\n    <ion-slides>\n\n        <ion-slide *ngFor="let slideGrupo of slideGrupos">\n\n            <div id="conteudo">\n\n                <ion-grid id="bloco-1">\n\n                    <ion-row>\n\n                        <ion-col style="font-size: 15pt">\n\n                            <div id="text">\n\n                                <span class=\'cut left\'></span>\n\n                                {{ slideGrupo.titulo }}\n\n                                <span class=\'cut right\'></span>\n\n                            </div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                    <ion-row style="background-color: rgb(193, 0, 13)">\n\n                        <ion-col>POS.</ion-col>\n\n                        <ion-col col-1>P</ion-col>\n\n                        <ion-col col-1>J</ion-col>\n\n                        <ion-col col-1>V</ion-col>\n\n                        <ion-col col-1>E</ion-col>\n\n                        <ion-col col-1>D</ion-col>\n\n                        <ion-col col-1>GP</ion-col>\n\n                        <ion-col col-1>GC</ion-col>\n\n                        <ion-col col-1>SG</ion-col>\n\n                        <ion-col col-1>%</ion-col>\n\n                        <ion-col>JOG.</ion-col>\n\n                    </ion-row>\n\n                    <ion-row >\n\n                        <ion-col>{{ slideGrupo.selecao1 }}</ion-col>\n\n                        <ion-col col-1 >0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0.0</ion-col>\n\n                        <ion-col>0</ion-col>\n\n                    </ion-row>\n\n                    <ion-row style="background-color: rgb(193, 0, 13)">\n\n                        <ion-col>{{ slideGrupo.selecao2 }}</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0.0</ion-col>\n\n                        <ion-col>0</ion-col>\n\n                    </ion-row>\n\n                    <ion-row >\n\n                        <ion-col>{{ slideGrupo.selecao3 }}</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0.0</ion-col>\n\n                        <ion-col>0</ion-col>\n\n                    </ion-row>\n\n                    <ion-row style="background-color: rgb(193, 0, 13)">\n\n                        <ion-col>{{ slideGrupo.selecao4 }}</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0.0</ion-col>\n\n                        <ion-col>0</ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n                <ion-grid id="bloco-2">\n\n                    <p  style="padding-top: 2%; font-size: 17pt">Jogos</p>\n\n                    <ion-row id="row-times">\n\n                        <ion-col>\n\n                            <ion-card id="bloco-2-card">\n\n                                <ion-card-header color="secondary">\n\n                                    <ion-segment [(ngModel)]="guia" style="background-color: rgb(193, 0, 13)">\n\n                                        <ion-segment-button value="1">\n\n                                            1ª Rodada\n\n                                        </ion-segment-button>\n\n                                        <ion-segment-button value="2">\n\n                                            2ª Rodada\n\n                                        </ion-segment-button>\n\n                                        <ion-segment-button value="3">\n\n                                            3ª Rodada\n\n                                        </ion-segment-button>\n\n                                    </ion-segment>\n\n                                </ion-card-header>\n\n                                <ion-card-content>\n\n                               \n\n                                    <div [ngSwitch]="guia" id="card-corpo">\n\n                                        <ion-list *ngSwitchCase="\'1\'">\n\n                                            <ion-grid>\n\n                                                <ion-row class="row-menor">\n\n                                                    <ion-col>{{ slideGrupo.dia1 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.data1 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.local1 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.horas1 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>{{ slideGrupo.time11 }}</td>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n\n\n                                                    <ion-col>x</ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao1}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time12 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row class="row-menor">\n\n                                                    <ion-col>{{ slideGrupo.dia12 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.data12 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.local12 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.horas12 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n\n\n                                                            <td>{{ slideGrupo.time121 }}</td>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao2}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                    <ion-col>x</ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time122 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                            </ion-grid>\n\n                                        </ion-list>\n\n\n\n                                        <ion-list *ngSwitchCase="\'2\'">\n\n                                            <ion-grid>\n\n                                                <ion-row class="row-menor">\n\n                                                        <ion-col>{{ slideGrupo.dia2 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.data2 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.local2 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.horas2 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>{{ slideGrupo.time21 }}</td>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                    <ion-col>x</ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao2}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time22 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row class="row-menor">\n\n                                                        <ion-col>{{ slideGrupo.dia22 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.data22 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.local22 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.horas22 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>{{ slideGrupo.time221 }}</td>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                    <ion-col>x</ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao1}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time222 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                            </ion-grid>\n\n                                        </ion-list>\n\n\n\n                                        <ion-list *ngSwitchCase="\'3\'">\n\n                                            <ion-grid>\n\n                                                <ion-row class="row-menor">\n\n                                                        <ion-col>{{ slideGrupo.dia3 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.data3 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.local3 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.horas3 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>{{ slideGrupo.time31 }}</td>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                    <ion-col>x</ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time32 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row class="row-menor">\n\n                                                        <ion-col>{{ slideGrupo.dia32 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.data32 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.local32 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.horas32 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>{{ slideGrupo.time321 }}</td>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao1}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                    <ion-col> x </ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao2}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time322 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                            </ion-grid>\n\n                                        </ion-list>\n\n                                    </div>\n\n                                </ion-card-content>\n\n                            </ion-card>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </div>\n\n        </ion-slide>\n\n    </ion-slides>\n\n</ion-content>'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\fases\fases.html"*/,
+            selector: 'page-fases',template:/*ion-inline-start:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\fases\fases.html"*/'<ion-header no-border>\n\n    <ion-navbar color="branco">\n\n        <ion-title>\n\n            <p>Fase de Grupos</p>\n\n        </ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content id="main">\n\n    <ion-slides>\n\n        <ion-slide *ngFor="let slideGrupo of slideGrupos">\n\n            <div id="conteudo">\n\n                <ion-grid id="bloco-1">\n\n                    <ion-row>\n\n                        <ion-col style="font-size: 15pt">\n\n                            <div id="text">\n\n                                <span class=\'cut left\'></span>\n\n                                {{ slideGrupo.titulo }}\n\n                                <span class=\'cut right\'></span>\n\n                            </div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                    <ion-row style="background-color: rgb(193, 0, 13)">\n\n                        <ion-col>POS.</ion-col>\n\n                        <ion-col col-1>P</ion-col>\n\n                        <ion-col col-1>J</ion-col>\n\n                        <ion-col col-1>V</ion-col>\n\n                        <ion-col col-1>E</ion-col>\n\n                        <ion-col col-1>D</ion-col>\n\n                        <ion-col col-1>GP</ion-col>\n\n                        <ion-col col-1>GC</ion-col>\n\n                        <ion-col col-1>SG</ion-col>\n\n                        <ion-col col-1>%</ion-col>\n\n                        <ion-col>JOG.</ion-col>\n\n                    </ion-row>\n\n                    <ion-row style="background-color: #0074B1">\n\n                        <ion-col>{{ slideGrupo.selecao1 }}</ion-col>\n\n                        <ion-col col-1 >0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0.0</ion-col>\n\n                        <ion-col>0</ion-col>\n\n                    </ion-row>\n\n                    <ion-row style="background-color: rgb(193, 0, 13)">\n\n                        <ion-col>{{ slideGrupo.selecao2 }}</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0.0</ion-col>\n\n                        <ion-col>0</ion-col>\n\n                    </ion-row>\n\n                    <ion-row style="background-color: #0074B1">\n\n                        <ion-col>{{ slideGrupo.selecao3 }}</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0.0</ion-col>\n\n                        <ion-col>0</ion-col>\n\n                    </ion-row>\n\n                    <ion-row style="background-color: rgb(193, 0, 13)">\n\n                        <ion-col>{{ slideGrupo.selecao4 }}</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0.0</ion-col>\n\n                        <ion-col>0</ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n                <ion-grid id="bloco-2">\n\n                    <p  style="padding-top: 2%; font-size: 17pt">Jogos</p>\n\n                    <ion-row id="row-times">\n\n                        <ion-col>\n\n                            <ion-card id="bloco-2-card">\n\n                                <ion-card-header>\n\n                                    <ion-segment [(ngModel)]="guia" color="light">\n\n                                        <ion-segment-button value="1" >\n\n                                            1ª Rodada\n\n                                        </ion-segment-button>\n\n                                        <ion-segment-button value="2">\n\n                                            2ª Rodada\n\n                                        </ion-segment-button>\n\n                                        <ion-segment-button value="3">\n\n                                            3ª Rodada\n\n                                        </ion-segment-button>\n\n                                    </ion-segment>\n\n                                </ion-card-header>\n\n                                <ion-card-content>\n\n                               \n\n                                    <div [ngSwitch]="guia" id="card-corpo">\n\n                                        <ion-list *ngSwitchCase="\'1\'">\n\n                                            <ion-grid>\n\n                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">\n\n                                                    <ion-col>{{ slideGrupo.dia1 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.data1 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.local1 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.horas1 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>{{ slideGrupo.time11 }}</td>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n\n\n                                                    <ion-col class="col-vs">x</ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao1}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time12 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">\n\n                                                    <ion-col>{{ slideGrupo.dia12 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.data12 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.local12 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.horas12 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n\n\n                                                            <td>{{ slideGrupo.time121 }}</td>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao2}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                    <ion-col class="col-vs">x</ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time122 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                            </ion-grid>\n\n                                        </ion-list>\n\n\n\n                                        <ion-list *ngSwitchCase="\'2\'">\n\n                                            <ion-grid>\n\n                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">\n\n                                                        <ion-col>{{ slideGrupo.dia2 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.data2 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.local2 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.horas2 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>{{ slideGrupo.time21 }}</td>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                    <ion-col class="col-vs">x</ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao2}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time22 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">\n\n                                                        <ion-col>{{ slideGrupo.dia22 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.data22 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.local22 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.horas22 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>{{ slideGrupo.time221 }}</td>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                    <ion-col class="col-vs">x</ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao1}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time222 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                            </ion-grid>\n\n                                        </ion-list>\n\n\n\n                                        <ion-list *ngSwitchCase="\'3\'">\n\n                                            <ion-grid>\n\n                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">\n\n                                                        <ion-col>{{ slideGrupo.dia3 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.data3 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.local3 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.horas3 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>{{ slideGrupo.time31 }}</td>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                    <ion-col class="col-vs">x</ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time32 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">\n\n                                                        <ion-col>{{ slideGrupo.dia32 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.data32 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.local32 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.horas32 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>{{ slideGrupo.time321 }}</td>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao1}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                    <ion-col class="col-vs">x </ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao2}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time322 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                            </ion-grid>\n\n                                        </ion-list>\n\n                                    </div>\n\n                                </ion-card-content>\n\n                            </ion-card>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </div>\n\n        </ion-slide>\n\n    </ion-slides>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\fases\fases.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
     ], FasesPage);
     return FasesPage;
 }());
@@ -116,14 +126,14 @@ var FasesPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 102:
+/***/ 159:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OitavasPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__quartas_quartas__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__quartas_quartas__ = __webpack_require__(160);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -156,9 +166,9 @@ var OitavasPage = /** @class */ (function () {
     };
     OitavasPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-oitavas',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\oitavas\oitavas.html"*/'<ion-header no-border>\n\n    <ion-navbar>\n\n        <ion-title><p>Oitavas de Final</p></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n    <div align="center">\n\n        <fieldset style="border-radius: 4px; border: 1px solid; width: 86%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">\n\n            <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n\n            <div>\n\n                <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n\n                    <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n\n                </div>\n\n                <div>\n\n                    <span>\n\n                        <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                    </span>\n\n                    <span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                        <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n\n                    </span>\n\n                </div>\n\n            </div>\n\n        </fieldset>\n\n    </div>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\oitavas\oitavas.html"*/,
+            selector: 'page-oitavas',template:/*ion-inline-start:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\oitavas\oitavas.html"*/'<ion-header no-border>\n    <ion-navbar>\n        <ion-title><p>Oitavas de Final</p></ion-title>\n\n        <ion-buttons end>\n            <button ion-button clear (click)="proximaPagina()">\n                <ion-icon name="md-arrow-forward"></ion-icon>\n            </button>\n        </ion-buttons>\n\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n    <div align="center">\n        <fieldset style="border-radius: 4px; border: 1px solid; width: 86%; margin-top: 5%; margin-bottom: 5%" align="center" *ngFor="let fieldset of fieldsets">\n            <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n            <div>\n                <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n                    <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n                </div>\n                <div>\n                    <span>\n                        <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n                    </span>\n                    <span>\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n                        <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n                    </span>\n                </div>\n            </div>\n        </fieldset>\n    </div>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\oitavas\oitavas.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
     ], OitavasPage);
     return OitavasPage;
 }());
@@ -167,14 +177,14 @@ var OitavasPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 103:
+/***/ 160:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return QuartasPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__semi_final_semi_final__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__semi_final_semi_final__ = __webpack_require__(161);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -203,9 +213,9 @@ var QuartasPage = /** @class */ (function () {
     };
     QuartasPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-quartas',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\quartas\quartas.html"*/'<ion-header no-border>\n\n    <ion-navbar>\n\n\n\n        <ion-title><p>Quartas de Final</p></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n    <div align="center">\n\n        <fieldset style="border-radius: 4px; border: 1px solid; width: 86%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">\n\n            <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n\n            <div>\n\n                <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n\n                    <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n\n                </div>\n\n                <div>\n\n                    <span>\n\n                        <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                    </span>\n\n                    <span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                        <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n\n                    </span>\n\n                </div>\n\n            </div>\n\n        </fieldset>\n\n        \n\n    </div>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\quartas\quartas.html"*/,
+            selector: 'page-quartas',template:/*ion-inline-start:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\quartas\quartas.html"*/'<ion-header no-border>\n    <ion-navbar>\n\n        <ion-title><p>Quartas de Final</p></ion-title>\n\n        <ion-buttons end>\n            <button ion-button clear (click)="proximaPagina()">\n                <ion-icon name="md-arrow-forward"></ion-icon>\n            </button>\n        </ion-buttons>\n\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n    <div align="center">\n        <fieldset style="border-radius: 4px; border: 1px solid; width: 86%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">\n            <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n            <div>\n                <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n                    <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n                </div>\n                <div>\n                    <span>\n                        <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n                    </span>\n                    <span>\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n                        <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n                    </span>\n                </div>\n            </div>\n        </fieldset>\n        \n    </div>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\quartas\quartas.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
     ], QuartasPage);
     return QuartasPage;
 }());
@@ -214,14 +224,14 @@ var QuartasPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 104:
+/***/ 161:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SemiFinalPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__third_lugar_third_lugar__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__third_lugar_third_lugar__ = __webpack_require__(162);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -248,9 +258,9 @@ var SemiFinalPage = /** @class */ (function () {
     };
     SemiFinalPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-semi-final',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\semi-final\semi-final.html"*/'<ion-header no-border>\n\n    <ion-navbar>\n\n        <ion-title><p>Semifinal</p></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n    <div align="center">\n\n        <fieldset style="border-radius: 4px; border: 1px solid; width: 85%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">\n\n            <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n\n            <div>\n\n                <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n\n                    <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n\n                </div>\n\n                <div>\n\n                    <span>\n\n                        <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                    </span>\n\n                    <span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                        <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n\n                    </span>\n\n                </div>\n\n            </div>\n\n        </fieldset>\n\n    </div>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\semi-final\semi-final.html"*/,
+            selector: 'page-semi-final',template:/*ion-inline-start:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\semi-final\semi-final.html"*/'<ion-header no-border>\n    <ion-navbar>\n        <ion-title><p>Semifinal</p></ion-title>\n\n        <ion-buttons end>\n            <button ion-button clear (click)="proximaPagina()">\n                <ion-icon name="md-arrow-forward"></ion-icon>\n            </button>\n        </ion-buttons>\n\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n    <div align="center">\n        <fieldset style="border-radius: 4px; border: 1px solid; width: 85%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">\n            <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n            <div>\n                <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n                    <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n                </div>\n                <div>\n                    <span>\n                        <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n                    </span>\n                    <span>\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n                        <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n                    </span>\n                </div>\n            </div>\n        </fieldset>\n    </div>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\semi-final\semi-final.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
     ], SemiFinalPage);
     return SemiFinalPage;
 }());
@@ -259,14 +269,14 @@ var SemiFinalPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 105:
+/***/ 162:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ThirdLugarPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__final_final__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__final_final__ = __webpack_require__(163);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -292,9 +302,9 @@ var ThirdLugarPage = /** @class */ (function () {
     };
     ThirdLugarPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-third-lugar',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\third-lugar\third-lugar.html"*/'<ion-header no-border>\n\n    <ion-navbar>\n\n\n\n        <ion-title><p>Disputa do 3º Lugar</p></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n    <div align="center">\n\n        <fieldset style="border-radius: 4px; border: 1px solid; width: 86%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">\n\n            <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n\n            <div>\n\n                <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n\n                    <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n\n                </div>\n\n                <div>\n\n                    <span>\n\n                        <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                    </span>\n\n                    <span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                        <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n\n                    </span>\n\n                </div>\n\n            </div>\n\n        </fieldset>\n\n    </div>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\third-lugar\third-lugar.html"*/,
+            selector: 'page-third-lugar',template:/*ion-inline-start:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\third-lugar\third-lugar.html"*/'<ion-header no-border>\n    <ion-navbar>\n\n        <ion-title><p>Disputa do 3º Lugar</p></ion-title>\n\n        <ion-buttons end>\n            <button ion-button clear (click)="proximaPagina()">\n                <ion-icon name="md-arrow-forward"></ion-icon>\n            </button>\n        </ion-buttons>\n\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n    <div align="center">\n        <fieldset style="border-radius: 4px; border: 1px solid; width: 86%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">\n            <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n            <div>\n                <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n                    <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n                </div>\n                <div>\n                    <span>\n                        <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n                    </span>\n                    <span>\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n                        <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n                    </span>\n                </div>\n            </div>\n        </fieldset>\n    </div>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\third-lugar\third-lugar.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
     ], ThirdLugarPage);
     return ThirdLugarPage;
 }());
@@ -303,13 +313,13 @@ var ThirdLugarPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 106:
+/***/ 163:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FinalPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -331,9 +341,9 @@ var FinalPage = /** @class */ (function () {
     }
     FinalPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-final',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\final\final.html"*/'<ion-header no-border>\n\n  <ion-navbar>\n\n    <ion-title><p>Final</p></ion-title>\n\n    <ion-buttons end>\n\n      <button ion-button clear>\n\n          <ion-icon name="md-arrow-forward"></ion-icon>\n\n      </button>\n\n  </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n  <div align="center">\n\n    <fieldset style="border-radius: 4px; border: 1px solid; width: 88%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">\n\n      <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n\n      \n\n      <div>\n\n        <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n\n          <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n\n        </div>\n\n        <div>\n\n          <span>\n\n            <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n\n            <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n          </span>\n\n          <span>\n\n            <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n            <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n\n          </span>\n\n        </div>\n\n     \n\n      </div>\n\n    </fieldset>\n\n  </div>\n\n</ion-content>'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\final\final.html"*/,
+            selector: 'page-final',template:/*ion-inline-start:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\final\final.html"*/'<ion-header no-border>\n  <ion-navbar>\n    <ion-title><p>Final</p></ion-title>\n    <ion-buttons end>\n      <button ion-button clear>\n          <ion-icon name="md-arrow-forward"></ion-icon>\n      </button>\n  </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n  <div align="center">\n    <fieldset style="border-radius: 4px; border: 1px solid; width: 88%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">\n      <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n      \n      <div>\n        <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n          <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n        </div>\n        <div>\n          <span>\n            <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n            <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n          </span>\n          <span>\n            <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n            <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n          </span>\n        </div>\n     \n      </div>\n    </fieldset>\n  </div>\n</ion-content>'/*ion-inline-end:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\final\final.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
     ], FinalPage);
     return FinalPage;
 }());
@@ -342,14 +352,14 @@ var FinalPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 107:
+/***/ 164:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SplashPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_splash_screen__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_splash_screen__ = __webpack_require__(117);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -384,9 +394,9 @@ var SplashPage = /** @class */ (function () {
     };
     SplashPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-splash',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\splash\splash.html"*/'<ion-content>\n\n  \n\n <div>\n\n    <img style="padding-top: 20%" src="../../assets/kk[.png">\n\n</div>\n\n</ion-content>'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\splash\splash.html"*/,
+            selector: 'page-splash',template:/*ion-inline-start:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\splash\splash.html"*/'<ion-content>\n  \n <div>\n    <img style="padding-top: 20%" src="../../assets/kk[.png">\n</div>\n</ion-content>'/*ion-inline-end:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\splash\splash.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_splash_screen__["a" /* SplashScreen */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], SplashPage);
     return SplashPage;
 }());
@@ -395,7 +405,7 @@ var SplashPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 119:
+/***/ 175:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -408,40 +418,40 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 119;
+webpackEmptyAsyncContext.id = 175;
 
 /***/ }),
 
-/***/ 160:
+/***/ 219:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/fases/fases.module": [
-		284,
+		713,
 		6
 	],
 	"../pages/final/final.module": [
-		285,
+		714,
 		5
 	],
 	"../pages/oitavas/oitavas.module": [
-		286,
+		715,
 		4
 	],
 	"../pages/quartas/quartas.module": [
-		287,
+		716,
 		3
 	],
 	"../pages/semi-final/semi-final.module": [
-		288,
+		717,
 		2
 	],
 	"../pages/splash/splash.module": [
-		289,
+		718,
 		1
 	],
 	"../pages/third-lugar/third-lugar.module": [
-		290,
+		719,
 		0
 	]
 };
@@ -456,20 +466,19 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 160;
+webpackAsyncContext.id = 219;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 204:
+/***/ 266:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__fases_fases__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__fases_fases__ = __webpack_require__(158);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -482,20 +491,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
 var HomePage = /** @class */ (function () {
-    function HomePage(navCtrl, tabelaService) {
+    function HomePage(navCtrl) {
         this.navCtrl = navCtrl;
-        this.tabelaService = tabelaService;
     }
     HomePage.prototype.proximaPagina = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__fases_fases__["a" /* FasesPage */]);
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\home\home.html"*/'\n\n<ion-header no-border>\n\n  <ion-navbar>\n\n    \n\n    <ion-title>\n\n      <p>Menu</p>\n\n    </ion-title>\n\n\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <button ion-button (click)="proximaPagina()">\n\n      História de todas as COPAS \n\n    </button>\n\n    <button ion-button (click)="proximaPagina()">\n\n      SELEÇÕES\n\n    </button>\n\n    <button ion-button (click)="proximaPagina()">\n\n      TABELA \n\n    </button>\n\n  </ion-content>\n\n   '/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\home\home.html"*/'\n\n<ion-header no-border>\n\n  <ion-navbar>\n\n    \n\n    <ion-title>\n\n      <p>Menu</p>\n\n    </ion-title>\n\n\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <button ion-button (click)="proximaPagina()">\n\n      História de todas as COPAS \n\n    </button>\n\n    <button ion-button (click)="proximaPagina()">\n\n      SELEÇÕES\n\n    </button>\n\n    <button ion-button (click)="proximaPagina()">\n\n      TABELA \n\n    </button>\n\n  </ion-content>\n\n   '/*ion-inline-end:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\home\home.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__["a" /* DadosTabelaProvider */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]])
     ], HomePage);
     return HomePage;
 }());
@@ -504,63 +511,13 @@ var HomePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 205:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DadosTabelaProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(283);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/*
-  Generated class for the DadosTabelaProvider provider.
-
-  See https://angular.io/guide/dependency-injection for more info on providers
-  and Angular DI.
-*/
-var DadosTabelaProvider = /** @class */ (function () {
-    function DadosTabelaProvider(http) {
-        this.http = http;
-        //this.http.get('https://cdn.rawgit.com/lsv/fifa-worldcup-2018/master/data.json').subscribe(data => {
-        // console.log(data);
-        // })
-    }
-    DadosTabelaProvider.prototype.getRemoteData = function () {
-        this.http.get('https://cdn.rawgit.com/lsv/fifa-worldcup-2018/master/data.json').subscribe(function (data) {
-            console.log(data);
-        });
-    };
-    DadosTabelaProvider = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_common_http__["a" /* HttpClient */]])
-    ], DadosTabelaProvider);
-    return DadosTabelaProvider;
-}());
-
-//# sourceMappingURL=dados-tabela.js.map
-
-/***/ }),
-
-/***/ 206:
+/***/ 365:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(227);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(366);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(370);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -568,33 +525,37 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 227:
+/***/ 370:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_common_http__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(282);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_fases_fases__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_oitavas_oitavas__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_quartas_quartas__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_semi_final_semi_final__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_third_lugar_third_lugar__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_final_final__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_splash_splash__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__providers_dados_tabela_dados_tabela__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(263);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_common_http__ = __webpack_require__(413);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(414);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(266);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_fases_fases__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_oitavas_oitavas__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_quartas_quartas__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_semi_final_semi_final__ = __webpack_require__(161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_third_lugar_third_lugar__ = __webpack_require__(162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_final_final__ = __webpack_require__(163);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_splash_splash__ = __webpack_require__(164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_angularfire2__ = __webpack_require__(143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_angularfire2_auth__ = __webpack_require__(698);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_angularfire2_database__ = __webpack_require__(703);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -628,9 +589,9 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_14__pages_splash_splash__["a" /* SplashPage */]
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_5__angular_common_http__["b" /* HttpClientModule */],
+                __WEBPACK_IMPORTED_MODULE_5__angular_common_http__["a" /* HttpClientModule */],
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */], {}, {
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */], {}, {
                     links: [
                         { loadChildren: '../pages/fases/fases.module#FasesPageModule', name: 'FasesPage', segment: 'fases', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/final/final.module#FinalPageModule', name: 'FinalPage', segment: 'final', priority: 'low', defaultHistory: [] },
@@ -640,9 +601,19 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/splash/splash.module#SplashPageModule', name: 'SplashPage', segment: 'splash', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/third-lugar/third-lugar.module#ThirdLugarPageModule', name: 'ThirdLugarPage', segment: 'third-lugar', priority: 'low', defaultHistory: [] }
                     ]
-                })
+                }),
+                __WEBPACK_IMPORTED_MODULE_15_angularfire2__["a" /* AngularFireModule */].initializeApp({
+                    apiKey: "AIzaSyDnhX2YabACd_87STpCDPnttoUkpu07CsM",
+                    authDomain: "howchat-3524a.firebaseapp.com",
+                    databaseURL: "https://howchat-3524a.firebaseio.com",
+                    projectId: "howchat-3524a",
+                    storageBucket: "howchat-3524a.appspot.com",
+                    messagingSenderId: "389220435198"
+                }),
+                __WEBPACK_IMPORTED_MODULE_16_angularfire2_auth__["a" /* AngularFireAuthModule */],
+                __WEBPACK_IMPORTED_MODULE_17_angularfire2_database__["a" /* AngularFireDatabaseModule */]
             ],
-            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicApp */]],
             entryComponents: [
                 __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */],
                 __WEBPACK_IMPORTED_MODULE_7__pages_home_home__["a" /* HomePage */],
@@ -657,8 +628,7 @@ var AppModule = /** @class */ (function () {
             providers: [
                 __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
                 __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
-                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] },
-                __WEBPACK_IMPORTED_MODULE_15__providers_dados_tabela_dados_tabela__["a" /* DadosTabelaProvider */]
+                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] }
             ]
         })
     ], AppModule);
@@ -669,17 +639,17 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 282:
+/***/ 414:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_splash_splash__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(263);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(266);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_splash_splash__ = __webpack_require__(164);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -708,9 +678,9 @@ var MyApp = /** @class */ (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Muril\Documents\ionic\myApp2\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"C:\Users\Muril\Documents\ionic\myApp2\src\app\app.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */]])
     ], MyApp);
     return MyApp;
 }());
@@ -719,5 +689,5 @@ var MyApp = /** @class */ (function () {
 
 /***/ })
 
-},[206]);
+},[365]);
 //# sourceMappingURL=main.js.map

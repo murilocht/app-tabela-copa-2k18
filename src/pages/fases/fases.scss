@@ -1,5 +1,5 @@
 #main{
-    position: relative
+    position: relative;
 }
 
 #conteudo{
@@ -22,6 +22,7 @@
     .row-menor{
         margin-top: 5%
     }
+    
 }
 
 @media only screen and (width: 320px) {    
@@ -29,6 +30,7 @@
         font-size: 8pt;
     }
     #row-maior{
+        padding-bottom: 25%;
         height: 43px;
     }
     #bloco-2 ion-row {
@@ -37,6 +39,7 @@
     .row-menor{
         margin-top: 5%
     }
+    
 }
 
 #bloco-1{
@@ -67,8 +70,7 @@
 
 #bloco-2-card{
     ion-row{
-        color: rgb(0, 0, 0);
-        font-weight: bold
+        color: white
     }
     margin-top: 0%;
     height: 90%;
@@ -94,6 +96,7 @@
     .row-menor{
         margin-top: 5%
     }
+   
 }
 
 @media only screen and (width: 411px) {
@@ -128,9 +131,6 @@ ion-card-content{
     
 }
 
-ion-card-header {
-    background-color: rgb(209, 199, 176);
-}
 #text{
     background-color: black;
     font-weight: bold;
@@ -162,6 +162,20 @@ ion-card-header {
     right: 0
   }
 
-  ion-scroll {
-    height: 150px;
+  ion-slide{
+    overflow-y: auto;
+}  
+.slide-zoom {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 330px 0px;
+}
+
+.col-vs{    
+    border-bottom: 3px solid black;
+    font-size: 16pt;
 }

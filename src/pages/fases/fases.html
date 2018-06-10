@@ -27,11 +27,7 @@
                             </div>
                         </ion-col>
                     </ion-row>
-<<<<<<< HEAD
                     <ion-row style="background-color: rgb(193, 0, 13)">
-=======
-                    <ion-row>
->>>>>>> f7b3c9eecb4446e430943f6b33e6c6fe141de8d4
                         <ion-col>POS.</ion-col>
                         <ion-col col-1>P</ion-col>
                         <ion-col col-1>J</ion-col>
@@ -57,11 +53,7 @@
                         <ion-col col-1>0.0</ion-col>
                         <ion-col>0</ion-col>
                     </ion-row>
-<<<<<<< HEAD
                     <ion-row style="background-color: rgb(193, 0, 13)">
-=======
-                    <ion-row>
->>>>>>> f7b3c9eecb4446e430943f6b33e6c6fe141de8d4
                         <ion-col>{{ slideGrupo.selecao2 }}</ion-col>
                         <ion-col col-1>0</ion-col>
                         <ion-col col-1>0</ion-col>
@@ -87,11 +79,7 @@
                         <ion-col col-1>0.0</ion-col>
                         <ion-col>0</ion-col>
                     </ion-row>
-<<<<<<< HEAD
                     <ion-row style="background-color: rgb(193, 0, 13)">
-=======
-                    <ion-row>
->>>>>>> f7b3c9eecb4446e430943f6b33e6c6fe141de8d4
                         <ion-col>{{ slideGrupo.selecao4 }}</ion-col>
                         <ion-col col-1>0</ion-col>
                         <ion-col col-1>0</ion-col>
@@ -110,13 +98,9 @@
                     <ion-row id="row-times">
                         <ion-col>
                             <ion-card id="bloco-2-card">
-                                <ion-card-header color="secondary">
-<<<<<<< HEAD
-                                    <ion-segment [(ngModel)]="guia" style="background-color: rgb(193, 0, 13)">
-=======
-                                    <ion-segment [(ngModel)]="guia" style="background-color: rgb(66, 117, 230)">
->>>>>>> f7b3c9eecb4446e430943f6b33e6c6fe141de8d4
-                                        <ion-segment-button value="1">
+                                <ion-card-header>
+                                    <ion-segment [(ngModel)]="guia" color="light">
+                                        <ion-segment-button value="1" >
                                             1ª Rodada
                                         </ion-segment-button>
                                         <ion-segment-button value="2">
@@ -132,7 +116,7 @@
                                     <div [ngSwitch]="guia" id="card-corpo">
                                         <ion-list *ngSwitchCase="'1'">
                                             <ion-grid>
-                                                <ion-row class="row-menor">
+                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">
                                                     <ion-col>{{ slideGrupo.dia1 }}</ion-col>
                                                     <ion-col>{{ slideGrupo.data1 }}</ion-col>
                                                     <ion-col>{{ slideGrupo.local1 }}</ion-col>
@@ -143,31 +127,23 @@
                                                         <tr>
                                                             <td>{{ slideGrupo.time11 }}</td>
                                                             <td>
-<<<<<<< HEAD
                                                                 <img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.gif">
-=======
-                                                                <img src="../../assets/{{slideGrupo.selecao3}}.gif">
->>>>>>> f7b3c9eecb4446e430943f6b33e6c6fe141de8d4
                                                             </td>
                                                         </tr>
                                                     </ion-col>
 
-                                                    <ion-col>x</ion-col>
+                                                    <ion-col class="col-vs">x</ion-col>
                                                     <ion-col style="font-size:15pt">
                                                         <tr>
                                                             <td>
-<<<<<<< HEAD
                                                                 <img src="../../assets/bandeiras/{{slideGrupo.selecao1}}.gif">
-=======
-                                                                <img src="../../assets/{{slideGrupo.selecao1}}.gif">
->>>>>>> f7b3c9eecb4446e430943f6b33e6c6fe141de8d4
                                                             </td>
                                                             <td>{{ slideGrupo.time12 }}</td>
 
                                                         </tr>
                                                     </ion-col>
                                                 </ion-row>
-                                                <ion-row class="row-menor">
+                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">
                                                     <ion-col>{{ slideGrupo.dia12 }}</ion-col>
                                                     <ion-col>{{ slideGrupo.data12 }}</ion-col>
                                                     <ion-col>{{ slideGrupo.local12 }}</ion-col>
@@ -179,23 +155,15 @@
 
                                                             <td>{{ slideGrupo.time121 }}</td>
                                                             <td>
-<<<<<<< HEAD
                                                                 <img src="../../assets/bandeiras/{{slideGrupo.selecao2}}.gif">
-=======
-                                                                <img src="../../assets/{{slideGrupo.selecao2}}.gif">
->>>>>>> f7b3c9eecb4446e430943f6b33e6c6fe141de8d4
                                                             </td>
                                                         </tr>
                                                     </ion-col>
-                                                    <ion-col>x</ion-col>
+                                                    <ion-col class="col-vs">x</ion-col>
                                                     <ion-col style="font-size:15pt">
                                                         <tr>
                                                             <td>
-<<<<<<< HEAD
                                                                 <img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.gif">
-=======
-                                                                <img src="../../assets/{{slideGrupo.selecao4}}.gif">
->>>>>>> f7b3c9eecb4446e430943f6b33e6c6fe141de8d4
                                                             </td>
                                                             <td>{{ slideGrupo.time122 }}</td>
 
@@ -207,7 +175,7 @@
 
                                         <ion-list *ngSwitchCase="'2'">
                                             <ion-grid>
-                                                <ion-row class="row-menor">
+                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">
                                                         <ion-col>{{ slideGrupo.dia2 }}</ion-col>
                                                         <ion-col>{{ slideGrupo.data2 }}</ion-col>
                                                         <ion-col>{{ slideGrupo.local2 }}</ion-col>
@@ -222,7 +190,7 @@
                                                             </td>
                                                         </tr>
                                                     </ion-col>
-                                                    <ion-col>x</ion-col>
+                                                    <ion-col class="col-vs">x</ion-col>
                                                     <ion-col style="font-size:15pt">
                                                         <tr>
                                                             <td>
@@ -233,7 +201,7 @@
                                                         </tr>
                                                     </ion-col>
                                                 </ion-row>
-                                                <ion-row class="row-menor">
+                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">
                                                         <ion-col>{{ slideGrupo.dia22 }}</ion-col>
                                                         <ion-col>{{ slideGrupo.data22 }}</ion-col>
                                                         <ion-col>{{ slideGrupo.local22 }}</ion-col>
@@ -248,7 +216,7 @@
                                                             </td>
                                                         </tr>
                                                     </ion-col>
-                                                    <ion-col>x</ion-col>
+                                                    <ion-col class="col-vs">x</ion-col>
                                                     <ion-col style="font-size:15pt">
                                                         <tr>
                                                             <td>
@@ -264,7 +232,7 @@
 
                                         <ion-list *ngSwitchCase="'3'">
                                             <ion-grid>
-                                                <ion-row class="row-menor">
+                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">
                                                         <ion-col>{{ slideGrupo.dia3 }}</ion-col>
                                                         <ion-col>{{ slideGrupo.data3 }}</ion-col>
                                                         <ion-col>{{ slideGrupo.local3 }}</ion-col>
@@ -279,7 +247,7 @@
                                                             </td>
                                                         </tr>
                                                     </ion-col>
-                                                    <ion-col>x</ion-col>
+                                                    <ion-col class="col-vs">x</ion-col>
                                                     <ion-col style="font-size:15pt">
                                                         <tr>
                                                             <td>
@@ -290,7 +258,7 @@
                                                         </tr>
                                                     </ion-col>
                                                 </ion-row>
-                                                <ion-row class="row-menor">
+                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">
                                                         <ion-col>{{ slideGrupo.dia32 }}</ion-col>
                                                         <ion-col>{{ slideGrupo.data32 }}</ion-col>
                                                         <ion-col>{{ slideGrupo.local32 }}</ion-col>
@@ -301,11 +269,11 @@
                                                         <tr>
                                                             <td>{{ slideGrupo.time321 }}</td>
                                                             <td>
-                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao1}}.gif">
+                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao1}}.gif">
                                                             </td>
                                                         </tr>
                                                     </ion-col>
-                                                    <ion-col> x </ion-col>
+                                                    <ion-col class="col-vs">x </ion-col>
                                                     <ion-col style="font-size:15pt">
                                                         <tr>
                                                             <td>
