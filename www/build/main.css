@@ -27976,6 +27976,7 @@ ion-icon {
   font-size: 26px;
 }
 
+<<<<<<< HEAD
 /*
 .toolbar-background {
     background-color: white;
@@ -27985,6 +27986,8 @@ ion-icon {
     display:none; 
 }
 */
+=======
+>>>>>>> 08967164ec65d904a57609e7cf99df90f675cbba
 ion-title {
   text-align: center;
 }
