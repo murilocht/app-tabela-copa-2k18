@@ -376,7 +376,11 @@ var HistoriaPage = /** @class */ (function () {
     };
     HistoriaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+<<<<<<< HEAD
             selector: 'page-historia',template:/*ion-inline-start:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\historia\historia.html"*/'<ion-header no-border>\n    <ion-navbar>\n      <ion-title><p>Copas anteriores</p></ion-title>\n      <ion-buttons end>\n        <button ion-button clear>\n            <ion-icon name="md-arrow-forward" class="iconNulo"></ion-icon>\n        </button>\n    </ion-buttons>\n    </ion-navbar>\n  </ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Muril\Documents\ionic\myApp2\src\pages\historia\historia.html"*/,
+=======
+            selector: 'page-historia',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\historia\historia.html"*/'<ion-header no-border>\n\n    <ion-navbar>\n\n      <ion-title><p>História das Copas</p></ion-title>\n\n      <ion-buttons end>\n\n        <button ion-button clear>\n\n            <ion-icon name="md-arrow-forward" class="iconNulo"></ion-icon>\n\n        </button>\n\n    </ion-buttons>\n\n    </ion-navbar>\n\n\n\n    <ion-card>\n\n\n\n      <ion-item>\n\n        <ion-avatar item-start>\n\n          <img src="../../assets/selecoes/uru.gif">\n\n        </ion-avatar>\n\n        <h2 class="feed_title">URUGUAI</h2>\n\n        <p class="feed_title">Campeão da Copa de 1930</p>\n\n      </ion-item>\n\n    \n\n      <img src="../../assets/selecoes/uruguai.png">\n\n    \n\n      <ion-card-content>\n\n        <p class="feed">A primeira Copa do Mundo, disputada em 1930, no Uruguai, surgiu do sonho do presidente da Fifa, na época uma entidade de apenas 24 anos, Jules Rimet, em realizar um torneio reunindo seleções de todo o planeta.</p>\n\n      </ion-card-content>\n\n    \n\n      \n\n    \n\n    </ion-card>\n\n\n\n\n\n\n\n  </ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\historia\historia.html"*/,
+>>>>>>> 24847da02e3b99a360face68529bb806453a5e45
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], HistoriaPage);
