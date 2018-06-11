@@ -27,7 +27,7 @@ var FasesPageModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_2__fases__["a" /* FasesPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__fases__["a" /* FasesPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__fases__["a" /* FasesPage */]),
             ],
         })
     ], FasesPageModule);

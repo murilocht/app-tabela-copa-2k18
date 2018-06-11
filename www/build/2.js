@@ -27,7 +27,7 @@ var SemiFinalPageModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_2__semi_final__["a" /* SemiFinalPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__semi_final__["a" /* SemiFinalPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__semi_final__["a" /* SemiFinalPage */]),
             ],
         })
     ], SemiFinalPageModule);

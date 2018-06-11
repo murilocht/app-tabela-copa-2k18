@@ -27,7 +27,7 @@ var SelecoesPageModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_2__selecoes__["a" /* SelecoesPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__selecoes__["a" /* SelecoesPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__selecoes__["a" /* SelecoesPage */]),
             ],
         })
     ], SelecoesPageModule);

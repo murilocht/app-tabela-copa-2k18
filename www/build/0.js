@@ -27,7 +27,7 @@ var ThirdLugarPageModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_2__third_lugar__["a" /* ThirdLugarPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__third_lugar__["a" /* ThirdLugarPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__third_lugar__["a" /* ThirdLugarPage */]),
             ],
         })
     ], ThirdLugarPageModule);
