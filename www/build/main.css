@@ -28241,6 +28241,11 @@ page-historia p.feed.date {
   color: red;
 }
 
+page-historia .kkk {
+  bottom: 5%;
+  position: absolute;
+}
+
 .card-background-page ion-card {
   position: relative;
   text-align: center;
