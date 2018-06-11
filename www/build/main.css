@@ -28241,6 +28241,11 @@ page-historia p.feed_soul {
   color: black;
 }
 
+page-historia .kkk {
+  bottom: 5%;
+  position: absolute;
+}
+
 .card-background-page ion-card {
   position: relative;
   text-align: center;
@@ -28253,7 +28258,7 @@ page-historia p.feed_soul {
   width: 100%;
   font-weight: bold;
   color: #fff;
-  text-shadow: 0 0 20px black, 0 -10px 20px black,  0 10px 20px black, -20px 0 40px black,  20px 0 40px black;
+  text-shadow: 0 0 20px black, 0 -10px 20px black,  0 10px 20px black, -20px 0 40px black,  20px 0 40px black;
 }
 
 .card-background-page .card-subtitle {
@@ -28262,7 +28267,7 @@ page-historia p.feed_soul {
   top: 52%;
   width: 100%;
   color: #fff;
-  text-shadow: 0 0 20px black, 0 -10px 20px black,  0 10px 20px black, -20px 0 40px black,  20px 0 40px black;
+  text-shadow: 0 0 20px black, 0 -10px 20px black,  0 10px 20px black, -20px 0 40px black,  20px 0 40px black;
 }
 
 .centerImage {
