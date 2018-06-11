@@ -27976,18 +27976,6 @@ ion-icon {
   font-size: 26px;
 }
 
-<<<<<<< HEAD
-/*
-.toolbar-background {
-    background-color: white;
-}
-
-.slider-pager-page:only-of-type{ 
-    display:none; 
-}
-*/
-=======
->>>>>>> 08967164ec65d904a57609e7cf99df90f675cbba
 ion-title {
   text-align: center;
 }
@@ -28249,8 +28237,8 @@ page-historia h2.feed_title {
   font-weight: bold;
 }
 
-page-historia p.feed.title {
-  color: red;
+page-historia p.feed_soul {
+  color: black;
 }
 
 .card-background-page ion-card {
