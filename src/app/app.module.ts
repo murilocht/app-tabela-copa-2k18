@@ -14,6 +14,8 @@ import { SemiFinalPage } from '../pages/semi-final/semi-final';
 import { ThirdLugarPage } from '../pages/third-lugar/third-lugar';
 import { FinalPage } from '../pages/final/final';
 import { SplashPage } from '../pages/splash/splash';
+import { HistoriaPage } from '../pages/historia/historia';
+import { SelecoesPage } from '../pages/selecoes/selecoes';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { SplashPage } from '../pages/splash/splash';
     SemiFinalPage,
     ThirdLugarPage,
     FinalPage,
-    SplashPage
+    SplashPage,
+    HistoriaPage,
+    SelecoesPage
   ],
   imports: [
     HttpClientModule,
@@ -42,7 +46,9 @@ import { SplashPage } from '../pages/splash/splash';
     SemiFinalPage,
     ThirdLugarPage,
     FinalPage,
-    SplashPage
+    SplashPage,
+    HistoriaPage,
+    SelecoesPage
   ],
   providers: [
     StatusBar,

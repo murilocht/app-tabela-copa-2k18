@@ -9,15 +9,25 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-    <button ion-button (click)="proximaPagina()">
-      História de todas as COPAS 
-    </button>
-    <button ion-button (click)="proximaPagina()">
-      SELEÇÕES
-    </button>
-    <button ion-button (click)="proximaPagina()">
-      TABELA 
-    </button>
-  </ion-content>
-   
+  <ion-content class="card-background-page">
+
+      <ion-card (click)="PaginaFases()">
+          <img src="../../assets/tabela.jpg"/>
+          <div class="card-title">Tabela de Classificação</div>
+          <div class="card-subtitle">Fase de Grupos, Oitavas, Quartas, Semifinal, 3º Lugar e Final</div>
+        </ion-card>
+
+      <ion-card (click)="PaginaSelecoes()">
+        <img src="../../assets/selecoes.jpg"/>
+        <div class="card-title">Seleções</div>
+        <div class="card-subtitle">Lista de seleções na Copa da Rússia 2018</div>
+      </ion-card>
+    
+      <ion-card (click)="PaginaHistoria()">
+        <img src="../../assets/historia.jpg"/>
+        <div class="card-title">História das Copas anteriores</div>
+      </ion-card>
+    
+      
+    
+    </ion-content>

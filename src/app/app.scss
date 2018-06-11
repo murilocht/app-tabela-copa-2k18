@@ -82,6 +82,10 @@ ion-header ion-icon {
     color: map-get($colors, light);
 }
 
+ion-header .iconNulo {
+    color: map-get($colors, cinza);
+}
+
 ion-segment-button {
     background-color: rgb(193, 0, 13) !important          
 }
