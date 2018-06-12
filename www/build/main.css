@@ -28289,6 +28289,10 @@ page-selecoes p.jog {
   text-align: justify;
 }
 
+page-selecoes h2.feed_title {
+  font-weight: bold;
+}
+
 .centerImage {
   text-align: center;
   display: block;
