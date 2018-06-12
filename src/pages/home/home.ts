@@ -26,8 +26,4 @@ export class HomePage {
   PaginaHistoria = function(){
     this.navCtrl.push(HistoriaPage)
   }
-  
-  //ionViewLoad(){
-   // this.tabelaService.getRemoteData();
-  //}
 }

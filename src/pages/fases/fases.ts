@@ -1,16 +1,19 @@
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage, NavController, NavParams, Slides, } from 'ionic-angular';
 import { OitavasPage } from '../oitavas/oitavas';
+import { DadosTabelaProvider } from '../../providers/dados-tabela/dados-tabela'
 
 @IonicPage()
 @Component({
   selector: 'page-fases',
   templateUrl: 'fases.html',
+  providers: [DadosTabelaProvider]
 })
 export class FasesPage {
   @ViewChild('mySlider') slider: Slides;
 
   guia:string
+  dado:any
 
   //esse são os dados de cada grupo, é um array beeem grande...
   slideGrupos: Array<{
@@ -27,8 +30,9 @@ export class FasesPage {
     dia3: string, data3:string, local3:string, horas3:string, time31:string, time32:string,
     dia32: string, data32:string, local32:string, horas32:string, time321:string, time322:String}>;
     
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public DadosTabela: DadosTabelaProvider) {
     this.guia = "1"
+    this.pegarDados()
     this.slideGrupos = [
       //esse é o grupo A, essas são as seleções 
       { titulo: 'Grupo A', selecao1: 'ARA', selecao2: 'EGI', selecao3: 'RUS', selecao4: 'URU',
@@ -128,5 +132,13 @@ export class FasesPage {
 
   proximaPagina(){
     this.navCtrl.push(OitavasPage)
+  }
+
+  pegarDados(){
+    this.DadosTabela.load()
+    .then(data => {
+      this.dado = data;
+      console.log("Ok")
+    })
   }
 }

@@ -1,17 +1,21 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { SemiFinalPage } from '../semi-final/semi-final';
+import { DadosTabelaProvider } from '../../providers/dados-tabela/dados-tabela'
 
 @IonicPage()
 @Component({
   selector: 'page-quartas',
   templateUrl: 'quartas.html',
+  providers: [DadosTabelaProvider]
 })
 export class QuartasPage {
+  dado:any
   
   fieldsets: Array<{titulo: string, dia: string, data: string, local: string, hora: string, time1: string, time2: string}>;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public DadosTabela: DadosTabelaProvider) {
+    this.pegarDados()
     this.fieldsets = [
       {titulo: 'Quartas 1', dia: 'Sex', data: '06/07/2018', local: 'Nizhny Novgorod', hora: '11:00', time1: 'Venc. Oitavas 1', time2: 'Venc. Oitavas 2'},
       {titulo: 'Quartas 2', dia: 'Sex', data: '06/07/2018', local: 'Arena Kazan', hora: '15:00', time1: 'Venc. Oitavas 3', time2: 'Venc. Oitavas 4'},
@@ -21,6 +25,13 @@ export class QuartasPage {
   }
  proximaPagina() {
     this.navCtrl.push(SemiFinalPage)
+  }
+  pegarDados(){
+    this.DadosTabela.load()
+    .then(data => {
+      this.dado = data;
+      console.log("Ok")
+    })
   }
 
 }

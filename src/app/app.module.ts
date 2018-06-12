@@ -16,6 +16,7 @@ import { FinalPage } from '../pages/final/final';
 import { SplashPage } from '../pages/splash/splash';
 import { HistoriaPage } from '../pages/historia/historia';
 import { SelecoesPage } from '../pages/selecoes/selecoes';
+import { DadosTabelaProvider } from '../providers/dados-tabela/dados-tabela' 
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { SelecoesPage } from '../pages/selecoes/selecoes';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    DadosTabelaProvider
   ]
 })
 export class AppModule {}
