@@ -1,15 +1,15 @@
 page-historia {
-    overflow-y: auto;
     h2.feed_title {
         color: black;
         font-weight: bold;
     }
 
-    p.feed.date {
-        color: red;
+    p.feed_sub {
+        color: black;
     }
-    .bloco{
-        position: absolute;
-        margin-top: 3%
+    .kkk{ bottom: 5%; position: absolute;}
+
+    p.feed_sede {
+        font-weight: bold;
     }
 }
