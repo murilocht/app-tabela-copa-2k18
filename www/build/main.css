@@ -28250,6 +28250,11 @@ page-historia p.feed_sede {
   font-weight: bold;
 }
 
+page-historia p.end {
+  text-align: justify;
+  color: black;
+}
+
 .card-background-page ion-card {
   position: relative;
   text-align: center;
