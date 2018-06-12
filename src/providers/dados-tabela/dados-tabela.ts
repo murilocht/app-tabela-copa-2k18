@@ -1,25 +1,30 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import 'rxjs/add/operator/map'
-/*
-  Generated class for the DadosTabelaProvider provider.
 
-  See https://angular.io/guide/dependency-injection for more info on providers
-  and Angular DI.
-*/
 @Injectable()
 export class DadosTabelaProvider {
 
+  data:any
+
+  url = "https://cdn.rawgit.com/lsv/fifa-worldcup-2018/master/data.json";
+
   constructor(public http: HttpClient) {
-    //this.http.get('https://cdn.rawgit.com/lsv/fifa-worldcup-2018/master/data.json').subscribe(data => {
-     // console.log(data);
-   // })
+    console.log("Pegando dados da API externa")
   }
 
-  getRemoteData(){
-    this.http.get('https://cdn.rawgit.com/lsv/fifa-worldcup-2018/master/data.json').subscribe(data => {
-      console.log(data);
-    })
+  load() {
+    if (this.data) {
+      return Promise.resolve(this.data);
+    }
+    return new Promise(resolve => {
+      this.http.get(this.url)
+        .map(res => res)
+        .subscribe(data => {
+          this.data = data;
+          resolve(this.data);
+          console.log(this.data)
+        });
+    });
   }
-
 }
