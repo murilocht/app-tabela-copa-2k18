@@ -28232,22 +28232,22 @@ ion-slide {
   font-size: 16pt;
 }
 
-page-historia {
-  overflow-y: auto;
-}
-
 page-historia h2.feed_title {
   color: black;
   font-weight: bold;
 }
 
-page-historia p.feed.date {
-  color: red;
+page-historia p.feed_sub {
+  color: black;
 }
 
-page-historia .bloco {
+page-historia .kkk {
+  bottom: 5%;
   position: absolute;
-  margin-top: 3%;
+}
+
+page-historia p.feed_sede {
+  font-weight: bold;
 }
 
 .card-background-page ion-card {
