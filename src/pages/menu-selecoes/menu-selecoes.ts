@@ -16,7 +16,7 @@ export class MenuSelecoesPage {
   }
 
   menuSelecoes1(){
-    this.selecao//.subirCard1
+    //this.selecao.subirCard1
     //this.navCtrl.push(SelecoesPage)
    // this.valorCard = 1
    // return this.valorCard

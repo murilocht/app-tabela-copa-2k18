@@ -14,7 +14,7 @@ export class SelecoesPage {
   valorScroll:any
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.subirCard1()
+    //this.subirCard1()
     /*this.subirCard2()
     this.subirCard3()
     this.subirCard4()
@@ -23,14 +23,14 @@ export class SelecoesPage {
   }
 
   subirCard1(){
-    this.navCtrl.setRoot(SelecoesPage)
+    //this.navCtrl.setRoot(SelecoesPage)
     //console.log("ok")
    // this.navCtrl.setRoot(SelecoesPage)
     //this.valorAtual = this.menuSelecoes.menuSelecoes1
     //if(this.valorAtual == 1){
-      this.valorScroll = document.getElementById("5")
+      //this.valorScroll = document.getElementById("5")
       //this.navCtrl.setRoot(SelecoesPage)
-      this.valorScroll.scrollToTop
+     // this.valorScroll.scrollToTop
     }
 
   }
