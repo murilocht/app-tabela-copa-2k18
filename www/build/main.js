@@ -299,7 +299,7 @@ var SemiFinalPage = /** @class */ (function () {
     };
     SemiFinalPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-semi-final',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\semi-final\semi-final.html"*/'<ion-header no-border>\n\n    <ion-navbar>\n\n        <ion-title><p>Semifinal</p></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n    <div align="center">\n\n        <fieldset style="border-radius: 4px; border: 1px solid; width: 85%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">\n\n            <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n\n            <div>\n\n                <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n\n                    <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n\n                </div>\n\n                <div>\n\n                    <span>\n\n                        <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                    </span>\n\n                    <span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                        <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n\n                    </span>\n\n                </div>\n\n            </div>\n\n        </fieldset>\n\n    </div>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\semi-final\semi-final.html"*/,
+            selector: 'page-semi-final',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\semi-final\semi-final.html"*/'<ion-header no-border>\n\n    <ion-navbar>\n\n        <ion-title><p>Semifinal</p></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n    <div align="center">\n\n        <fieldset style="border-radius: 4px; border: 1px solid; width: 85%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">\n\n            <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n\n            <div>\n\n                <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n\n                    <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n\n                </div>\n\n                <div>\n\n                    <span>\n\n                        <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                    </span>\n\n                    <span>\n\n                        <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                        </span>\n\n                </div>\n\n            </div>\n\n        </fieldset>\n\n    </div>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\semi-final\semi-final.html"*/,
             providers: [__WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__["a" /* DadosTabelaProvider */]]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__["a" /* DadosTabelaProvider */]])
@@ -643,35 +643,35 @@ var map = {
 		9
 	],
 	"../pages/final/final.module": [
-		290,
+		288,
 		8
 	],
 	"../pages/historia/historia.module": [
-		288,
+		289,
 		7
 	],
 	"../pages/menu-selecoes/menu-selecoes.module": [
-		289,
+		290,
 		6
 	],
 	"../pages/oitavas/oitavas.module": [
-		292,
+		291,
 		5
 	],
 	"../pages/quartas/quartas.module": [
-		294,
+		292,
 		4
 	],
 	"../pages/selecoes/selecoes.module": [
-		291,
+		293,
 		3
 	],
 	"../pages/semi-final/semi-final.module": [
-		295,
+		294,
 		2
 	],
 	"../pages/splash/splash.module": [
-		293,
+		295,
 		1
 	],
 	"../pages/third-lugar/third-lugar.module": [
@@ -834,14 +834,14 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */], {}, {
                     links: [
                         { loadChildren: '../pages/fases/fases.module#FasesPageModule', name: 'FasesPage', segment: 'fases', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/final/final.module#FinalPageModule', name: 'FinalPage', segment: 'final', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/historia/historia.module#HistoriaPageModule', name: 'HistoriaPage', segment: 'historia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/menu-selecoes/menu-selecoes.module#MenuSelecoesPageModule', name: 'MenuSelecoesPage', segment: 'menu-selecoes', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/final/final.module#FinalPageModule', name: 'FinalPage', segment: 'final', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/selecoes/selecoes.module#SelecoesPageModule', name: 'SelecoesPage', segment: 'selecoes', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/oitavas/oitavas.module#OitavasPageModule', name: 'OitavasPage', segment: 'oitavas', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/splash/splash.module#SplashPageModule', name: 'SplashPage', segment: 'splash', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/quartas/quartas.module#QuartasPageModule', name: 'QuartasPage', segment: 'quartas', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/selecoes/selecoes.module#SelecoesPageModule', name: 'SelecoesPage', segment: 'selecoes', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/semi-final/semi-final.module#SemiFinalPageModule', name: 'SemiFinalPage', segment: 'semi-final', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/splash/splash.module#SplashPageModule', name: 'SplashPage', segment: 'splash', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/third-lugar/third-lugar.module#ThirdLugarPageModule', name: 'ThirdLugarPage', segment: 'third-lugar', priority: 'low', defaultHistory: [] }
                     ]
                 })
