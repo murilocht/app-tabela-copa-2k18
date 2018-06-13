@@ -28279,6 +28279,10 @@ page-historia p.end {
   text-shadow: 0 0 20px black, 0 -10px 20px black,  0 10px 20px black, -20px 0 40px black,  20px 0 40px black;
 }
 
+.fundo {
+  background: transparent;
+}
+
 page-selecoes p.sel {
   text-align: justify;
   color: black;
