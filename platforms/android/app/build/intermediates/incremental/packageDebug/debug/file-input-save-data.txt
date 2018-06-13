@@ -1,5 +1,6 @@
 #Internal package file, do not edit.
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Tue Jun 12 14:06:06 GMT-03:00 2018
 20.base=C\:\\Users\\whoami\\apptabelacopa2k18\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 143.base=C\:\\Users\\whoami\\apptabelacopa2k18\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
@@ -375,6 +376,9 @@
 217.file=C\:\\Users\\whoami\\apptabelacopa2k18\\platforms\\android\\app\\build\\intermediates\\assets\\debug\\www\\assets\\fonts\\roboto-medium.woff2
 =======
 #Tue Jun 12 13:13:10 GMT-03:00 2018
+=======
+#Tue Jun 12 15:26:08 GMT-03:00 2018
+>>>>>>> 05505ad30e4c4594682e11b8f263aab91299f501
 20.base=C\:\\Users\\Muril\\Documents\\ionic\\apptabelacopa2k18\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 143.base=C\:\\Users\\Muril\\Documents\\ionic\\apptabelacopa2k18\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 340.file=C\:\\Users\\Muril\\Documents\\ionic\\apptabelacopa2k18\\platforms\\android\\app\\build\\intermediates\\assets\\debug\\www\\assets\\sds.png
