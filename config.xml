@@ -83,5 +83,9 @@
     <plugin name="cordova-plugin-ionic-webview" spec="1.1.19" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="2.0.5" />
     <plugin name="cordova-plugin-screen-orientation" spec="^3.0.1" />
+<<<<<<< HEAD
     <engine name="android" spec="^7.0.0" />
+=======
+    <engine name="android" spec="~7.0.0" />
+>>>>>>> ad02ab8e5e03fa066eb116c247e202ba42eaaafe
 </widget>

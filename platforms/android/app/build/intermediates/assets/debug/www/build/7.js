@@ -1,6 +1,10 @@
 webpackJsonp([7],{
 
+<<<<<<< HEAD:platforms/android/app/build/intermediates/assets/debug/www/build/7.js
 /***/ 287:
+=======
+/***/ 288:
+>>>>>>> ad02ab8e5e03fa066eb116c247e202ba42eaaafe:platforms/android/app/build/intermediates/assets/debug/www/build/7.js
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
