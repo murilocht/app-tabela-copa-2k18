@@ -1,26 +1,112 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { SelecoesPage } from '../selecoes/selecoes';
+import { AlemanhaPage } from '../alemanha/alemanha';
+import { ArabiaSauditaPage } from '../arabia-saudita/arabia-saudita';
 
 @IonicPage()
 @Component({
   selector: 'page-menu-selecoes',
-  templateUrl: 'menu-selecoes.html',
-  providers: [SelecoesPage]
+  templateUrl: 'menu-selecoes.html'
 })
 export class MenuSelecoesPage {
 
-  valorCard:any
-
-  constructor(public navCtrl: NavController, public navParams: NavParams, public selecao: SelecoesPage) {
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-
   menuSelecoes1(){
-    //this.selecao.subirCard1
-    //this.navCtrl.push(SelecoesPage)
-   // this.valorCard = 1
-   // return this.valorCard
+    this.navCtrl.push(AlemanhaPage)
   }
-  // faz o resto ta?
+  menuSelecoes2(){
+    this.navCtrl.push(ArabiaSauditaPage)
+  }
+  menuSelecoes3(){
+    //VC IRÁ CHAMAR A PAGE DE ACORDO COM O TIME DO CARD... 
+  }
+  menuSelecoes4(){
+    
+  }
+  menuSelecoes5(){
+    
+  }
+  menuSelecoes6(){
+    
+  }
+  menuSelecoes7(){
+    
+  }
+  menuSelecoes8(){
+    
+  }
+  menuSelecoes9(){
+    
+  }
+  menuSelecoes10(){
+    
+  }
+  menuSelecoes11(){
+    
+  }
+  menuSelecoes12(){
+    
+  }
+  menuSelecoes13(){
+    
+  }
+  menuSelecoes14(){
+    
+  }
+  menuSelecoes15(){
+    
+  }
+  menuSelecoes16(){
+    
+  }
+  menuSelecoes17(){
+    
+  }
+  menuSelecoes18(){
+    
+  }
+  menuSelecoes19(){
+    
+  }
+  menuSelecoes20(){
+    
+  }
+  menuSelecoes21(){
+    
+  }
+  menuSelecoes22(){
+    
+  }
+  menuSelecoes23(){
+    
+  }
+  menuSelecoes24(){
+    
+  }
+  menuSelecoes25(){
+    
+  }
+  menuSelecoes26(){
+    
+  }
+  menuSelecoes27(){
+    
+  }
+  menuSelecoes28(){
+    
+  }
+  menuSelecoes29(){
+    
+  }
+  menuSelecoes30(){
+    
+  }
+  menuSelecoes31(){
+    
+  }
+  menuSelecoes32(){
+    
+  }
   
 }
