@@ -15,7 +15,7 @@ import { ThirdLugarPage } from '../pages/third-lugar/third-lugar';
 import { FinalPage } from '../pages/final/final';
 import { SplashPage } from '../pages/splash/splash';
 import { HistoriaPage } from '../pages/historia/historia';
-import { DadosTabelaProvider } from '../providers/dados-tabela/dados-tabela' 
+import { DadosTabelaProvider } from '../providers/dados-tabela/dados-tabela'
 import { MenuSelecoesPage } from '../pages/menu-selecoes/menu-selecoes';
 //3 - NÃO PRECISA ESPECIFICAR AKI, O IONIC FAZ AUTOMÁTICO
 import { AlemanhaPage } from '../pages/alemanha/alemanha';
@@ -46,6 +46,10 @@ import { PortugalPage } from '../pages/portugal/portugal';
 import { RussiaPage } from '../pages/russia/russia';
 import { SenegalPage } from '../pages/senegal/senegal';
 import { ServiaPage } from '../pages/servia/servia';
+import { SueciaPage } from '../pages/suecia/suecia';
+import { SuicaPage } from '../pages/suica/suica';
+import { TunisiaPage } from '../pages/tunisia/tunisia';
+import { UruguaiPage } from '../pages/uruguai/uruguai';
 
 @NgModule({
   declarations: [
@@ -60,7 +64,7 @@ import { ServiaPage } from '../pages/servia/servia';
     SplashPage,
     HistoriaPage,
     MenuSelecoesPage,
-    
+
     // 1 - DEPOIS Q TU GERAR A PAGE VC IRÁ IMPORTÁ AKI 
     AlemanhaPage,
     ArabiaSauditaPage,
@@ -89,10 +93,12 @@ import { ServiaPage } from '../pages/servia/servia';
     PortugalPage,
     RussiaPage,
     SenegalPage,
-    ServiaPage
+    ServiaPage,
+    SueciaPage,
+    SuicaPage,
+    TunisiaPage,
+    UruguaiPage,
 
-
-          
   ],
   imports: [
     HttpClientModule,
@@ -141,14 +147,16 @@ import { ServiaPage } from '../pages/servia/servia';
     RussiaPage,
     SenegalPage,
     ServiaPage,
-
-
+    SueciaPage,
+    SuicaPage,
+    TunisiaPage,
+    UruguaiPage,
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    { provide: ErrorHandler, useClass: IonicErrorHandler },
     DadosTabelaProvider
   ]
 })
-export class AppModule {}
+export class AppModule { }

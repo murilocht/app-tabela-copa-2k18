@@ -1,14 +1,14 @@
 webpackJsonp([8],{
 
-/***/ 342:
+/***/ 358:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PoloniaPageModule", function() { return PoloniaPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SemiFinalPageModule", function() { return SemiFinalPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__polonia__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__semi_final__ = __webpack_require__(140);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var PoloniaPageModule = /** @class */ (function () {
-    function PoloniaPageModule() {
+var SemiFinalPageModule = /** @class */ (function () {
+    function SemiFinalPageModule() {
     }
-    PoloniaPageModule = __decorate([
+    SemiFinalPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__polonia__["a" /* PoloniaPage */],
+                __WEBPACK_IMPORTED_MODULE_2__semi_final__["a" /* SemiFinalPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__polonia__["a" /* PoloniaPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__semi_final__["a" /* SemiFinalPage */]),
             ],
         })
-    ], PoloniaPageModule);
-    return PoloniaPageModule;
+    ], SemiFinalPageModule);
+    return SemiFinalPageModule;
 }());
 
-//# sourceMappingURL=polonia.module.js.map
+//# sourceMappingURL=semi-final.module.js.map
 
 /***/ })
 

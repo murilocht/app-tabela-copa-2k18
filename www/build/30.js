@@ -1,14 +1,14 @@
 webpackJsonp([30],{
 
-/***/ 320:
+/***/ 328:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ColombiaPageModule", function() { return ColombiaPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DinamarcaPageModule", function() { return DinamarcaPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__colombia__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dinamarca__ = __webpack_require__(112);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ColombiaPageModule = /** @class */ (function () {
-    function ColombiaPageModule() {
+var DinamarcaPageModule = /** @class */ (function () {
+    function DinamarcaPageModule() {
     }
-    ColombiaPageModule = __decorate([
+    DinamarcaPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__colombia__["a" /* ColombiaPage */],
+                __WEBPACK_IMPORTED_MODULE_2__dinamarca__["a" /* DinamarcaPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__colombia__["a" /* ColombiaPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__dinamarca__["a" /* DinamarcaPage */]),
             ],
         })
-    ], ColombiaPageModule);
-    return ColombiaPageModule;
+    ], DinamarcaPageModule);
+    return DinamarcaPageModule;
 }());
 
-//# sourceMappingURL=colombia.module.js.map
+//# sourceMappingURL=dinamarca.module.js.map
 
 /***/ })
 

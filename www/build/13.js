@@ -1,14 +1,14 @@
 webpackJsonp([13],{
 
-/***/ 337:
+/***/ 342:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MexicoPageModule", function() { return MexicoPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PeruPageModule", function() { return PeruPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mexico__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__peru__ = __webpack_require__(126);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var MexicoPageModule = /** @class */ (function () {
-    function MexicoPageModule() {
+var PeruPageModule = /** @class */ (function () {
+    function PeruPageModule() {
     }
-    MexicoPageModule = __decorate([
+    PeruPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__mexico__["a" /* MexicoPage */],
+                __WEBPACK_IMPORTED_MODULE_2__peru__["a" /* PeruPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__mexico__["a" /* MexicoPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__peru__["a" /* PeruPage */]),
             ],
         })
-    ], MexicoPageModule);
-    return MexicoPageModule;
+    ], PeruPageModule);
+    return PeruPageModule;
 }());
 
-//# sourceMappingURL=mexico.module.js.map
+//# sourceMappingURL=peru.module.js.map
 
 /***/ })
 

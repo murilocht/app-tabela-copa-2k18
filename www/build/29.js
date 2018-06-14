@@ -1,14 +1,14 @@
 webpackJsonp([29],{
 
-/***/ 321:
+/***/ 329:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreiaPageModule", function() { return CoreiaPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EgitoPageModule", function() { return EgitoPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__coreia__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__egito__ = __webpack_require__(113);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var CoreiaPageModule = /** @class */ (function () {
-    function CoreiaPageModule() {
+var EgitoPageModule = /** @class */ (function () {
+    function EgitoPageModule() {
     }
-    CoreiaPageModule = __decorate([
+    EgitoPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__coreia__["a" /* CoreiaPage */],
+                __WEBPACK_IMPORTED_MODULE_2__egito__["a" /* EgitoPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__coreia__["a" /* CoreiaPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__egito__["a" /* EgitoPage */]),
             ],
         })
-    ], CoreiaPageModule);
-    return CoreiaPageModule;
+    ], EgitoPageModule);
+    return EgitoPageModule;
 }());
 
-//# sourceMappingURL=coreia.module.js.map
+//# sourceMappingURL=egito.module.js.map
 
 /***/ })
 

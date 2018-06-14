@@ -28,6 +28,10 @@ import { PortugalPage } from '../portugal/portugal';
 import { RussiaPage } from '../russia/russia';
 import { SenegalPage } from '../senegal/senegal';
 import { ServiaPage } from '../servia/servia';
+import { SueciaPage } from '../suecia/suecia';
+import { SuicaPage } from '../suica/suica';
+import { TunisiaPage } from '../tunisia/tunisia';
+import { UruguaiPage } from '../uruguai/uruguai';
 
 @IonicPage()
 @Component({
@@ -124,16 +128,16 @@ export class MenuSelecoesPage {
     this.navCtrl.push(ServiaPage)
   }
   menuSelecoes29(){
-    this.navCtrl.push(JapaoPage)
+    this.navCtrl.push(SueciaPage)
   }
   menuSelecoes30(){
-    this.navCtrl.push(JapaoPage)
+    this.navCtrl.push(SuicaPage)
   }
   menuSelecoes31(){
-    this.navCtrl.push(JapaoPage)
+    this.navCtrl.push(TunisiaPage)
   }
   menuSelecoes32(){
-    this.navCtrl.push(JapaoPage)
+    this.navCtrl.push(UruguaiPage)
   }
   
 }

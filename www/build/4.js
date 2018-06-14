@@ -1,14 +1,14 @@
 webpackJsonp([4],{
 
-/***/ 346:
+/***/ 351:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SemiFinalPageModule", function() { return SemiFinalPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SueciaPageModule", function() { return SueciaPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__semi_final__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__suecia__ = __webpack_require__(132);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var SemiFinalPageModule = /** @class */ (function () {
-    function SemiFinalPageModule() {
+var SueciaPageModule = /** @class */ (function () {
+    function SueciaPageModule() {
     }
-    SemiFinalPageModule = __decorate([
+    SueciaPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__semi_final__["a" /* SemiFinalPage */],
+                __WEBPACK_IMPORTED_MODULE_2__suecia__["a" /* SueciaPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__semi_final__["a" /* SemiFinalPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__suecia__["a" /* SueciaPage */]),
             ],
         })
-    ], SemiFinalPageModule);
-    return SemiFinalPageModule;
+    ], SueciaPageModule);
+    return SueciaPageModule;
 }());
 
-//# sourceMappingURL=semi-final.module.js.map
+//# sourceMappingURL=suecia.module.js.map
 
 /***/ })
 

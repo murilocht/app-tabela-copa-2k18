@@ -1,14 +1,14 @@
 webpackJsonp([22],{
 
-/***/ 328:
+/***/ 334:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FinalPageModule", function() { return FinalPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IraPageModule", function() { return IraPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__final__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ira__ = __webpack_require__(118);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var FinalPageModule = /** @class */ (function () {
-    function FinalPageModule() {
+var IraPageModule = /** @class */ (function () {
+    function IraPageModule() {
     }
-    FinalPageModule = __decorate([
+    IraPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__final__["a" /* FinalPage */],
+                __WEBPACK_IMPORTED_MODULE_2__ira__["a" /* IraPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__final__["a" /* FinalPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__ira__["a" /* IraPage */]),
             ],
         })
-    ], FinalPageModule);
-    return FinalPageModule;
+    ], IraPageModule);
+    return IraPageModule;
 }());
 
-//# sourceMappingURL=final.module.js.map
+//# sourceMappingURL=ira.module.js.map
 
 /***/ })
 

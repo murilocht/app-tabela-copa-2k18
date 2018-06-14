@@ -1,14 +1,14 @@
 webpackJsonp([35],{
 
-/***/ 315:
+/***/ 323:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ArabiaSauditaPageModule", function() { return ArabiaSauditaPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BrasilPageModule", function() { return BrasilPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__arabia_saudita__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__brasil__ = __webpack_require__(107);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ArabiaSauditaPageModule = /** @class */ (function () {
-    function ArabiaSauditaPageModule() {
+var BrasilPageModule = /** @class */ (function () {
+    function BrasilPageModule() {
     }
-    ArabiaSauditaPageModule = __decorate([
+    BrasilPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__arabia_saudita__["a" /* ArabiaSauditaPage */],
+                __WEBPACK_IMPORTED_MODULE_2__brasil__["a" /* BrasilPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__arabia_saudita__["a" /* ArabiaSauditaPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__brasil__["a" /* BrasilPage */]),
             ],
         })
-    ], ArabiaSauditaPageModule);
-    return ArabiaSauditaPageModule;
+    ], BrasilPageModule);
+    return BrasilPageModule;
 }());
 
-//# sourceMappingURL=arabia-saudita.module.js.map
+//# sourceMappingURL=brasil.module.js.map
 
 /***/ })
 
