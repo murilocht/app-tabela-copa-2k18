@@ -15,8 +15,11 @@ import { ThirdLugarPage } from '../pages/third-lugar/third-lugar';
 import { FinalPage } from '../pages/final/final';
 import { SplashPage } from '../pages/splash/splash';
 import { HistoriaPage } from '../pages/historia/historia';
-import { SelecoesPage } from '../pages/selecoes/selecoes';
 import { DadosTabelaProvider } from '../providers/dados-tabela/dados-tabela' 
+import { MenuSelecoesPage } from '../pages/menu-selecoes/menu-selecoes';
+//3 - NÃO PRECISA ESPECIFICAR AKI, O IONIC FAZ AUTOMÁTICO
+import { AlemanhaPage } from '../pages/alemanha/alemanha';
+import { ArabiaSauditaPage } from '../pages/arabia-saudita/arabia-saudita';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,10 @@ import { DadosTabelaProvider } from '../providers/dados-tabela/dados-tabela'
     FinalPage,
     SplashPage,
     HistoriaPage,
-    SelecoesPage
+    MenuSelecoesPage,
+    // 1 - DEPOIS Q TU GERAR A PAGE VC IRÁ IMPORTÁ AKI 
+    AlemanhaPage,
+    ArabiaSauditaPage
   ],
   imports: [
     HttpClientModule,
@@ -49,7 +55,10 @@ import { DadosTabelaProvider } from '../providers/dados-tabela/dados-tabela'
     FinalPage,
     SplashPage,
     HistoriaPage,
-    SelecoesPage
+    MenuSelecoesPage,
+    //2 - E AKI
+    AlemanhaPage,
+    ArabiaSauditaPage
   ],
   providers: [
     StatusBar,

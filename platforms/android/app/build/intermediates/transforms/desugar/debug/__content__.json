@@ -1,1 +1,5 @@
+<<<<<<< HEAD
+[{"name":":CordovaLib","index":0,"scopes":["SUB_PROJECTS"],"types":["CLASSES"],"format":"JAR","present":true},{"name":"70f38878adf43109df8ccb0ffa009c7c454aedc6","index":1,"scopes":["PROJECT"],"types":["CLASSES"],"format":"DIRECTORY","present":true}]
+=======
 [{"name":":CordovaLib","index":0,"scopes":["SUB_PROJECTS"],"types":["CLASSES"],"format":"JAR","present":true},{"name":"30ab8119ffaa33e2fd93616b249a588515b83dff","index":1,"scopes":["PROJECT"],"types":["CLASSES"],"format":"DIRECTORY","present":true}]
+>>>>>>> ad02ab8e5e03fa066eb116c247e202ba42eaaafe

@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
+            "outputFile": "C:\\Users\\whoami\\apptabelacopa2k18\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\whoami\\apptabelacopa2k18\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+=======
             "outputFile": "C:\\Users\\Muril\\Documents\\ionic\\apptabelacopa2k18\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Muril\\Documents\\ionic\\apptabelacopa2k18\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+>>>>>>> ad02ab8e5e03fa066eb116c247e202ba42eaaafe
                     "from": {
                         "startLines": "4,2,3",
                         "startColumns": "4,4,4",

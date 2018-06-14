@@ -2,8 +2,9 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 import { FasesPage } from '../fases/fases';
-import { SelecoesPage } from '../selecoes/selecoes';
+//import { SelecoesPage } from '../selecoes/selecoes';
 import { HistoriaPage } from '../historia/historia';
+import { MenuSelecoesPage } from '../menu-selecoes/menu-selecoes';
 
 @Component({
   selector: 'page-home',
@@ -20,7 +21,7 @@ export class HomePage {
   }
   
   PaginaSelecoes = function(){
-    this.navCtrl.push(SelecoesPage)
+    this.navCtrl.push(MenuSelecoesPage)
   }
 
   PaginaHistoria = function(){
