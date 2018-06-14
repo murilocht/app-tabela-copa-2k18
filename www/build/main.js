@@ -1,4 +1,4 @@
-webpackJsonp([11],{
+webpackJsonp([13],{
 
 /***/ 102:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -6,7 +6,7 @@ webpackJsonp([11],{
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AlemanhaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -34,7 +34,11 @@ var AlemanhaPage = /** @class */ (function () {
     };
     AlemanhaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+<<<<<<< HEAD
             selector: 'page-alemanha',template:/*ion-inline-start:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\alemanha\alemanha.html"*/'<ion-header no-border>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      <p>Dados da Seleção</p>\n\n    </ion-title>\n\n    <ion-buttons end>\n\n      <button ion-button clear>\n\n        <ion-icon name="md-arrow-forward" class="iconNulo"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-card>\n\n    <ion-item>\n\n      <ion-avatar item-start>\n\n        <img src="../../assets/escalacao/ale.png">\n\n      </ion-avatar>\n\n      <h2 class="feed_title">ALEMANHA</h2>\n\n\n\n      <p class="feed_sub">Tetracampeã (54/74/90/2014)</p>\n\n    </ion-item>\n\n\n\n    <img src="../../assets/escalacao/alemanha.png">\n\n\n\n    <ion-card-content>\n\n      <p class="sel">Goleiros:</p>\n\n      <p class="jog">Neuer (Bayern de Munique), Ter Stegen (Barcelona) e Trapp (Paris Saint-Germain);</p>\n\n      <p class="sel">Desefa:</p>\n\n      <p class="jog">Kimmich, Boateng, Hummels, Süle (Bayern de Munique), Ginter (Borussia Mönchengladbach), Hector (Colônia), Plattenhardt\n\n        (Hertha Berlin) e Rüdiger (Chelsea);</p>\n\n      <p class="sel">Meias e Atacantes:</p>\n\n      <p class="jog">Brandt (Bayer Leverkusen), Draxler (Paris Saint-Germain), Goretzka (Schalke 04), Gundogan (Manchester City), Khedira\n\n        (Juventus), Kroos (Real Madrid), Thomas Müller e Rudy (Bayern de Munique), Reus (Borussia Dortmund), Ozil (Arsenal),\n\n        Mario Gomez (Stuttgart) e Timo Werner (RB Leipzig).</p>\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\alemanha\alemanha.html"*/,
+=======
+            selector: 'page-alemanha',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\alemanha\alemanha.html"*/'<ion-header no-border>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      <p>Dados da Seleção</p>\n\n    </ion-title>\n\n    <ion-buttons end>\n\n      <button ion-button clear>\n\n        <ion-icon name="md-arrow-forward" class="iconNulo"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-card>\n\n    <ion-item>\n\n      <ion-avatar item-start>\n\n        <img src="../../assets/escalacao/ale.png">\n\n      </ion-avatar>\n\n      <h2 class="feed_title">ALEMANHA</h2>\n\n\n\n      <p class="feed_sub">Tetracampeã (54/74/90/2014)</p>\n\n    </ion-item>\n\n\n\n    <img src="../../assets/escalacao/alemanha.png">\n\n\n\n    <ion-card-content>\n\n      <p class="sel">Goleiros:</p>\n\n      <p class="jog">Neuer (Bayern de Munique), Ter Stegen (Barcelona) e Trapp (Paris Saint-Germain);</p>\n\n      <p class="sel">Desefa:</p>\n\n      <p class="jog">Kimmich, Boateng, Hummels, Süle (Bayern de Munique), Ginter (Borussia Mönchengladbach), Hector (Colônia), Plattenhardt\n\n        (Hertha Berlin) e Rüdiger (Chelsea);</p>\n\n      <p class="sel">Meias e Atacantes:</p>\n\n      <p class="jog">Brandt (Bayer Leverkusen), Draxler (Paris Saint-Germain), Goretzka (Schalke 04), Gundogan (Manchester City), Khedira\n\n        (Juventus), Kroos (Real Madrid), Thomas Müller e Rudy (Bayern de Munique), Reus (Borussia Dortmund), Ozil (Arsenal),\n\n        Mario Gomez (Stuttgart) e Timo Werner (RB Leipzig).</p>\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\alemanha\alemanha.html"*/,
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], AlemanhaPage);
@@ -51,7 +55,7 @@ var AlemanhaPage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ArabiaSauditaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -79,7 +83,11 @@ var ArabiaSauditaPage = /** @class */ (function () {
     };
     ArabiaSauditaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+<<<<<<< HEAD
             selector: 'page-arabia-saudita',template:/*ion-inline-start:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\arabia-saudita\arabia-saudita.html"*/'<ion-header no-border>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      <p>Dados da Seleção</p>\n\n    </ion-title>\n\n    <ion-buttons end>\n\n      <button ion-button clear>\n\n        <ion-icon name="md-arrow-forward" class="iconNulo"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-card>\n\n    <ion-item>\n\n      <ion-avatar item-start>\n\n        <img src="../../assets/escalacao/ara.png">\n\n      </ion-avatar>\n\n      <h2 class="feed_title">ARÁBIA SAUDITA</h2>\n\n      <p class="feed_sub">Nenhuma Copa</p>\n\n    </ion-item>\n\n\n\n    <img src="../../assets/escalacao/arabia.png">\n\n\n\n    <ion-card-content>\n\n      <p class="sel">Goleiros:</p>\n\n      <p class="jog">Mohammed Al-Owais, Yasser Al-Musailem (Al Ahli), Abdullah Al-Mayuf (Al Hilal FC);</p>\n\n      <p class="sel">Desefa:</p>\n\n      <p class="jog">: Mansoor Al-Harbi (Al Ahli), Yasser Al-Shahrani (Al Hilal), Mohammed Al-Breik (Al Hilal), Motaz Hawsawi (Al Ahli),\n\n        Osama Hawsawi (Al Ahli), Omar Hawsawi (Al Nassr FC), Ali Al-Bulaihi (Al Hilal);</p>\n\n      <p class="sel">Meio-Campo:</p>\n\n      <p class="jog">Abdullah Al-Khaibari (Al Shabab), Abdullah Otayf (Al Hilal), Taiseer Al-Jassim (Al Ahli), Hussain Al-Mogahwi (Al Ahli),\n\n        Salman Al-Faraj (Al Hilal), Mohammed Kanno (Al Hilal), Hattan Bahebri (Al Shabab FC), Salem Al-Dawsari (Villarreal),\n\n        Yahya Al-Shehri (Leganés-ESP);</p>\n\n      <p class="sel">Ataque:</p>\n\n      <p class="jog">Fahad Al-Muwallad (Levante-ESP), Mohammad Al-Sahlawi (Al Nassr), Muhannad Assiri (Al Ahli), Abdulmalek Al-Khaibri (Al\n\n        Hilal).</p>\n\n\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\arabia-saudita\arabia-saudita.html"*/,
+=======
+            selector: 'page-arabia-saudita',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\arabia-saudita\arabia-saudita.html"*/'<ion-header no-border>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      <p>Dados da Seleção</p>\n\n    </ion-title>\n\n    <ion-buttons end>\n\n      <button ion-button clear>\n\n        <ion-icon name="md-arrow-forward" class="iconNulo"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-card>\n\n    <ion-item>\n\n      <ion-avatar item-start>\n\n        <img src="../../assets/escalacao/ara.png">\n\n      </ion-avatar>\n\n      <h2 class="feed_title">ARÁBIA SAUDITA</h2>\n\n      <p class="feed_sub">Nenhuma Copa</p>\n\n    </ion-item>\n\n\n\n    <img src="../../assets/escalacao/arabia.png">\n\n\n\n    <ion-card-content>\n\n      <p class="sel">Goleiros:</p>\n\n      <p class="jog">Mohammed Al-Owais, Yasser Al-Musailem (Al Ahli), Abdullah Al-Mayuf (Al Hilal FC);</p>\n\n      <p class="sel">Desefa:</p>\n\n      <p class="jog">: Mansoor Al-Harbi (Al Ahli), Yasser Al-Shahrani (Al Hilal), Mohammed Al-Breik (Al Hilal), Motaz Hawsawi (Al Ahli),\n\n        Osama Hawsawi (Al Ahli), Omar Hawsawi (Al Nassr FC), Ali Al-Bulaihi (Al Hilal);</p>\n\n      <p class="sel">Meio-Campo:</p>\n\n      <p class="jog">Abdullah Al-Khaibari (Al Shabab), Abdullah Otayf (Al Hilal), Taiseer Al-Jassim (Al Ahli), Hussain Al-Mogahwi (Al Ahli),\n\n        Salman Al-Faraj (Al Hilal), Mohammed Kanno (Al Hilal), Hattan Bahebri (Al Shabab FC), Salem Al-Dawsari (Villarreal),\n\n        Yahya Al-Shehri (Leganés-ESP);</p>\n\n      <p class="sel">Ataque:</p>\n\n      <p class="jog">Fahad Al-Muwallad (Levante-ESP), Mohammad Al-Sahlawi (Al Nassr), Muhannad Assiri (Al Ahli), Abdulmalek Al-Khaibri (Al\n\n        Hilal).</p>\n\n\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\arabia-saudita\arabia-saudita.html"*/,
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], ArabiaSauditaPage);
@@ -94,9 +102,15 @@ var ArabiaSauditaPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HistoriaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+=======
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ArgentinaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -109,11 +123,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
+<<<<<<< HEAD
  * Generated class for the HistoriaPage page.
+=======
+ * Generated class for the ArgentinaPage page.
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
+<<<<<<< HEAD
 var HistoriaPage = /** @class */ (function () {
     function HistoriaPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
@@ -132,6 +151,26 @@ var HistoriaPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=historia.js.map
+=======
+var ArgentinaPage = /** @class */ (function () {
+    function ArgentinaPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    ArgentinaPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ArgentinaPage');
+    };
+    ArgentinaPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-argentina',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\argentina\argentina.html"*/'<ion-header no-border>\n  <ion-navbar>\n    <ion-title>\n      <p>Dados da Seleção</p>\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button clear>\n        <ion-icon name="md-arrow-forward" class="iconNulo"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content>\n  <ion-card>\n    <ion-item>\n      <ion-avatar item-start>\n        <img src="../../assets/escalacao/arg.png">\n      </ion-avatar>\n      <h2 class="feed_title">ARGENTINA</h2>\n      <p class="feed_sub">Bicampeã (1978/1986)</p>\n    </ion-item>\n  \n    <img src="../../assets/escalacao/argentina.png">\n  \n    <ion-card-content>\n      <p class="sel">Goleiros:</p>\n      <p class="jog">Romero (Manchester United), Caballero (Chelsea) e Franco Armani (River Plate);</p>\n      <p class="sel">Desefa:</p>\n      <p class="jog">Mercado (Sevilla), Ansaldi (Torino), Otamendi (Manchester City), Fazio (Roma), Marcos Rojo (Manchester United), Tagliafico\n        (Ajax) e Acuña (Sporting);</p>\n      <p class="sel">Meio-Campo:</p>\n      <p class="jog">Mascherano (Hebei China Fortune), Salvio (Benfica), Biglia (Milan), Lo Celso (PSG), Banega (Sevilla), Lanzini (West Ham),\n        Meza (Independiente) e Di María (PSG);</p>\n      <p class="sel">Ataque:</p>\n      <p class="jog">Messi (Barcelona), Agüero (Manchester City), Higuaín (Juventus), Pavón (Boca) e Dybala (Juventus).</p>\n  \n    </ion-card-content>\n  </ion-card>\n</ion-content>'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\argentina\argentina.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], ArgentinaPage);
+    return ArgentinaPage;
+}());
+
+//# sourceMappingURL=argentina.js.map
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
 
 /***/ }),
 
@@ -139,11 +178,64 @@ var HistoriaPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuSelecoesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__alemanha_alemanha__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__arabia_saudita_arabia_saudita__ = __webpack_require__(103);
+=======
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AustraliaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the AustraliaPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var AustraliaPage = /** @class */ (function () {
+    function AustraliaPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    AustraliaPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad AustraliaPage');
+    };
+    AustraliaPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-australia',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\australia\australia.html"*/'<ion-header no-border>\n  <ion-navbar>\n    <ion-title>\n      <p>Dados da Seleção</p>\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button clear>\n        <ion-icon name="md-arrow-forward" class="iconNulo"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content>\n \n<ion-card>\n  <ion-item>\n    <ion-avatar item-start>\n      <img src="../../assets/escalacao/aus.png">\n    </ion-avatar>\n    <h2 class="feed_title">AUSTRÁLIA</h2>\n    <p class="feed_sub">Nenhuma Copa</p>\n  </ion-item>\n\n  <img src="../../assets/escalacao/australia.png">\n\n  <ion-card-content>\n    <p class="sel">Goleiros:</p>\n    <p class="jog">Brad Jones - Feyenoord (Holanda), Mathew Ryan - Brighton e Hove Albion (Inglaterra) e Danny Vukovic - Genk (Bélgica);</p>\n    <p class="sel">Desefa:</p>\n    <p class="jog">Aziz Behich - Bursaspor (Turquia), Milos Degenek - Yokohama Marinos (Japão), Matthew Jurman - Suwon Samsung Bluewings\n      FC(Coréia do Sul), James Meredith - Millwall FC (Inglaterra), Josh Risdon - Western Sydney Wanderers (Austrália) e\n      Trent Sainsbury - Grasshopper (Bélgica);</p>\n    <p class="sel">Meio-Campo:</p>\n    <p class="jog"> Jackson Irvine - Hull City (Inglaterra), Mile Jedinak - Aston Villa (Inglaterra), Robbie Kruse - Bochum (Alemanha), Massimo\n      Luongo - Queens Park Rangers (Inglaterra), Mark Milligan - Al-Ahli Jeddah (Arábia Saudita), Aaron Mooy - Huddersfield\n      Town (Inglaterra), Tom Rogic - Celtic FC (Escócia) e James Troisi - Melbourne Victory (Austrália);</p>\n    <p class="sel">Ataque:</p>\n    <p class="jog">Daniel Arzani - Melbourne City FC (Austrália), Tim Cahill - Millwall FC (Inglaterra), Tomi Juric - FC Luzer (Suíça),\n      Mathew Leckie - Hertha Berlim (Alemanha), Andrew Nabbout - Urawa Red Diamonds (Japão) e Dimi Petratos - Maccabi Haifa\n      (Israel).</p>\n  </ion-card-content>\n</ion-card> \n\n</ion-content>'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\australia\australia.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], AustraliaPage);
+    return AustraliaPage;
+}());
+
+//# sourceMappingURL=australia.js.map
+
+/***/ }),
+
+/***/ 106:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FasesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__oitavas_oitavas__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__ = __webpack_require__(29);
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -231,7 +323,12 @@ var MenuSelecoesPage = /** @class */ (function () {
     };
     MenuSelecoesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+<<<<<<< HEAD
             selector: 'page-menu-selecoes',template:/*ion-inline-start:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\menu-selecoes\menu-selecoes.html"*/'<ion-header no-border>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      <p>Menu Seleções</p>\n\n    </ion-title>\n\n    <ion-buttons end>\n\n      <button ion-button clear>\n\n        <ion-icon name="md-arrow-forward" class="iconNulo"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-grid>\n\n\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes1()">\n\n          <img src="../../assets/bandeiras/ALE.gif"> <!--tem q mudar essa -->\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes2()">\n\n          <img src="../../assets/bandeiras/ARA.gif"> <!--e essa tambem tá? -->\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes3()">\n\n          <img src="../../assets/bandeiras/ARG.gif"><!--mesma coisa...-->\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo"(click)="menuSelecoes4()">\n\n          <img src="../../assets/bandeiras/AUS.gif">          \n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes5()">\n\n          <img src="../../assets/bandeiras/BEL.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes6()">\n\n          <img src="../../assets/bandeiras/BRA.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes7()">\n\n          <img src="../../assets/bandeiras/COL.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes8()">\n\n          <img src="../../assets/bandeiras/COR.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes9()">\n\n          <img src="../../assets/bandeiras/COS.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes10()">\n\n          <img src="../../assets/bandeiras/CRO.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes11()">\n\n          <img src="../../assets/bandeiras/DIN.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes12()">\n\n          <img src="../../assets/bandeiras/EGI.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes13()">\n\n          <img src="../../assets/bandeiras/ESP.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes14()">\n\n          <img src="../../assets/bandeiras/FRA.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes15()">\n\n          <img src="../../assets/bandeiras/ING.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes16()">\n\n          <img src="../../assets/bandeiras/IRA.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes17()">\n\n          <img src="../../assets/bandeiras/ISL.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes18()">\n\n          <img src="../../assets/bandeiras/JAP.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes19()">\n\n          <img src="../../assets/bandeiras/MAR.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes20()">\n\n          <img src="../../assets/bandeiras/MEX.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes21()">\n\n          <img src="../../assets/bandeiras/NIG.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes22()">\n\n          <img src="../../assets/bandeiras/PAN.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes23()">\n\n          <img src="../../assets/bandeiras/PER.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes24()">\n\n          <img src="../../assets/bandeiras/POL.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes25()">\n\n          <img src="../../assets/bandeiras/POR.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes26()">\n\n          <img src="../../assets/bandeiras/RUS.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes27()">\n\n          <img src="../../assets/bandeiras/SEN.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes28()">\n\n          <img src="../../assets/bandeiras/SER.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes29()">\n\n          <img src="../../assets/bandeiras/SUE.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes30()">\n\n          <img src="../../assets/bandeiras/SUI.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes31()">\n\n          <img src="../../assets/bandeiras/TUN.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes32()">\n\n          <img src="../../assets/bandeiras/URU.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n\n\n  </ion-grid>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\menu-selecoes\menu-selecoes.html"*/
+=======
+            selector: 'page-fases',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\fases\fases.html"*/'<ion-header no-border>\n\n    <ion-navbar color="branco">\n\n        <ion-title>\n\n            <p>Fase de Grupos</p>\n\n        </ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content id="main">\n\n    <ion-slides>\n\n        <ion-slide *ngFor="let slideGrupo of slideGrupos">\n\n            <div id="conteudo">\n\n                <ion-grid id="bloco-1">\n\n                    <ion-row>\n\n                        <ion-col style="font-size: 15pt">\n\n                            <div id="text">\n\n                                <span class=\'cut left\'></span>\n\n                                {{ slideGrupo.titulo }}\n\n                                <span class=\'cut right\'></span>\n\n                            </div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                    <ion-row style="background-color: rgb(193, 0, 13)">\n\n                        <ion-col>POS.</ion-col>\n\n                        <ion-col col-1>P</ion-col>\n\n                        <ion-col col-1>J</ion-col>\n\n                        <ion-col col-1>V</ion-col>\n\n                        <ion-col col-1>E</ion-col>\n\n                        <ion-col col-1>D</ion-col>\n\n                        <ion-col col-1>GP</ion-col>\n\n                        <ion-col col-1>GC</ion-col>\n\n                        <ion-col col-1>SG</ion-col>\n\n                        <ion-col col-1>%</ion-col>\n\n                        <ion-col>JOG.</ion-col>\n\n                    </ion-row>\n\n                    <ion-row style="background-color: #0074B1">\n\n                        <ion-col>{{ slideGrupo.selecao1 }}</ion-col>\n\n                        <ion-col col-1 >0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0.0</ion-col>\n\n                        <ion-col>0</ion-col>\n\n                    </ion-row>\n\n                    <ion-row style="background-color: rgb(193, 0, 13)">\n\n                        <ion-col>{{ slideGrupo.selecao2 }}</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0.0</ion-col>\n\n                        <ion-col>0</ion-col>\n\n                    </ion-row>\n\n                    <ion-row style="background-color: #0074B1">\n\n                        <ion-col>{{ slideGrupo.selecao3 }}</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0.0</ion-col>\n\n                        <ion-col>0</ion-col>\n\n                    </ion-row>\n\n                    <ion-row style="background-color: rgb(193, 0, 13)">\n\n                        <ion-col>{{ slideGrupo.selecao4 }}</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0.0</ion-col>\n\n                        <ion-col>0</ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n                <ion-grid id="bloco-2">\n\n                    <p  style="padding-top: 2%; font-size: 17pt">Jogos</p>\n\n                    <ion-row id="row-times">\n\n                        <ion-col>\n\n                            <ion-card id="bloco-2-card">\n\n                                <ion-card-header>\n\n                                    <ion-segment [(ngModel)]="guia" color="light">\n\n                                        <ion-segment-button value="1" >\n\n                                            1ª Rodada\n\n                                        </ion-segment-button>\n\n                                        <ion-segment-button value="2">\n\n                                            2ª Rodada\n\n                                        </ion-segment-button>\n\n                                        <ion-segment-button value="3">\n\n                                            3ª Rodada\n\n                                        </ion-segment-button>\n\n                                    </ion-segment>\n\n                                </ion-card-header>\n\n                                <ion-card-content class="card-content-bg">\n\n                               \n\n                                    <div [ngSwitch]="guia" id="card-corpo">\n\n                                        <ion-list *ngSwitchCase="\'1\'">\n\n                                            <ion-grid>\n\n                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">\n\n                                                    <ion-col>{{ slideGrupo.dia1 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.data1 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.local1 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.horas1 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>{{ slideGrupo.time11 }}</td>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n\n\n                                                    <ion-col class="col-vs">x</ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao1}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time12 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">\n\n                                                    <ion-col>{{ slideGrupo.dia12 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.data12 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.local12 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.horas12 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n\n\n                                                            <td>{{ slideGrupo.time121 }}</td>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao2}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                    <ion-col class="col-vs">x</ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time122 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                            </ion-grid>\n\n                                        </ion-list>\n\n\n\n                                        <ion-list *ngSwitchCase="\'2\'">\n\n                                            <ion-grid>\n\n                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">\n\n                                                        <ion-col>{{ slideGrupo.dia2 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.data2 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.local2 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.horas2 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>{{ slideGrupo.time21 }}</td>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                    <ion-col class="col-vs">x</ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao2}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time22 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">\n\n                                                        <ion-col>{{ slideGrupo.dia22 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.data22 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.local22 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.horas22 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>{{ slideGrupo.time221 }}</td>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                    <ion-col class="col-vs">x</ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao1}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time222 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                            </ion-grid>\n\n                                        </ion-list>\n\n\n\n                                        <ion-list *ngSwitchCase="\'3\'">\n\n                                            <ion-grid>\n\n                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">\n\n                                                        <ion-col>{{ slideGrupo.dia3 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.data3 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.local3 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.horas3 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>{{ slideGrupo.time31 }}</td>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                    <ion-col class="col-vs">x</ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time32 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">\n\n                                                        <ion-col>{{ slideGrupo.dia32 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.data32 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.local32 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.horas32 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>{{ slideGrupo.time321 }}</td>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao1}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                    <ion-col class="col-vs">x </ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao2}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time322 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                            </ion-grid>\n\n                                        </ion-list>\n\n                                    </div>\n\n                                </ion-card-content>\n\n                            </ion-card>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </div>\n\n        </ion-slide>\n\n    </ion-slides>\n\n</ion-content>'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\fases\fases.html"*/,
+            providers: [__WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__["a" /* DadosTabelaProvider */]]
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], MenuSelecoesPage);
@@ -242,14 +339,19 @@ var MenuSelecoesPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 106:
+/***/ 107:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return QuartasPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__semi_final_semi_final__ = __webpack_require__(107);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__quartas_quartas__ = __webpack_require__(108);
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__ = __webpack_require__(29);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -290,7 +392,11 @@ var QuartasPage = /** @class */ (function () {
     };
     QuartasPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+<<<<<<< HEAD
             selector: 'page-quartas',template:/*ion-inline-start:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\quartas\quartas.html"*/'<ion-header no-border>\n\n    <ion-navbar>\n\n\n\n        <ion-title><p>Quartas de Final</p></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n    <div align="center">\n\n        <fieldset style="border-radius: 4px; border: 1px solid; width: 86%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">\n\n            <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n\n            <div>\n\n                <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n\n                    <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n\n                </div>\n\n                <div>\n\n                    <span>\n\n                        <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                    </span>\n\n                    <span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                        <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n\n                    </span>\n\n                </div>\n\n            </div>\n\n        </fieldset>\n\n        \n\n    </div>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\quartas\quartas.html"*/,
+=======
+            selector: 'page-oitavas',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\oitavas\oitavas.html"*/'<ion-header no-border>\n\n    <ion-navbar>\n\n        <ion-title><p>Oitavas de Final</p></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n    <div align="center">\n\n        <fieldset style="border-radius: 4px; border: 1px solid; width: 86%; margin-top: 5%; margin-bottom: 5%" align="center" *ngFor="let fieldset of fieldsets">\n\n            <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n\n            <div>\n\n                <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n\n                    <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n\n                </div>\n\n                <div>\n\n                    <span>\n\n                        <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                    </span>\n\n                    <span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                        <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n\n                    </span>\n\n                </div>\n\n            </div>\n\n        </fieldset>\n\n    </div>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\oitavas\oitavas.html"*/,
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
             providers: [__WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__["a" /* DadosTabelaProvider */]]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__["a" /* DadosTabelaProvider */]])
@@ -302,14 +408,19 @@ var QuartasPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 107:
+/***/ 108:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SemiFinalPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__third_lugar_third_lugar__ = __webpack_require__(108);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__semi_final_semi_final__ = __webpack_require__(109);
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__ = __webpack_require__(29);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -348,7 +459,11 @@ var SemiFinalPage = /** @class */ (function () {
     };
     SemiFinalPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+<<<<<<< HEAD
             selector: 'page-semi-final',template:/*ion-inline-start:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\semi-final\semi-final.html"*/'<ion-header no-border>\n\n    <ion-navbar>\n\n        <ion-title><p>Semifinal</p></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n    <div align="center">\n\n        <fieldset style="border-radius: 4px; border: 1px solid; width: 85%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">\n\n            <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n\n            <div>\n\n                <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n\n                    <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n\n                </div>\n\n                <div>\n\n                    <span>\n\n                        <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                    </span>\n\n                    <span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                        <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n\n                    </span>\n\n                </div>\n\n            </div>\n\n        </fieldset>\n\n    </div>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\semi-final\semi-final.html"*/,
+=======
+            selector: 'page-quartas',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\quartas\quartas.html"*/'<ion-header no-border>\n\n    <ion-navbar>\n\n\n\n        <ion-title><p>Quartas de Final</p></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n    <div align="center">\n\n        <fieldset style="border-radius: 4px; border: 1px solid; width: 86%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">\n\n            <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n\n            <div>\n\n                <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n\n                    <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n\n                </div>\n\n                <div>\n\n                    <span>\n\n                        <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                    </span>\n\n                    <span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                        <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n\n                    </span>\n\n                </div>\n\n            </div>\n\n        </fieldset>\n\n        \n\n    </div>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\quartas\quartas.html"*/,
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
             providers: [__WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__["a" /* DadosTabelaProvider */]]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__["a" /* DadosTabelaProvider */]])
@@ -360,14 +475,19 @@ var SemiFinalPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 108:
+/***/ 109:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ThirdLugarPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__final_final__ = __webpack_require__(109);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__third_lugar_third_lugar__ = __webpack_require__(110);
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__ = __webpack_require__(29);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -405,7 +525,11 @@ var ThirdLugarPage = /** @class */ (function () {
     };
     ThirdLugarPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+<<<<<<< HEAD
             selector: 'page-third-lugar',template:/*ion-inline-start:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\third-lugar\third-lugar.html"*/'<ion-header no-border>\n\n    <ion-navbar>\n\n\n\n        <ion-title><p>Disputa do 3º Lugar</p></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n    <div align="center">\n\n        <fieldset style="border-radius: 4px; border: 1px solid; width: 86%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">\n\n            <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n\n            <div>\n\n                <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n\n                    <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n\n                </div>\n\n                <div>\n\n                    <span>\n\n                        <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                    </span>\n\n                    <span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                        <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n\n                    </span>\n\n                </div>\n\n            </div>\n\n        </fieldset>\n\n    </div>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\third-lugar\third-lugar.html"*/,
+=======
+            selector: 'page-semi-final',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\semi-final\semi-final.html"*/'<ion-header no-border>\n\n    <ion-navbar>\n\n        <ion-title><p>Semifinal</p></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n    <div align="center">\n\n        <fieldset style="border-radius: 4px; border: 1px solid; width: 85%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">\n\n            <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n\n            <div>\n\n                <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n\n                    <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n\n                </div>\n\n                <div>\n\n                    <span>\n\n                        <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                    </span>\n\n                    <span>\n\n                        <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                        </span>\n\n                </div>\n\n            </div>\n\n        </fieldset>\n\n    </div>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\semi-final\semi-final.html"*/,
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
             providers: [__WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__["a" /* DadosTabelaProvider */]]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__["a" /* DadosTabelaProvider */]])
@@ -417,13 +541,76 @@ var ThirdLugarPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 109:
+/***/ 110:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FinalPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_dados_tabela_dados_tabela__ = __webpack_require__(29);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__final_final__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__ = __webpack_require__(29);
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var FinalPage = /** @class */ (function () {
+    function FinalPage(navCtrl, navParams, DadosTabela) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.DadosTabela = DadosTabela;
+        this.pegarDados();
+        this.fieldsets = [
+            { titulo: 'Final', dia: 'Dom', data: '15/07/2018', local: 'Olímpico Lujniki', hora: '12:00', time1: 'Venc. Semifinal 1', time2: 'Venc. Semifinal 2' }
+        ];
+    }
+    FinalPage.prototype.pegarDados = function () {
+        var _this = this;
+        this.DadosTabela.load()
+            .then(function (data) {
+            _this.dado = data;
+            console.log("Ok");
+        });
+    };
+    FinalPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+<<<<<<< HEAD
+            selector: 'page-final',template:/*ion-inline-start:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\final\final.html"*/'<ion-header no-border>\n\n  <ion-navbar>\n\n    <ion-title><p>Final</p></ion-title>\n\n    <ion-buttons end>\n\n      <button ion-button clear>\n\n          <ion-icon name="md-arrow-forward" class="iconNulo"></ion-icon>\n\n      </button>\n\n  </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n  <div align="center">\n\n    <fieldset style="border-radius: 4px; border: 1px solid; width: 88%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">\n\n      <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n\n      \n\n      <div>\n\n        <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n\n          <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n\n        </div>\n\n        <div>\n\n          <span>\n\n            <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n\n            <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n          </span>\n\n          <span>\n\n            <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n            <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n\n          </span>\n\n        </div>\n\n     \n\n      </div>\n\n    </fieldset>\n\n  </div>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\final\final.html"*/,
+            providers: [__WEBPACK_IMPORTED_MODULE_2__providers_dados_tabela_dados_tabela__["a" /* DadosTabelaProvider */]]
+=======
+            selector: 'page-third-lugar',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\third-lugar\third-lugar.html"*/'<ion-header no-border>\n\n    <ion-navbar>\n\n\n\n        <ion-title><p>Disputa do 3º Lugar</p></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n    <div align="center">\n\n        <fieldset style="border-radius: 4px; border: 1px solid; width: 86%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">\n\n            <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n\n            <div>\n\n                <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n\n                    <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n\n                </div>\n\n                <div>\n\n                    <span>\n\n                        <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                    </span>\n\n                    <span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                        <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n\n                    </span>\n\n                </div>\n\n            </div>\n\n        </fieldset>\n\n    </div>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\third-lugar\third-lugar.html"*/,
+            providers: [__WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__["a" /* DadosTabelaProvider */]]
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_dados_tabela_dados_tabela__["a" /* DadosTabelaProvider */]])
+    ], FinalPage);
+    return FinalPage;
+}());
+
+//# sourceMappingURL=final.js.map
+
+/***/ }),
+
+/***/ 111:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FinalPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_dados_tabela_dados_tabela__ = __webpack_require__(29);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -457,7 +644,7 @@ var FinalPage = /** @class */ (function () {
     };
     FinalPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-final',template:/*ion-inline-start:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\final\final.html"*/'<ion-header no-border>\n\n  <ion-navbar>\n\n    <ion-title><p>Final</p></ion-title>\n\n    <ion-buttons end>\n\n      <button ion-button clear>\n\n          <ion-icon name="md-arrow-forward" class="iconNulo"></ion-icon>\n\n      </button>\n\n  </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n  <div align="center">\n\n    <fieldset style="border-radius: 4px; border: 1px solid; width: 88%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">\n\n      <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n\n      \n\n      <div>\n\n        <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n\n          <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n\n        </div>\n\n        <div>\n\n          <span>\n\n            <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n\n            <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n          </span>\n\n          <span>\n\n            <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n            <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n\n          </span>\n\n        </div>\n\n     \n\n      </div>\n\n    </fieldset>\n\n  </div>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\final\final.html"*/,
+            selector: 'page-final',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\final\final.html"*/'<ion-header no-border>\n\n  <ion-navbar>\n\n    <ion-title><p>Final</p></ion-title>\n\n    <ion-buttons end>\n\n      <button ion-button clear>\n\n          <ion-icon name="md-arrow-forward" class="iconNulo"></ion-icon>\n\n      </button>\n\n  </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n  <div align="center">\n\n    <fieldset style="border-radius: 4px; border: 1px solid; width: 88%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">\n\n      <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n\n      \n\n      <div>\n\n        <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n\n          <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n\n        </div>\n\n        <div>\n\n          <span>\n\n            <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n\n            <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n          </span>\n\n          <span>\n\n            <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n            <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n\n          </span>\n\n        </div>\n\n     \n\n      </div>\n\n    </fieldset>\n\n  </div>\n\n</ion-content>'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\final\final.html"*/,
             providers: [__WEBPACK_IMPORTED_MODULE_2__providers_dados_tabela_dados_tabela__["a" /* DadosTabelaProvider */]]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_dados_tabela_dados_tabela__["a" /* DadosTabelaProvider */]])
@@ -469,15 +656,19 @@ var FinalPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 110:
+/***/ 112:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FasesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__oitavas_oitavas__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__ = __webpack_require__(29);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -586,8 +777,12 @@ var FasesPage = /** @class */ (function () {
     ], FasesPage.prototype, "slider", void 0);
     FasesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+<<<<<<< HEAD
             selector: 'page-fases',template:/*ion-inline-start:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\fases\fases.html"*/'<ion-header no-border>\n\n    <ion-navbar color="branco">\n\n        <ion-title>\n\n            <p>Fase de Grupos</p>\n\n        </ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content id="main">\n\n    <ion-slides>\n\n        <ion-slide *ngFor="let slideGrupo of slideGrupos">\n\n            <div id="conteudo">\n\n                <ion-grid id="bloco-1">\n\n                    <ion-row>\n\n                        <ion-col style="font-size: 15pt">\n\n                            <div id="text">\n\n                                <span class=\'cut left\'></span>\n\n                                {{ slideGrupo.titulo }}\n\n                                <span class=\'cut right\'></span>\n\n                            </div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                    <ion-row style="background-color: rgb(193, 0, 13)">\n\n                        <ion-col>POS.</ion-col>\n\n                        <ion-col col-1>P</ion-col>\n\n                        <ion-col col-1>J</ion-col>\n\n                        <ion-col col-1>V</ion-col>\n\n                        <ion-col col-1>E</ion-col>\n\n                        <ion-col col-1>D</ion-col>\n\n                        <ion-col col-1>GP</ion-col>\n\n                        <ion-col col-1>GC</ion-col>\n\n                        <ion-col col-1>SG</ion-col>\n\n                        <ion-col col-1>%</ion-col>\n\n                        <ion-col>JOG.</ion-col>\n\n                    </ion-row>\n\n                    <ion-row style="background-color: #0074B1">\n\n                        <ion-col>{{ slideGrupo.selecao1 }}</ion-col>\n\n                        <ion-col col-1 >0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0.0</ion-col>\n\n                        <ion-col>0</ion-col>\n\n                    </ion-row>\n\n                    <ion-row style="background-color: rgb(193, 0, 13)">\n\n                        <ion-col>{{ slideGrupo.selecao2 }}</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0.0</ion-col>\n\n                        <ion-col>0</ion-col>\n\n                    </ion-row>\n\n                    <ion-row style="background-color: #0074B1">\n\n                        <ion-col>{{ slideGrupo.selecao3 }}</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0.0</ion-col>\n\n                        <ion-col>0</ion-col>\n\n                    </ion-row>\n\n                    <ion-row style="background-color: rgb(193, 0, 13)">\n\n                        <ion-col>{{ slideGrupo.selecao4 }}</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0</ion-col>\n\n                        <ion-col col-1>0.0</ion-col>\n\n                        <ion-col>0</ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n                <ion-grid id="bloco-2">\n\n                    <p  style="padding-top: 2%; font-size: 17pt">Jogos</p>\n\n                    <ion-row id="row-times">\n\n                        <ion-col>\n\n                            <ion-card id="bloco-2-card">\n\n                                <ion-card-header>\n\n                                    <ion-segment [(ngModel)]="guia" color="light">\n\n                                        <ion-segment-button value="1" >\n\n                                            1ª Rodada\n\n                                        </ion-segment-button>\n\n                                        <ion-segment-button value="2">\n\n                                            2ª Rodada\n\n                                        </ion-segment-button>\n\n                                        <ion-segment-button value="3">\n\n                                            3ª Rodada\n\n                                        </ion-segment-button>\n\n                                    </ion-segment>\n\n                                </ion-card-header>\n\n                                <ion-card-content class="card-content-bg">\n\n                               \n\n                                    <div [ngSwitch]="guia" id="card-corpo">\n\n                                        <ion-list *ngSwitchCase="\'1\'">\n\n                                            <ion-grid>\n\n                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">\n\n                                                    <ion-col>{{ slideGrupo.dia1 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.data1 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.local1 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.horas1 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>{{ slideGrupo.time11 }}</td>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n\n\n                                                    <ion-col class="col-vs">x</ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao1}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time12 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">\n\n                                                    <ion-col>{{ slideGrupo.dia12 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.data12 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.local12 }}</ion-col>\n\n                                                    <ion-col>{{ slideGrupo.horas12 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n\n\n                                                            <td>{{ slideGrupo.time121 }}</td>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao2}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                    <ion-col class="col-vs">x</ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time122 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                            </ion-grid>\n\n                                        </ion-list>\n\n\n\n                                        <ion-list *ngSwitchCase="\'2\'">\n\n                                            <ion-grid>\n\n                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">\n\n                                                        <ion-col>{{ slideGrupo.dia2 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.data2 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.local2 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.horas2 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>{{ slideGrupo.time21 }}</td>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                    <ion-col class="col-vs">x</ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao2}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time22 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">\n\n                                                        <ion-col>{{ slideGrupo.dia22 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.data22 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.local22 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.horas22 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>{{ slideGrupo.time221 }}</td>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                    <ion-col class="col-vs">x</ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao1}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time222 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                            </ion-grid>\n\n                                        </ion-list>\n\n\n\n                                        <ion-list *ngSwitchCase="\'3\'">\n\n                                            <ion-grid>\n\n                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">\n\n                                                        <ion-col>{{ slideGrupo.dia3 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.data3 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.local3 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.horas3 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>{{ slideGrupo.time31 }}</td>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                    <ion-col class="col-vs">x</ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time32 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">\n\n                                                        <ion-col>{{ slideGrupo.dia32 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.data32 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.local32 }}</ion-col>\n\n                                                        <ion-col>{{ slideGrupo.horas32 }}</ion-col>\n\n                                                </ion-row>\n\n                                                <ion-row id="row-maior">\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>{{ slideGrupo.time321 }}</td>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao1}}.gif">\n\n                                                            </td>\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                    <ion-col class="col-vs">x </ion-col>\n\n                                                    <ion-col style="font-size:15pt">\n\n                                                        <tr>\n\n                                                            <td>\n\n                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao2}}.gif">\n\n                                                            </td>\n\n                                                            <td>{{ slideGrupo.time322 }}</td>\n\n\n\n                                                        </tr>\n\n                                                    </ion-col>\n\n                                                </ion-row>\n\n                                            </ion-grid>\n\n                                        </ion-list>\n\n                                    </div>\n\n                                </ion-card-content>\n\n                            </ion-card>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </div>\n\n        </ion-slide>\n\n    </ion-slides>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\fases\fases.html"*/,
             providers: [__WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__["a" /* DadosTabelaProvider */]]
+=======
+            selector: 'page-historia',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\historia\historia.html"*/'<ion-header no-border>\n\n  <ion-navbar>\n\n    <ion-title><p>Copas Anteriores</p></ion-title>\n\n    <ion-buttons end>\n\n      <button ion-button clear>\n\n          <ion-icon name="md-arrow-forward" class="iconNulo"></ion-icon>\n\n      </button>\n\n  </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n    <ion-card>\n\n        <ion-item>\n\n          <ion-avatar item-start>\n\n              <img src="../../assets/selecoes/uru.gif">\n\n          </ion-avatar>\n\n          <h2 class="feed_title">URUGUAI</h2>\n\n          <p class="feed_sub">Campeão da Copa de 1930</p>\n\n        </ion-item>\n\n      \n\n        <img src="../../assets/selecoes/Uruguai.png">\n\n      \n\n        <ion-card-content>\n\n          <p class="end">A primeira Copa do Mundo, disputada em 1930, no Uruguai, surgiu do sonho do presidente da Fifa, na época uma entidade de apenas 24 anos, Jules Rimet, em realizar um torneio reunindo seleções de todo o planeta.</p>\n\n          <p class="feed_sede">País Sede: Uruguai</p>\n\n        </ion-card-content>\n\n      </ion-card>\n\n\n\n      <ion-card>\n\n          <ion-item>\n\n            <ion-avatar item-start>\n\n                <img src="../../assets/selecoes/ita.gif">\n\n            </ion-avatar>\n\n            <h2 class="feed_title">ITÁLIA</h2>\n\n            <p class="feed_sub">Campeã da Copa de 1934</p>\n\n          </ion-item>\n\n        \n\n          <img src="../../assets/selecoes/Italia.png">\n\n        \n\n          <ion-card-content>\n\n          <p class="end">A segunda Copa do Mundo da história, disputada em 1934, na Itália, foi marcada pela política e pelo fascismo que ganhava força no território italiano. Através de seu líder, Benito Mussolini, o governo queria mostrar "a nova face do país" e, com esse propósito, o futebol era uma excelente ferramenta.</p>\n\n          <p class="feed_sede">País Sede: Itália</p>\n\n        </ion-card-content>\n\n        </ion-card>\n\n\n\n        <ion-card>\n\n            <ion-item>\n\n              <ion-avatar item-start>\n\n                  <img src="../../assets/selecoes/ita.gif">\n\n              </ion-avatar>\n\n              <h2 class="feed_title">ITÁLIA</h2>\n\n              <p class="feed_sub">Bi-Campeã na Copa de 1938</p>\n\n            </ion-item>\n\n          \n\n            <img src="../../assets/selecoes/Italia.png">\n\n          \n\n            <ion-card-content>\n\n              <p class="end">Na última Copa antes da Segunda Guerra Mundial, a Itália conquistou o bicampeonato. Campeões em 1934, os italianos repetiram a façanha, desta vez em território francês.</p>\n\n              <p class="feed_sede">País Sede: França</p>  \n\n            </ion-card-content>\n\n          </ion-card>\n\n\n\n          <ion-card>\n\n              <ion-item>\n\n                <ion-avatar item-start>\n\n                    <img src="../../assets/selecoes/uru.gif">\n\n                </ion-avatar>\n\n                <h2 class="feed_title">URUGUAI</h2>\n\n                <p class="feed_sub">Bi-Campeã na Copa de 1950</p>\n\n              </ion-item>\n\n            \n\n              <img src="../../assets/selecoes/Uruguai.png">\n\n            \n\n              <ion-card-content>\n\n                <p class="end">Devastada pela Segunda Guerra Mundial, a Europa não tinha condições de organizar a Copa do Mundo em 1950, que ficou paralisada por 12 anos. O Brasil, único candidato, construiu o Maracanã, maior estádio do mundo na época da inauguração, a poucas semanas do começo da Copa.</p>\n\n                <p class="feed_sede">País Sede: Brasil</p>  \n\n              </ion-card-content>\n\n            </ion-card>\n\n\n\n            <ion-card>\n\n                <ion-item>\n\n                  <ion-avatar item-start>\n\n                      <img src="../../assets/selecoes/ale.gif">\n\n                  </ion-avatar>\n\n                  <h2 class="feed_title">ALEMANHA</h2>\n\n                  <p class="feed_sub">Campeã na Copa de 1954</p>\n\n                </ion-item>\n\n              \n\n                <img src="../../assets/selecoes/alemanha.png">\n\n              \n\n                <ion-card-content>\n\n                  <p class="end">Após a derrota dos brasileiros na final da Copa de 1950, para os uruguaios, o mundo viu novamente uma seleção favorita tombar na final. Se nesta Copa não houve todos os ingredientes da tragédia brasileira, desta vez a injustiça pela derrota foi maior ainda.</p>\n\n                  <p class="feed_sede">País Sede: Suiça</p>  \n\n                </ion-card-content>\n\n              </ion-card>\n\n              \n\n              <ion-card>\n\n                  <ion-item>\n\n                    <ion-avatar item-start>\n\n                        <img src="../../assets/selecoes/bra.gif">\n\n                    </ion-avatar>\n\n                    <h2 class="feed_title">BRASIL</h2>\n\n                    <p class="feed_sub">Campeão na Copa de 1958</p>\n\n                  </ion-item>\n\n                \n\n                  <img src="../../assets/selecoes/brasil.png">\n\n                \n\n                  <ion-card-content>\n\n                    <p class="end">A Copa do Mundo de 1958, disputada na Suécia, marcou o surgimento de Pelé. Foi em gramados suecos que um garoto de apenas 17 anos começou a encantar o mundo. A Copa também foi marcada pelo primeiro título mundial do Brasil.</p>\n\n                     <p class="feed_sede">País Sede: Suécia</p>  \n\n                  </ion-card-content>\n\n                </ion-card>\n\n\n\n                <ion-card>\n\n                    <ion-item>\n\n                      <ion-avatar item-start>\n\n                          <img src="../../assets/selecoes/bra.gif">\n\n                      </ion-avatar>\n\n                      <h2 class="feed_title">BRASIL</h2>\n\n                      <p class="feed_sub">Bi-Campeão na Copa de 1962</p>\n\n                    </ion-item>\n\n                  \n\n                    <img src="../../assets/selecoes/brasil.png">\n\n                  \n\n                    <ion-card-content>\n\n                      <p class="end">Se a Copa anterior marcou o surgimento de Pelé, a Copa do Mundo de 1962 consagrou Garrincha. Com atuações brilhantes e dribles desconcertantes, o atacante das pernas tortas liderou o Brasil rumo ao segundo título mundial nos gramados chilenos.</p>\n\n                       <p class="feed_sede">País Sede: Chile</p>  \n\n                    </ion-card-content>\n\n                  </ion-card>\n\n\n\n                  <ion-card>\n\n                      <ion-item>\n\n                        <ion-avatar item-start>\n\n                            <img src="../../assets/selecoes/ing.gif">\n\n                        </ion-avatar>\n\n                        <h2 class="feed_title">INGLATERRA</h2>\n\n                        <p class="feed_sub">Campeã na Copa de 1966</p>\n\n                      </ion-item>\n\n                    \n\n                      <img src="../../assets/selecoes/inglaterra.png">\n\n                    \n\n                      <ion-card-content>\n\n                        <p class="end">Polêmica, violência e decepção marcaram a Copa do Mundo de 1966, disputada na Inglaterra. Os donos da casa ficaram com o título, o primeiro e único de sua história, numa final contestadíssima contra a Alemanha Ocidental.</p>\n\n                         <p class="feed_sede">País Sede: Inglaterra</p>  \n\n                      </ion-card-content>\n\n                    </ion-card>\n\n\n\n                    <ion-card>\n\n                        <ion-item>\n\n                          <ion-avatar item-start>\n\n                              <img src="../../assets/selecoes/bra.gif">\n\n                          </ion-avatar>\n\n                          <h2 class="feed_title">BRASIL</h2>\n\n                          <p class="feed_sub">Tri-Campeão na Copa de 1970</p>\n\n                        </ion-item>\n\n                      \n\n                        <img src="../../assets/selecoes/brasil.png">\n\n                      \n\n                        <ion-card-content>\n\n                          <p class="end">Em 1970, marcado pela ditadura militar, o Brasil viu a Seleção entrar para a história com um futebol alegre, envolvente e que se sagrou tricampeão mundial. Numa equipe que tinha Gérson, Rivellino, o capitão Carlos Alberto Torres e Jairzinho, o maior nome da competição foi Pelé, que, aos 29 anos, disputou sua última Copa do Mundo.</p>\n\n                          <p class="feed_sede">País Sede: México</p>  \n\n                        </ion-card-content>\n\n                      </ion-card>\n\n\n\n                      <ion-card>\n\n                          <ion-item>\n\n                            <ion-avatar item-start>\n\n                                <img src="../../assets/selecoes/ale.gif">\n\n                            </ion-avatar>\n\n                            <h2 class="feed_title">ALEMANHA </h2>\n\n                            <p class="feed_sub">Bi-Campeão na Copa de 1974</p>\n\n                          </ion-item>\n\n                        \n\n                          <img src="../../assets/selecoes/alemanha.png">\n\n                        \n\n                          <ion-card-content>\n\n                            <p class="end">A Copa do Mundo de 1974 foi disputada na Alemanha Ocidental e terminou com os donos da casa campeões, mas a equipe que entrou para a história foi a Holanda. Comandada por Johann Cruyff, a seleção ficou conhecida como "Laranja Mecânica", por causa de seu futebol envolvente e ofensivo.</p>\n\n                            <p class="feed_sede">País Sede: Alemanha</p>  \n\n                          </ion-card-content>\n\n                        </ion-card>\n\n\n\n                        <ion-card>\n\n                            <ion-item>\n\n                              <ion-avatar item-start>\n\n                                  <img src="../../assets/selecoes/arg.gif">\n\n                              </ion-avatar>\n\n                              <h2 class="feed_title">ARGENTINA</h2>\n\n                              <p class="feed_sub">Campeã na Copa de 1978</p>\n\n                            </ion-item>\n\n                          \n\n                            <img src="../../assets/selecoes/argentina.png">\n\n                          \n\n                            <ion-card-content>\n\n                              <p class="end">A Argentina em 1978 vivia sob forte ditadura militar, o que levou à ameaça de muitos países em não participar da Copa do Mundo que aconteceria no país sul-americana. Apesar da polêmica, não houve desistências e a competição transcorreu normalmente. Pelo menos fora de campo.</p>\n\n                              <p class="feed_sede">País Sede: Argentina</p>  \n\n                            </ion-card-content>\n\n                          </ion-card>\n\n\n\n                          <ion-card>\n\n                              <ion-item>\n\n                                <ion-avatar item-start>\n\n                                    <img src="../../assets/selecoes/ita.gif">\n\n                                </ion-avatar>\n\n                                <h2 class="feed_title">ITÁLIA</h2>\n\n                                <p class="feed_sub">Tri-Campeã na Copa de 1982</p>\n\n                              </ion-item>\n\n                            \n\n                              <img src="../../assets/selecoes/italia.png">\n\n                            \n\n                              <ion-card-content>\n\n                                <p class="end">A Copa do Mundo da Espanha, em 1982, foi marcada pelo futebol ofensivo e criativo da Seleção Brasileira comandada por Telê Santana. Mas quem ficou com o título, e eliminou os brasileiros, foi a Itália.</p>\n\n                                <p class="feed_sede">País Sede: Espanha</p>  \n\n                              </ion-card-content>\n\n                            </ion-card>\n\n\n\n                            <ion-card>\n\n                                <ion-item>\n\n                                  <ion-avatar item-start>\n\n                                      <img src="../../assets/selecoes/arg.gif">\n\n                                  </ion-avatar>\n\n                                  <h2 class="feed_title">ARGENTINA</h2>\n\n                                  <p class="feed_sub">Bi-Campeã na Copa de 1986</p>\n\n                                </ion-item>\n\n                              \n\n                                <img src="../../assets/selecoes/argentina.png">\n\n                              \n\n                                <ion-card-content>\n\n                                  <p class="end">Em 1986, no México, Diego Armando Maradona jogou seu melhor Mundial e levou a Argentina ao bicampeonato.\n\n                                    A Copa ficou ameaçada com a desistência da organização por parte da Colômbia, em 1983, e depois em 1985, com um violento terremoto que devastou o México.</p>\n\n                                  <p class="feed_sede">País Sede: México</p>  \n\n                                </ion-card-content>\n\n                              </ion-card>\n\n\n\n                              <ion-card>\n\n                                  <ion-item>\n\n                                    <ion-avatar item-start>\n\n                                        <img src="../../assets/selecoes/ale.gif">\n\n                                    </ion-avatar>\n\n                                    <h2 class="feed_title">ALEMANHA</h2>\n\n                                    <p class="feed_sub">Tri-Campeã na Copa de 1990</p>\n\n                                  </ion-item>\n\n                                \n\n                                  <img src="../../assets/selecoes/alemanha.png">\n\n                                \n\n                                  <ion-card-content>\n\n                                    <p class="end">O Mundial da Itália, em 1990, foi, certamente, um dos piores em nível técnico. A Alemanha Ocidental mostrou um futebol coeso e de forte na marcação para conquistar seu terceiro título mundial, o último antes da reunificação.</p>\n\n                                    <p class="feed_sede">País Sede: Itália</p>  \n\n                                  </ion-card-content>\n\n                                </ion-card>\n\n\n\n                                <ion-card>\n\n                                    <ion-item>\n\n                                      <ion-avatar item-start>\n\n                                          <img src="../../assets/selecoes/bra.gif">\n\n                                      </ion-avatar>\n\n                                      <h2 class="feed_title">BRASIL</h2>\n\n                                      <p class="feed_sub">Tetra Campeão na Copa de 1994</p>\n\n                                    </ion-item>\n\n                                  \n\n                                    <img src="../../assets/selecoes/brasil.png">\n\n                                  \n\n                                    <ion-card-content>\n\n                                      <p class="end">Após 24 anos, o Brasil voltou a conquistar a Copa do Mundo. Realizado nos Estados Unidos, o Mundial viu a Seleção comandada por Carlos Alberto Parreira apresentar um futebol pragmático e ter em Romário seu grande ídolo e salvador.</p>\n\n                                      <p class="feed_sede">País Sede: Estados Unidos</p>  \n\n                                    </ion-card-content>\n\n                                  </ion-card>\n\n\n\n                                  <ion-card>\n\n                                      <ion-item>\n\n                                        <ion-avatar item-start>\n\n                                            <img src="../../assets/selecoes/fra.gif">\n\n                                        </ion-avatar>\n\n                                        <h2 class="feed_title">FRANÇA</h2>\n\n                                        <p class="feed_sub">Campeão na Copa de 1998</p>\n\n                                      </ion-item>\n\n                                    \n\n                                      <img src="../../assets/selecoes/franca.png">\n\n                                    \n\n                                      <ion-card-content>\n\n                                        <p class="end">Na Copa do Mundo de 1998, a Fifa decidiu inchar o torneio. Pela primeira vez na história, 32 seleções conseguiram vaga na mais importante competição de futebol do mundo. A França foi o país escolhido para ser a sede.</p>\n\n                                        <p class="feed_sede">País Sede: França</p>  \n\n                                      </ion-card-content>\n\n                                    </ion-card>\n\n\n\n                                    <ion-card>\n\n                                        <ion-item>\n\n                                          <ion-avatar item-start>\n\n                                              <img src="../../assets/selecoes/bra.gif">\n\n                                          </ion-avatar>\n\n                                          <h2 class="feed_title">BRASIL</h2>\n\n                                          <p class="feed_sub">Penta Campeão na Copa de 2002</p>\n\n                                        </ion-item>\n\n                                      \n\n                                        <img src="../../assets/selecoes/brasil.png">\n\n                                      \n\n                                        <ion-card-content>\n\n                                          <p class="end">O último Mundial, em 2002, foi organizado pela primeira vez por duas nações, Coréia do Sul e Japão, e terminou com a conquista do pentacampeonato pelo Brasil. A competição também marcou o retorno triunfal do atacante Ronaldo, que, nos quatro anos anteriores, passou por duas contusões graves em seu joelho e sofrera uma convulsão na última final de Copa.</p>\n\n                                          <p class="feed_sede">País Sede: Coréia/Japão</p>  \n\n                                        </ion-card-content>\n\n                                      </ion-card>\n\n\n\n                                      <ion-card>\n\n                                          <ion-item>\n\n                                            <ion-avatar item-start>\n\n                                                <img src="../../assets/selecoes/ita.gif">\n\n                                            </ion-avatar>\n\n                                            <h2 class="feed_title">ITÁLIA</h2>\n\n                                            <p class="feed_sub">Tetra Campeão na Copa de 2006</p>\n\n                                          </ion-item>\n\n                                        \n\n                                          <img src="../../assets/selecoes/italia.png">\n\n                                        \n\n                                          <ion-card-content>\n\n                                            <p class="end">Pela primeira vez na história do campeonato, o campeão do torneio anterior (no caso, o Brasil) precisou disputar as eliminatórias para poder defender o direito de participar no torneio. Trinta e dois países participaram na Copa de 2006, cuja final foi no dia 9 de Julho.</p>\n\n                                            <p class="feed_sede">País Sede: Alemanha</p>  \n\n                                          </ion-card-content>\n\n                                        </ion-card>\n\n\n\n                                        <ion-card>\n\n                                            <ion-item>\n\n                                              <ion-avatar item-start>\n\n                                                  <img src="../../assets/selecoes/esp.gif">\n\n                                              </ion-avatar>\n\n                                              <h2 class="feed_title">ESPANHA</h2>\n\n                                              <p class="feed_sub">Campeã na Copa de 2010</p>\n\n                                            </ion-item>\n\n                                          \n\n                                            <img src="../../assets/selecoes/espanha.png">\n\n                                          \n\n                                            <ion-card-content>\n\n                                              <p class="end">Copa do Mundo de Futebol FIFA de 2010 foi a décima nona edição da Copa, que ocorreu de 11 de junho até 11 de julho. O evento foi sediado na África do Sul, tendo partidas realizadas em 9 cidades: trinta e duas seleções nacionais foram qualificadas para participar desta edição do campeonato, sendo 13 delas europeias, 8 americanas, 6 africanas, 5 asiáticas (contando com a Austrália) e 1 oceânica.</p>\n\n                                              <p class="feed_sede">País Sede: África do Sul</p>  \n\n                                            </ion-card-content>\n\n                                          </ion-card>\n\n\n\n                                          <ion-card>\n\n                                              <ion-item>\n\n                                                <ion-avatar item-start>\n\n                                                    <img src="../../assets/selecoes/ale.gif">\n\n                                                </ion-avatar>\n\n                                                <h2 class="feed_title">ALEMANHA</h2>\n\n                                                <p class="feed_sub">Tetra Campeã na Copa de 2014</p>\n\n                                              </ion-item>\n\n                                            \n\n                                              <img src="../../assets/selecoes/alemanha.png">\n\n                                            \n\n                                              <ion-card-content>\n\n                                                <p class="end">Copa do Mundo FIFA de 2014 também denominado Campeonato do Mundo foi a vigésima edição deste evento esportivo, um torneio internacional de futebol masculino organizado pela Federação Internacional de Futebol (FIFA), que ocorreu no Brasil, anfitrião da competição pela segunda vez. Com doze cidades-sede, o campeonato começou a ser disputado no dia 12 de junho e terminou em 13 de julho.</p>\n\n                                                <p class="feed_sede">País Sede: Brasil</p>  \n\n                                              </ion-card-content>\n\n                                            </ion-card>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\historia\historia.html"*/,
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__["a" /* DadosTabelaProvider */]])
     ], FasesPage);
@@ -598,15 +793,23 @@ var FasesPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 111:
+/***/ 113:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OitavasPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__quartas_quartas__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__ = __webpack_require__(29);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__alemanha_alemanha__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__arabia_saudita_arabia_saudita__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__argentina_argentina__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__australia_australia__ = __webpack_require__(105);
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -620,8 +823,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+<<<<<<< HEAD
 var OitavasPage = /** @class */ (function () {
     function OitavasPage(navCtrl, navParams, DadosTabela) {
+=======
+
+
+var MenuSelecoesPage = /** @class */ (function () {
+    function MenuSelecoesPage(navCtrl, navParams) {
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.DadosTabela = DadosTabela;
@@ -637,8 +847,77 @@ var OitavasPage = /** @class */ (function () {
             { titulo: 'Oitavas 4', dia: 'Ter', data: '03/07/2018', local: 'Spartak', hora: '15:00', time1: '1º H', time2: '2º G' }
         ];
     }
+<<<<<<< HEAD
     OitavasPage.prototype.proximaPagina = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__quartas_quartas__["a" /* QuartasPage */]);
+=======
+    MenuSelecoesPage.prototype.menuSelecoes1 = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__alemanha_alemanha__["a" /* AlemanhaPage */]);
+    };
+    MenuSelecoesPage.prototype.menuSelecoes2 = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__arabia_saudita_arabia_saudita__["a" /* ArabiaSauditaPage */]);
+    };
+    MenuSelecoesPage.prototype.menuSelecoes3 = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__argentina_argentina__["a" /* ArgentinaPage */]);
+        //VC IRÁ CHAMAR A PAGE DE ACORDO COM O TIME DO CARD... 
+    };
+    MenuSelecoesPage.prototype.menuSelecoes4 = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__australia_australia__["a" /* AustraliaPage */]);
+    };
+    MenuSelecoesPage.prototype.menuSelecoes5 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes6 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes7 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes8 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes9 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes10 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes11 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes12 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes13 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes14 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes15 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes16 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes17 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes18 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes19 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes20 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes21 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes22 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes23 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes24 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes25 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes26 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes27 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes28 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes29 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes30 = function () {
+    };
+    MenuSelecoesPage.prototype.menuSelecoes31 = function () {
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
     };
     OitavasPage.prototype.pegarDados = function () {
         var _this = this;
@@ -650,25 +929,34 @@ var OitavasPage = /** @class */ (function () {
     };
     OitavasPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+<<<<<<< HEAD
             selector: 'page-oitavas',template:/*ion-inline-start:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\oitavas\oitavas.html"*/'<ion-header no-border>\n\n    <ion-navbar>\n\n        <ion-title><p>Oitavas de Final</p></ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n    <div align="center">\n\n        <fieldset style="border-radius: 4px; border: 1px solid; width: 86%; margin-top: 5%; margin-bottom: 5%" align="center" *ngFor="let fieldset of fieldsets">\n\n            <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n\n            <div>\n\n                <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n\n                    <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n\n                </div>\n\n                <div>\n\n                    <span>\n\n                        <span style="font-weight: bold">{{ fieldset.time1 }}</span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                    </span>\n\n                    <span>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                        <span style="font-weight: bold">{{ fieldset.time2 }}</span>\n\n                    </span>\n\n                </div>\n\n            </div>\n\n        </fieldset>\n\n    </div>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\oitavas\oitavas.html"*/,
             providers: [__WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__["a" /* DadosTabelaProvider */]]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__["a" /* DadosTabelaProvider */]])
     ], OitavasPage);
     return OitavasPage;
+=======
+            selector: 'page-menu-selecoes',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\menu-selecoes\menu-selecoes.html"*/'<ion-header no-border>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      <p>Menu Seleções</p>\n\n    </ion-title>\n\n    <ion-buttons end>\n\n      <button ion-button clear>\n\n        <ion-icon name="md-arrow-forward" class="iconNulo"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-grid>\n\n\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes1()">\n\n          <img src="../../assets/bandeiras/ALE.gif"> <!--tem q mudar essa -->\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes2()">\n\n          <img src="../../assets/bandeiras/ARA.gif"> <!--e essa tambem tá? -->\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes3()">\n\n          <img src="../../assets/bandeiras/ARG.gif"><!--mesma coisa...-->\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo"(click)="menuSelecoes4()">\n\n          <img src="../../assets/bandeiras/AUS.gif">          \n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes5()">\n\n          <img src="../../assets/bandeiras/BEL.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes6()">\n\n          <img src="../../assets/bandeiras/BRA.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes7()">\n\n          <img src="../../assets/bandeiras/COL.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes8()">\n\n          <img src="../../assets/bandeiras/COR.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes9()">\n\n          <img src="../../assets/bandeiras/COS.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes10()">\n\n          <img src="../../assets/bandeiras/CRO.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes11()">\n\n          <img src="../../assets/bandeiras/DIN.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes12()">\n\n          <img src="../../assets/bandeiras/EGI.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes13()">\n\n          <img src="../../assets/bandeiras/ESP.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes14()">\n\n          <img src="../../assets/bandeiras/FRA.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes15()">\n\n          <img src="../../assets/bandeiras/ING.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes16()">\n\n          <img src="../../assets/bandeiras/IRA.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes17()">\n\n          <img src="../../assets/bandeiras/ISL.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes18()">\n\n          <img src="../../assets/bandeiras/JAP.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes19()">\n\n          <img src="../../assets/bandeiras/MAR.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes20()">\n\n          <img src="../../assets/bandeiras/MEX.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes21()">\n\n          <img src="../../assets/bandeiras/NIG.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes22()">\n\n          <img src="../../assets/bandeiras/PAN.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes23()">\n\n          <img src="../../assets/bandeiras/PER.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes24()">\n\n          <img src="../../assets/bandeiras/POL.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes25()">\n\n          <img src="../../assets/bandeiras/POR.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes26()">\n\n          <img src="../../assets/bandeiras/RUS.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes27()">\n\n          <img src="../../assets/bandeiras/SEN.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes28()">\n\n          <img src="../../assets/bandeiras/SER.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes29()">\n\n          <img src="../../assets/bandeiras/SUE.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes30()">\n\n          <img src="../../assets/bandeiras/SUI.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes31()">\n\n          <img src="../../assets/bandeiras/TUN.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card class="fundo" (click)="menuSelecoes32()">\n\n          <img src="../../assets/bandeiras/URU.gif">\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n\n\n  </ion-grid>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\menu-selecoes\menu-selecoes.html"*/
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object])
+    ], MenuSelecoesPage);
+    return MenuSelecoesPage;
+    var _a, _b;
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
 }());
 
 //# sourceMappingURL=oitavas.js.map
 
 /***/ }),
 
-/***/ 112:
+/***/ 114:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SplashPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_splash_screen__ = __webpack_require__(79);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -704,7 +992,11 @@ var SplashPage = /** @class */ (function () {
     };
     SplashPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+<<<<<<< HEAD
             selector: 'page-splash',template:/*ion-inline-start:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\splash\splash.html"*/'<ion-content>\n\n  \n\n <div>\n\n    <img style="padding-top: 20%" src="../../assets/kk[.png">\n\n</div>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\splash\splash.html"*/,
+=======
+            selector: 'page-splash',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\splash\splash.html"*/'<ion-content>\n\n  \n\n <div>\n\n    <img style="padding-top: 20%" src="../../assets/kk[.png">\n\n</div>\n\n</ion-content>'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\splash\splash.html"*/,
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], SplashPage);
@@ -715,7 +1007,7 @@ var SplashPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 124:
+/***/ 126:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -728,23 +1020,32 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 124;
+webpackEmptyAsyncContext.id = 126;
 
 /***/ }),
 
-/***/ 165:
+/***/ 167:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/alemanha/alemanha.module": [
-		288,
-		10
+		290,
+		12
 	],
 	"../pages/arabia-saudita/arabia-saudita.module": [
-		289,
+		291,
+		11
+	],
+	"../pages/argentina/argentina.module": [
+		292,
+		10
+	],
+	"../pages/australia/australia.module": [
+		293,
 		9
 	],
 	"../pages/fases/fases.module": [
+<<<<<<< HEAD
 		293,
 		8
 	],
@@ -766,18 +1067,41 @@ var map = {
 	],
 	"../pages/quartas/quartas.module": [
 		292,
+=======
+		294,
+		8
+	],
+	"../pages/final/final.module": [
+		295,
+		7
+	],
+	"../pages/historia/historia.module": [
+		296,
+		6
+	],
+	"../pages/menu-selecoes/menu-selecoes.module": [
+		297,
+		5
+	],
+	"../pages/oitavas/oitavas.module": [
+		298,
+		4
+	],
+	"../pages/quartas/quartas.module": [
+		299,
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
 		3
 	],
 	"../pages/semi-final/semi-final.module": [
-		296,
+		300,
 		2
 	],
 	"../pages/splash/splash.module": [
-		297,
+		301,
 		1
 	],
 	"../pages/third-lugar/third-lugar.module": [
-		298,
+		302,
 		0
 	]
 };
@@ -792,21 +1116,28 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 165;
+webpackAsyncContext.id = 167;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 209:
+/***/ 211:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__fases_fases__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__historia_historia__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__menu_selecoes_menu_selecoes__ = __webpack_require__(105);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__fases_fases__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__historia_historia__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__menu_selecoes_menu_selecoes__ = __webpack_require__(113);
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -837,7 +1168,11 @@ var HomePage = /** @class */ (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+<<<<<<< HEAD
             selector: 'page-home',template:/*ion-inline-start:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\home\home.html"*/'\n\n<ion-header no-border>\n\n  <ion-navbar>\n\n    \n\n    <ion-title>\n\n      <p>COPA DO MUNDO 2018</p>\n\n    </ion-title>\n\n\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n  <ion-content class="card-background-page">\n\n\n\n      <ion-card (click)="PaginaFases()">\n\n          <img src="../../assets/tabela.jpg"/>\n\n          <div class="card-title">Tabela de Classificação</div>\n\n          <div class="card-subtitle">Fase de Grupos, Oitavas, Quartas, Semifinal, 3º Lugar e Final</div>\n\n        </ion-card>\n\n\n\n      <ion-card (click)="PaginaSelecoes()">\n\n        <img src="../../assets/selecoes.jpg"/>\n\n        <div class="card-title">Seleções</div>\n\n        <div class="card-subtitle">Lista de seleções na Copa da Rússia 2018</div>\n\n      </ion-card>\n\n    \n\n      <ion-card (click)="PaginaHistoria()">\n\n        <img src="../../assets/historia.jpg"/>\n\n        <div class="card-title">História das Copas </div>\n\n      </ion-card>\n\n    \n\n      \n\n    \n\n    </ion-content>'/*ion-inline-end:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\pages\home\home.html"*/
+=======
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\pages\home\home.html"*/'\n\n<ion-header no-border>\n\n  <ion-navbar>\n\n    \n\n    <ion-title>\n\n      <p>COPA DO MUNDO 2018</p>\n\n    </ion-title>\n\n\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n  <ion-content class="card-background-page">\n\n\n\n      <ion-card (click)="PaginaFases()">\n\n          <img src="../../assets/tabela.jpg"/>\n\n          <div class="card-title">Tabela de Classificação</div>\n\n          <div class="card-subtitle">Fase de Grupos, Oitavas, Quartas, Semifinal, 3º Lugar e Final</div>\n\n        </ion-card>\n\n\n\n      <ion-card (click)="PaginaSelecoes()">\n\n        <img src="../../assets/selecoes.jpg"/>\n\n        <div class="card-title">Seleções</div>\n\n        <div class="card-subtitle">Lista de seleções na Copa da Rússia 2018</div>\n\n      </ion-card>\n\n    \n\n      <ion-card (click)="PaginaHistoria()">\n\n        <img src="../../assets/historia.jpg"/>\n\n        <div class="card-title">História das Copas </div>\n\n      </ion-card>\n\n    \n\n      \n\n    \n\n    </ion-content>'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\pages\home\home.html"*/
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], HomePage);
@@ -848,13 +1183,13 @@ var HomePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 210:
+/***/ 212:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(231);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(233);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -862,15 +1197,16 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 231:
+/***/ 233:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(79);
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(208);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_common_http__ = __webpack_require__(166);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(287);
@@ -885,8 +1221,26 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_historia_historia__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__providers_dados_tabela_dados_tabela__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_menu_selecoes_menu_selecoes__ = __webpack_require__(105);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_common_http__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_fases_fases__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_oitavas_oitavas__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_quartas_quartas__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_semi_final_semi_final__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_third_lugar_third_lugar__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_final_final__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_splash_splash__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_historia_historia__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__providers_dados_tabela_dados_tabela__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_menu_selecoes_menu_selecoes__ = __webpack_require__(113);
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_alemanha_alemanha__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_arabia_saudita_arabia_saudita__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_argentina_argentina__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_australia_australia__ = __webpack_require__(105);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -914,6 +1268,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 //3 - NÃO PRECISA ESPECIFICAR AKI, O IONIC FAZ AUTOMÁTICO
 
 
+
+
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -933,7 +1289,9 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_17__pages_menu_selecoes_menu_selecoes__["a" /* MenuSelecoesPage */],
                 // 1 - DEPOIS Q TU GERAR A PAGE VC IRÁ IMPORTÁ AKI 
                 __WEBPACK_IMPORTED_MODULE_18__pages_alemanha_alemanha__["a" /* AlemanhaPage */],
-                __WEBPACK_IMPORTED_MODULE_19__pages_arabia_saudita_arabia_saudita__["a" /* ArabiaSauditaPage */]
+                __WEBPACK_IMPORTED_MODULE_19__pages_arabia_saudita_arabia_saudita__["a" /* ArabiaSauditaPage */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_argentina_argentina__["a" /* ArgentinaPage */],
+                __WEBPACK_IMPORTED_MODULE_21__pages_australia_australia__["a" /* AustraliaPage */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_5__angular_common_http__["b" /* HttpClientModule */],
@@ -942,6 +1300,13 @@ var AppModule = /** @class */ (function () {
                     links: [
                         { loadChildren: '../pages/alemanha/alemanha.module#AlemanhaPageModule', name: 'AlemanhaPage', segment: 'alemanha', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/arabia-saudita/arabia-saudita.module#ArabiaSauditaPageModule', name: 'ArabiaSauditaPage', segment: 'arabia-saudita', priority: 'low', defaultHistory: [] },
+<<<<<<< HEAD
+=======
+                        { loadChildren: '../pages/argentina/argentina.module#ArgentinaPageModule', name: 'ArgentinaPage', segment: 'argentina', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/australia/australia.module#AustraliaPageModule', name: 'AustraliaPage', segment: 'australia', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/fases/fases.module#FasesPageModule', name: 'FasesPage', segment: 'fases', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/final/final.module#FinalPageModule', name: 'FinalPage', segment: 'final', priority: 'low', defaultHistory: [] },
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
                         { loadChildren: '../pages/historia/historia.module#HistoriaPageModule', name: 'HistoriaPage', segment: 'historia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/menu-selecoes/menu-selecoes.module#MenuSelecoesPageModule', name: 'MenuSelecoesPage', segment: 'menu-selecoes', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/quartas/quartas.module#QuartasPageModule', name: 'QuartasPage', segment: 'quartas', priority: 'low', defaultHistory: [] },
@@ -969,7 +1334,9 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_17__pages_menu_selecoes_menu_selecoes__["a" /* MenuSelecoesPage */],
                 //2 - E AKI
                 __WEBPACK_IMPORTED_MODULE_18__pages_alemanha_alemanha__["a" /* AlemanhaPage */],
-                __WEBPACK_IMPORTED_MODULE_19__pages_arabia_saudita_arabia_saudita__["a" /* ArabiaSauditaPage */]
+                __WEBPACK_IMPORTED_MODULE_19__pages_arabia_saudita_arabia_saudita__["a" /* ArabiaSauditaPage */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_argentina_argentina__["a" /* ArgentinaPage */],
+                __WEBPACK_IMPORTED_MODULE_21__pages_australia_australia__["a" /* AustraliaPage */],
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
@@ -986,17 +1353,17 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 287:
+/***/ 289:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(210);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_splash_splash__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_splash_splash__ = __webpack_require__(114);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1025,7 +1392,11 @@ var MyApp = /** @class */ (function () {
         });
     }
     MyApp = __decorate([
+<<<<<<< HEAD
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\Tode\Desktop\apptabelacopa2k18\apptabelacopa2k18\src\app\app.html"*/
+=======
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\whoami\apptabelacopa2k18\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\whoami\apptabelacopa2k18\src\app\app.html"*/
+>>>>>>> e9f4718f87293605659a9b0d14255b7d801611a2
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */]])
     ], MyApp);
@@ -1041,9 +1412,9 @@ var MyApp = /** @class */ (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DadosTabelaProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(168);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(261);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(263);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1089,5 +1460,5 @@ var DadosTabelaProvider = /** @class */ (function () {
 
 /***/ })
 
-},[210]);
+},[212]);
 //# sourceMappingURL=main.js.map

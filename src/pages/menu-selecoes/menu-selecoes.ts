@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { AlemanhaPage } from '../alemanha/alemanha';
 import { ArabiaSauditaPage } from '../arabia-saudita/arabia-saudita';
+import { ArgentinaPage } from '../argentina/argentina';
+import { AustraliaPage } from '../australia/australia';
 
 @IonicPage()
 @Component({
@@ -19,10 +21,11 @@ export class MenuSelecoesPage {
     this.navCtrl.push(ArabiaSauditaPage)
   }
   menuSelecoes3(){
+    this.navCtrl.push(ArgentinaPage)
     //VC IRÁ CHAMAR A PAGE DE ACORDO COM O TIME DO CARD... 
   }
   menuSelecoes4(){
-    
+    this.navCtrl.push(AustraliaPage)
   }
   menuSelecoes5(){
     

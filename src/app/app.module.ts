@@ -20,6 +20,8 @@ import { MenuSelecoesPage } from '../pages/menu-selecoes/menu-selecoes';
 //3 - NÃO PRECISA ESPECIFICAR AKI, O IONIC FAZ AUTOMÁTICO
 import { AlemanhaPage } from '../pages/alemanha/alemanha';
 import { ArabiaSauditaPage } from '../pages/arabia-saudita/arabia-saudita';
+import { ArgentinaPage } from '../pages/argentina/argentina';
+import { AustraliaPage } from '../pages/australia/australia';
 
 @NgModule({
   declarations: [
@@ -34,9 +36,12 @@ import { ArabiaSauditaPage } from '../pages/arabia-saudita/arabia-saudita';
     SplashPage,
     HistoriaPage,
     MenuSelecoesPage,
+    
     // 1 - DEPOIS Q TU GERAR A PAGE VC IRÁ IMPORTÁ AKI 
     AlemanhaPage,
-    ArabiaSauditaPage
+    ArabiaSauditaPage,
+    ArgentinaPage,
+    AustraliaPage,
   ],
   imports: [
     HttpClientModule,
@@ -58,7 +63,10 @@ import { ArabiaSauditaPage } from '../pages/arabia-saudita/arabia-saudita';
     MenuSelecoesPage,
     //2 - E AKI
     AlemanhaPage,
-    ArabiaSauditaPage
+    ArabiaSauditaPage,
+    ArgentinaPage,
+    AustraliaPage,
+
   ],
   providers: [
     StatusBar,
