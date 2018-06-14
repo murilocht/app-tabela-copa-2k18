@@ -1,14 +1,14 @@
 webpackJsonp([6],{
 
-/***/ 290:
+/***/ 296:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MenuSelecoesPageModule", function() { return MenuSelecoesPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HistoriaPageModule", function() { return HistoriaPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__menu_selecoes__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__historia__ = __webpack_require__(112);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var MenuSelecoesPageModule = /** @class */ (function () {
-    function MenuSelecoesPageModule() {
+var HistoriaPageModule = /** @class */ (function () {
+    function HistoriaPageModule() {
     }
-    MenuSelecoesPageModule = __decorate([
+    HistoriaPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__menu_selecoes__["a" /* MenuSelecoesPage */],
+                __WEBPACK_IMPORTED_MODULE_2__historia__["a" /* HistoriaPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__menu_selecoes__["a" /* MenuSelecoesPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__historia__["a" /* HistoriaPage */]),
             ],
         })
-    ], MenuSelecoesPageModule);
-    return MenuSelecoesPageModule;
+    ], HistoriaPageModule);
+    return HistoriaPageModule;
 }());
 
-//# sourceMappingURL=menu-selecoes.module.js.map
+//# sourceMappingURL=historia.module.js.map
 
 /***/ })
 

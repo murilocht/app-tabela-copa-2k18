@@ -1,14 +1,14 @@
 webpackJsonp([3],{
 
-/***/ 293:
+/***/ 299:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SelecoesPageModule", function() { return SelecoesPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "QuartasPageModule", function() { return QuartasPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__selecoes__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__quartas__ = __webpack_require__(108);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var SelecoesPageModule = /** @class */ (function () {
-    function SelecoesPageModule() {
+var QuartasPageModule = /** @class */ (function () {
+    function QuartasPageModule() {
     }
-    SelecoesPageModule = __decorate([
+    QuartasPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__selecoes__["a" /* SelecoesPage */],
+                __WEBPACK_IMPORTED_MODULE_2__quartas__["a" /* QuartasPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__selecoes__["a" /* SelecoesPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__quartas__["a" /* QuartasPage */]),
             ],
         })
-    ], SelecoesPageModule);
-    return SelecoesPageModule;
+    ], QuartasPageModule);
+    return QuartasPageModule;
 }());
 
-//# sourceMappingURL=selecoes.module.js.map
+//# sourceMappingURL=quartas.module.js.map
 
 /***/ })
 

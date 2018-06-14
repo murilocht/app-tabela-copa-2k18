@@ -15,9 +15,13 @@ import { ThirdLugarPage } from '../pages/third-lugar/third-lugar';
 import { FinalPage } from '../pages/final/final';
 import { SplashPage } from '../pages/splash/splash';
 import { HistoriaPage } from '../pages/historia/historia';
-import { SelecoesPage } from '../pages/selecoes/selecoes';
 import { DadosTabelaProvider } from '../providers/dados-tabela/dados-tabela' 
 import { MenuSelecoesPage } from '../pages/menu-selecoes/menu-selecoes';
+//3 - NÃO PRECISA ESPECIFICAR AKI, O IONIC FAZ AUTOMÁTICO
+import { AlemanhaPage } from '../pages/alemanha/alemanha';
+import { ArabiaSauditaPage } from '../pages/arabia-saudita/arabia-saudita';
+import { ArgentinaPage } from '../pages/argentina/argentina';
+import { AustraliaPage } from '../pages/australia/australia';
 
 @NgModule({
   declarations: [
@@ -31,8 +35,13 @@ import { MenuSelecoesPage } from '../pages/menu-selecoes/menu-selecoes';
     FinalPage,
     SplashPage,
     HistoriaPage,
-    SelecoesPage,
-    MenuSelecoesPage
+    MenuSelecoesPage,
+    
+    // 1 - DEPOIS Q TU GERAR A PAGE VC IRÁ IMPORTÁ AKI 
+    AlemanhaPage,
+    ArabiaSauditaPage,
+    ArgentinaPage,
+    AustraliaPage,
   ],
   imports: [
     HttpClientModule,
@@ -51,15 +60,19 @@ import { MenuSelecoesPage } from '../pages/menu-selecoes/menu-selecoes';
     FinalPage,
     SplashPage,
     HistoriaPage,
-    SelecoesPage,
-    MenuSelecoesPage
+    MenuSelecoesPage,
+    //2 - E AKI
+    AlemanhaPage,
+    ArabiaSauditaPage,
+    ArgentinaPage,
+    AustraliaPage,
+
   ],
   providers: [
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    DadosTabelaProvider,
-    SelecoesPage
+    DadosTabelaProvider
   ]
 })
 export class AppModule {}
