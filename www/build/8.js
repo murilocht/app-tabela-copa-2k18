@@ -1,14 +1,14 @@
 webpackJsonp([8],{
 
-/***/ 295:
+/***/ 342:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FasesPageModule", function() { return FasesPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PoloniaPageModule", function() { return PoloniaPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__fases__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__polonia__ = __webpack_require__(133);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var FasesPageModule = /** @class */ (function () {
-    function FasesPageModule() {
+var PoloniaPageModule = /** @class */ (function () {
+    function PoloniaPageModule() {
     }
-    FasesPageModule = __decorate([
+    PoloniaPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__fases__["a" /* FasesPage */],
+                __WEBPACK_IMPORTED_MODULE_2__polonia__["a" /* PoloniaPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__fases__["a" /* FasesPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__polonia__["a" /* PoloniaPage */]),
             ],
         })
-    ], FasesPageModule);
-    return FasesPageModule;
+    ], PoloniaPageModule);
+    return PoloniaPageModule;
 }());
 
-//# sourceMappingURL=fases.module.js.map
+//# sourceMappingURL=polonia.module.js.map
 
 /***/ })
 

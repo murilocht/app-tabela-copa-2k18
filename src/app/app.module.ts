@@ -23,6 +23,29 @@ import { ArabiaSauditaPage } from '../pages/arabia-saudita/arabia-saudita';
 import { ArgentinaPage } from '../pages/argentina/argentina';
 import { AustraliaPage } from '../pages/australia/australia';
 import { BelgicaPage } from '../pages/belgica/belgica';
+import { BrasilPage } from '../pages/brasil/brasil';
+import { ColombiaPage } from '../pages/colombia/colombia';
+import { CoreiaPage } from '../pages/coreia/coreia';
+import { CostaPage } from '../pages/costa/costa';
+import { CroaciaPage } from '../pages/croacia/croacia';
+import { DinamarcaPage } from '../pages/dinamarca/dinamarca';
+import { EgitoPage } from '../pages/egito/egito';
+import { EspanhaPage } from '../pages/espanha/espanha';
+import { FrancaPage } from '../pages/franca/franca';
+import { InglaterraPage } from '../pages/inglaterra/inglaterra';
+import { IraPage } from '../pages/ira/ira';
+import { IslandiaPage } from '../pages/islandia/islandia';
+import { JapaoPage } from '../pages/japao/japao';
+import { MarrocosPage } from '../pages/marrocos/marrocos';
+import { MexicoPage } from '../pages/mexico/mexico';
+import { NigeriaPage } from '../pages/nigeria/nigeria';
+import { PanamaPage } from '../pages/panama/panama';
+import { PeruPage } from '../pages/peru/peru';
+import { PoloniaPage } from '../pages/polonia/polonia';
+import { PortugalPage } from '../pages/portugal/portugal';
+import { RussiaPage } from '../pages/russia/russia';
+import { SenegalPage } from '../pages/senegal/senegal';
+import { ServiaPage } from '../pages/servia/servia';
 
 @NgModule({
   declarations: [
@@ -44,6 +67,32 @@ import { BelgicaPage } from '../pages/belgica/belgica';
     ArgentinaPage,
     AustraliaPage,
     BelgicaPage,
+    BrasilPage,
+    ColombiaPage,
+    CoreiaPage,
+    CostaPage,
+    CroaciaPage,
+    DinamarcaPage,
+    EgitoPage,
+    EspanhaPage,
+    FrancaPage,
+    InglaterraPage,
+    IraPage,
+    IslandiaPage,
+    JapaoPage,
+    MarrocosPage,
+    MexicoPage,
+    NigeriaPage,
+    PanamaPage,
+    PeruPage,
+    PoloniaPage,
+    PortugalPage,
+    RussiaPage,
+    SenegalPage,
+    ServiaPage
+
+
+          
   ],
   imports: [
     HttpClientModule,
@@ -69,6 +118,31 @@ import { BelgicaPage } from '../pages/belgica/belgica';
     ArgentinaPage,
     AustraliaPage,
     BelgicaPage,
+    BrasilPage,
+    ColombiaPage,
+    CoreiaPage,
+    CostaPage,
+    CroaciaPage,
+    DinamarcaPage,
+    EgitoPage,
+    EspanhaPage,
+    FrancaPage,
+    InglaterraPage,
+    IraPage,
+    IslandiaPage,
+    JapaoPage,
+    MarrocosPage,
+    MexicoPage,
+    NigeriaPage,
+    PanamaPage,
+    PeruPage,
+    PoloniaPage,
+    PortugalPage,
+    RussiaPage,
+    SenegalPage,
+    ServiaPage,
+
+
   ],
   providers: [
     StatusBar,

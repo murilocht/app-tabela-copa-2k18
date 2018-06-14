@@ -1,14 +1,14 @@
 webpackJsonp([10],{
 
-/***/ 294:
+/***/ 340:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AustraliaPageModule", function() { return AustraliaPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PanamaPageModule", function() { return PanamaPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__australia__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__panama__ = __webpack_require__(131);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var AustraliaPageModule = /** @class */ (function () {
-    function AustraliaPageModule() {
+var PanamaPageModule = /** @class */ (function () {
+    function PanamaPageModule() {
     }
-    AustraliaPageModule = __decorate([
+    PanamaPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__australia__["a" /* AustraliaPage */],
+                __WEBPACK_IMPORTED_MODULE_2__panama__["a" /* PanamaPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__australia__["a" /* AustraliaPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__panama__["a" /* PanamaPage */]),
             ],
         })
-    ], AustraliaPageModule);
-    return AustraliaPageModule;
+    ], PanamaPageModule);
+    return PanamaPageModule;
 }());
 
-//# sourceMappingURL=australia.module.js.map
+//# sourceMappingURL=panama.module.js.map
 
 /***/ })
 
