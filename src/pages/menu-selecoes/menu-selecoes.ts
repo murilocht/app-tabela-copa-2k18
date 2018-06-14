@@ -4,6 +4,7 @@ import { AlemanhaPage } from '../alemanha/alemanha';
 import { ArabiaSauditaPage } from '../arabia-saudita/arabia-saudita';
 import { ArgentinaPage } from '../argentina/argentina';
 import { AustraliaPage } from '../australia/australia';
+import { BelgicaPage } from '../belgica/belgica';
 
 @IonicPage()
 @Component({
@@ -28,7 +29,7 @@ export class MenuSelecoesPage {
     this.navCtrl.push(AustraliaPage)
   }
   menuSelecoes5(){
-    
+    this.navCtrl.push(BelgicaPage)
   }
   menuSelecoes6(){
     

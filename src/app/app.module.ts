@@ -22,6 +22,7 @@ import { AlemanhaPage } from '../pages/alemanha/alemanha';
 import { ArabiaSauditaPage } from '../pages/arabia-saudita/arabia-saudita';
 import { ArgentinaPage } from '../pages/argentina/argentina';
 import { AustraliaPage } from '../pages/australia/australia';
+import { BelgicaPage } from '../pages/belgica/belgica';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { AustraliaPage } from '../pages/australia/australia';
     ArabiaSauditaPage,
     ArgentinaPage,
     AustraliaPage,
+    BelgicaPage,
   ],
   imports: [
     HttpClientModule,
@@ -66,7 +68,7 @@ import { AustraliaPage } from '../pages/australia/australia';
     ArabiaSauditaPage,
     ArgentinaPage,
     AustraliaPage,
-
+    BelgicaPage,
   ],
   providers: [
     StatusBar,
