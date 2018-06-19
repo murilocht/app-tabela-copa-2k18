@@ -42,7 +42,7 @@
                     </ion-row>
                     <ion-row style="background-color: #0074B1">
                         <ion-col>{{ slideGrupo.selecao1 }}</ion-col>
-                        <ion-col col-1 >0</ion-col>
+                        <ion-col col-1>0</ion-col>
                         <ion-col col-1>0</ion-col>
                         <ion-col col-1>0</ion-col>
                         <ion-col col-1>0</ion-col>
@@ -94,13 +94,13 @@
                     </ion-row>
                 </ion-grid>
                 <ion-grid id="bloco-2">
-                    <p  style="padding-top: 2%; font-size: 17pt">Jogos</p>
+                    <p style="padding-top: 2%; font-size: 17pt">Jogos</p>
                     <ion-row id="row-times">
                         <ion-col>
                             <ion-card id="bloco-2-card">
                                 <ion-card-header>
                                     <ion-segment [(ngModel)]="guia" color="light">
-                                        <ion-segment-button value="1" >
+                                        <ion-segment-button value="1">
                                             1ª Rodada
                                         </ion-segment-button>
                                         <ion-segment-button value="2">
@@ -112,7 +112,7 @@
                                     </ion-segment>
                                 </ion-card-header>
                                 <ion-card-content class="card-content-bg">
-                               
+
                                     <div [ngSwitch]="guia" id="card-corpo">
                                         <ion-list *ngSwitchCase="'1'">
                                             <ion-grid>
@@ -131,8 +131,9 @@
                                                             </td>
                                                         </tr>
                                                     </ion-col>
-
-                                                    <ion-col class="col-vs">x</ion-col>
+                                                   
+                                                    <ion-col class="col-vs">{{ ponto1 }} x {{ ponto2 }}</ion-col>
+                                                    
                                                     <ion-col style="font-size:15pt">
                                                         <tr>
                                                             <td>
@@ -159,7 +160,7 @@
                                                             </td>
                                                         </tr>
                                                     </ion-col>
-                                                    <ion-col class="col-vs">x</ion-col>
+                                                    <ion-col class="col-vs">{{ ponto3 }} x {{ ponto4 }}</ion-col>
                                                     <ion-col style="font-size:15pt">
                                                         <tr>
                                                             <td>
@@ -176,17 +177,17 @@
                                         <ion-list *ngSwitchCase="'2'">
                                             <ion-grid>
                                                 <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">
-                                                        <ion-col>{{ slideGrupo.dia2 }}</ion-col>
-                                                        <ion-col>{{ slideGrupo.data2 }}</ion-col>
-                                                        <ion-col>{{ slideGrupo.local2 }}</ion-col>
-                                                        <ion-col>{{ slideGrupo.horas2 }}</ion-col>
+                                                    <ion-col>{{ slideGrupo.dia2 }}</ion-col>
+                                                    <ion-col>{{ slideGrupo.data2 }}</ion-col>
+                                                    <ion-col>{{ slideGrupo.local2 }}</ion-col>
+                                                    <ion-col>{{ slideGrupo.horas2 }}</ion-col>
                                                 </ion-row>
                                                 <ion-row id="row-maior">
                                                     <ion-col style="font-size:15pt">
                                                         <tr>
                                                             <td>{{ slideGrupo.time21 }}</td>
                                                             <td>
-                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.gif">
+                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.gif">
                                                             </td>
                                                         </tr>
                                                     </ion-col>
@@ -194,7 +195,7 @@
                                                     <ion-col style="font-size:15pt">
                                                         <tr>
                                                             <td>
-                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao2}}.gif">
+                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao2}}.gif">
                                                             </td>
                                                             <td>{{ slideGrupo.time22 }}</td>
 
@@ -202,17 +203,17 @@
                                                     </ion-col>
                                                 </ion-row>
                                                 <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">
-                                                        <ion-col>{{ slideGrupo.dia22 }}</ion-col>
-                                                        <ion-col>{{ slideGrupo.data22 }}</ion-col>
-                                                        <ion-col>{{ slideGrupo.local22 }}</ion-col>
-                                                        <ion-col>{{ slideGrupo.horas22 }}</ion-col>
+                                                    <ion-col>{{ slideGrupo.dia22 }}</ion-col>
+                                                    <ion-col>{{ slideGrupo.data22 }}</ion-col>
+                                                    <ion-col>{{ slideGrupo.local22 }}</ion-col>
+                                                    <ion-col>{{ slideGrupo.horas22 }}</ion-col>
                                                 </ion-row>
                                                 <ion-row id="row-maior">
                                                     <ion-col style="font-size:15pt">
                                                         <tr>
                                                             <td>{{ slideGrupo.time221 }}</td>
                                                             <td>
-                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.gif">
+                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.gif">
                                                             </td>
                                                         </tr>
                                                     </ion-col>
@@ -220,7 +221,7 @@
                                                     <ion-col style="font-size:15pt">
                                                         <tr>
                                                             <td>
-                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao1}}.gif">
+                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao1}}.gif">
                                                             </td>
                                                             <td>{{ slideGrupo.time222 }}</td>
 
@@ -233,17 +234,17 @@
                                         <ion-list *ngSwitchCase="'3'">
                                             <ion-grid>
                                                 <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">
-                                                        <ion-col>{{ slideGrupo.dia3 }}</ion-col>
-                                                        <ion-col>{{ slideGrupo.data3 }}</ion-col>
-                                                        <ion-col>{{ slideGrupo.local3 }}</ion-col>
-                                                        <ion-col>{{ slideGrupo.horas3 }}</ion-col>
+                                                    <ion-col>{{ slideGrupo.dia3 }}</ion-col>
+                                                    <ion-col>{{ slideGrupo.data3 }}</ion-col>
+                                                    <ion-col>{{ slideGrupo.local3 }}</ion-col>
+                                                    <ion-col>{{ slideGrupo.horas3 }}</ion-col>
                                                 </ion-row>
                                                 <ion-row id="row-maior">
                                                     <ion-col style="font-size:15pt">
                                                         <tr>
                                                             <td>{{ slideGrupo.time31 }}</td>
                                                             <td>
-                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.gif">
+                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao4}}.gif">
                                                             </td>
                                                         </tr>
                                                     </ion-col>
@@ -251,7 +252,7 @@
                                                     <ion-col style="font-size:15pt">
                                                         <tr>
                                                             <td>
-                                                                    <img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.gif">
+                                                                <img src="../../assets/bandeiras/{{slideGrupo.selecao3}}.gif">
                                                             </td>
                                                             <td>{{ slideGrupo.time32 }}</td>
 
@@ -259,10 +260,10 @@
                                                     </ion-col>
                                                 </ion-row>
                                                 <ion-row class="row-menor" style="background-color: #0074B1; opacity: 0.8">
-                                                        <ion-col>{{ slideGrupo.dia32 }}</ion-col>
-                                                        <ion-col>{{ slideGrupo.data32 }}</ion-col>
-                                                        <ion-col>{{ slideGrupo.local32 }}</ion-col>
-                                                        <ion-col>{{ slideGrupo.horas32 }}</ion-col>
+                                                    <ion-col>{{ slideGrupo.dia32 }}</ion-col>
+                                                    <ion-col>{{ slideGrupo.data32 }}</ion-col>
+                                                    <ion-col>{{ slideGrupo.local32 }}</ion-col>
+                                                    <ion-col>{{ slideGrupo.horas32 }}</ion-col>
                                                 </ion-row>
                                                 <ion-row id="row-maior">
                                                     <ion-col style="font-size:15pt">

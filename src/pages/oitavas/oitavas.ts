@@ -35,10 +35,9 @@ export class OitavasPage {
     this.navCtrl.push(QuartasPage)
   }
   pegarDados(){
-    this.DadosTabela.load()
-    .then(data => {
-      this.dado = data;
-      console.log("Ok")
+    this.DadosTabela.load().subscribe(data =>{
+      this.dado = data["knockout"]
+      console.log(this.dado["round_16"])
     })
   }
 

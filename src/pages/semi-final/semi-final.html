@@ -1,6 +1,8 @@
 <ion-header no-border>
     <ion-navbar>
-        <ion-title><p>Semifinal</p></ion-title>
+        <ion-title>
+            <p>Semifinal</p>
+        </ion-title>
 
         <ion-buttons end>
             <button ion-button clear (click)="proximaPagina()">
@@ -20,16 +22,25 @@
                 <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}
                     <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}
                 </div>
-                <div>
-                    <span>
-                        <span style="font-weight: bold">{{ fieldset.time1 }}</span>
+                <ion-row justify-content-center>
+                    <ion-col style="font-weight: bold">{{ fieldset.time1 }}</ion-col>
+                    <ion-col>
                         <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-                    </span>
-                    <span>
-                        <span style="font-weight: bold">{{ fieldset.time2 }}</span>
+                    </ion-col>
+                    <ion-col style="border-bottom: 1px solid black">
+                        <h6>{{ fieldset.resul1 }}</h6>
+                    </ion-col>
+                    <ion-col col-1>
+                        <h6>X</h6>
+                    </ion-col>
+                    <ion-col style="border-bottom: 1px solid black">
+                        <h6>{{ fieldset.resul2 }}</h6>
+                    </ion-col>
+                    <ion-col>
                         <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-                        </span>
-                </div>
+                    </ion-col>
+                    <ion-col style="font-weight: bold">{{ fieldset.time2 }}</ion-col>
+                </ion-row>
             </div>
         </fieldset>
     </div>

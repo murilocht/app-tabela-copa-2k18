@@ -1,11 +1,13 @@
 <ion-header no-border>
   <ion-navbar>
-    <ion-title><p>Final</p></ion-title>
+    <ion-title>
+      <p>Final</p>
+    </ion-title>
     <ion-buttons end>
       <button ion-button clear>
-          <ion-icon name="md-arrow-forward" class="iconNulo"></ion-icon>
+        <ion-icon name="md-arrow-forward" class="iconNulo"></ion-icon>
       </button>
-  </ion-buttons>
+    </ion-buttons>
   </ion-navbar>
 </ion-header>
 
@@ -14,23 +16,32 @@
   <div align="center">
     <fieldset style="border-radius: 4px; border: 1px solid; width: 88%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">
       <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>
-      
+
       <div>
         <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}
           <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}
         </div>
-        <div>
-          <span>
-            <span style="font-weight: bold">{{ fieldset.time1 }}</span>
+        <ion-row justify-content-center>
+          <ion-col style="font-weight: bold">{{ fieldset.time1 }}</ion-col>
+          <ion-col>
             <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-          </span>
-          <span>
+          </ion-col>
+          <ion-col style="border-bottom: 1px solid black">
+            <h6>{{ fieldset.resul1 }}</h6>
+          </ion-col>
+          <ion-col col-1>
+            <h6>X</h6>
+          </ion-col>
+          <ion-col style="border-bottom: 1px solid black">
+            <h6>{{ fieldset.resul2 }}</h6>
+          </ion-col>
+          <ion-col>
             <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">
-            <span style="font-weight: bold">{{ fieldset.time2 }}</span>
-          </span>
-        </div>
-     
+          </ion-col>
+          <ion-col style="font-weight: bold">{{ fieldset.time2 }}</ion-col>
+        </ion-row>
       </div>
+
     </fieldset>
   </div>
 </ion-content>

@@ -15,6 +15,11 @@ export class FasesPage {
   guia:string
   dado:any
 
+  ponto1:any
+  ponto2:any
+  ponto3:any
+  ponto4:any
+
   //esse são os dados de cada grupo, é um array beeem grande...
   slideGrupos: Array<{
     //as seleções
@@ -22,7 +27,9 @@ export class FasesPage {
 
     //rodada 1
     dia1: string, data1:string, local1:string, horas1:string, time11:string, time12:string,
+    resul11:any, resul12:any,
     dia12: string, data12:string, local12:string, horas12:string, time121:string, time122:string,
+    resul121:any, resul122:any,
     //rodada 2
     dia2: string, data2:string, local2:string, horas2:string, time21:string, time22:string,
     dia22: string, data22:string, local22:string, horas22:string, time221:string, time222:string,
@@ -39,7 +46,9 @@ export class FasesPage {
 
        //dados da 1ª rodada, incluindo dia, quem vs quem, hora e tal...
        dia1: 'Qui', data1:'14/06/2018', local1:'Olím. Lujniki', horas1:'12:00', time11:'RUS', time12:'ARA',
+       resul11: this.ponto1, resul12: this.ponto2,
        dia12: 'Sex', data12:'15/06/2018', local12:'Ecaterimburgo', horas12:'09:00', time121:'EGI', time122:'URU',
+       resul121: this.ponto3, resul122:this.ponto4,
        
        //dados da 2ª rodada
 
@@ -53,7 +62,9 @@ export class FasesPage {
       { titulo: 'Grupo B', selecao1: 'IRA', selecao2: 'POR', selecao3: 'MAR', selecao4: 'ESP',
 
         dia1: 'Sex', data1:'15/06/2018', local1:'S.Petersburgo', horas1:'12:00', time11:'MAR', time12:'IRA',
+        resul11: ' ', resul12:' ',
         dia12: 'Sex', data12:'15/06/2018', local12:'Olím.Sochi ', horas12:'15:00', time121:'POR', time122:'ESP',
+        resul121: ' ', resul122:' ',
 
         dia2:  'Qua', data2: '20/06/2018', local2: 'Olím.Lujniki', horas2: '09:00', time22: 'POR', time21: 'MAR',
         dia22:  'Qua', data22: '20/06/2018', local22: 'Ar.Kazan', horas22: '15:00',time222: 'IRA' , time221: 'ESP',
@@ -64,7 +75,9 @@ export class FasesPage {
         //grupo C 
         { titulo: 'Grupo C', selecao1: 'AUS', selecao2: 'PER', selecao3: 'FRA', selecao4: 'DIN',
         dia1: 'Sab', data1:'16/06/2018', local1:'Ar.Kazan', horas1:'07:00', time11:'FRA', time12:'AUS',
+        resul11: ' ', resul12:' ',
         dia12: 'Sab', data12:'16/06/2018', local12:'Saransk', horas12:'13:00', time121:'PER', time122:'DIN',
+        resul121: ' ', resul122:' ',
         
         dia2:  'Qui', data2: '21/06/2018', local2: 'Samara', horas2: '09:00', time21: 'FRA', time22: 'PER',
         dia22:  'Qui', data22: '21/06/2018', local22: 'Ecaterimburgo', horas22: '12:00', time221: 'DIN', time222: 'AUS',
@@ -74,7 +87,9 @@ export class FasesPage {
         //grupo D 
       { titulo: 'Grupo D', selecao1: 'ISL', selecao2: 'CRO', selecao3: 'ARG', selecao4: 'NIG',
         dia1: 'Sab', data1:'16/06/2018', local1:'Spartak', horas1:'10:00', time11:'ARG', time12:'ISL',
+        resul11: ' ', resul12:' ',
         dia12: 'Sab', data12:'16/06/2018', local12:'Kaliningrado', horas12:'16:00', time121:'CRO', time122:'NIG',
+        resul121: ' ', resul122:' ',
         
         dia2:  'Qui', data2: '21/06/2018', local2: 'N.Novgorod', horas2: '15:00',time222: 'ISL', time22: 'CRO',
         dia22:  'Qui', data22: '21/06/2018', local22: 'Volgogrado', horas22: '12:00', time221: 'NIG', time21: 'ARG' ,
@@ -85,7 +100,9 @@ export class FasesPage {
         //grupo E
       { titulo: 'Grupo E', selecao1: 'SER', selecao2: 'BRA', selecao3: 'COS', selecao4: 'SUI' ,
         dia1: 'Dom', data1:'17/06/2018', local1:'Samara', horas1:'9:00',time11:'COS' , time12:'SER',
+        resul11: ' ', resul12:' ',
         dia12: 'Dom', data12:'17/06/2018', local12:'Rostov',  horas12:'15:00', time121:'BRA' , time122:'SUI' ,
+        resul121: ' ', resul122:' ',
         
         dia2:  'Sex', data2: '22/06/2018', local2: 'S.Petersburgo', horas2: '09:00',time21: 'COS',time22:'BRA',
         dia22:  'Ser', data22: '22/06/2018', local22: 'Kaliningrado', horas22: '15:00',  time221: 'SUI' ,time222: 'SER',
@@ -96,7 +113,9 @@ export class FasesPage {
         //grupo F
       { titulo: 'Grupo F', selecao1: 'MEX', selecao2: 'SUE', selecao3: 'ALE', selecao4: 'COR',
         dia1: 'Dom', data1:'17/06/2018', local1:'Olím.Lujniki', horas1:'12:00', time11:'ALE', time12:'MEX',
+        resul11: ' ', resul12:' ',
         dia12: 'Seg', data12:'18/06/2018', local12:'N.Novgorod', horas12:'09:00', time121:'SUE', time122:'COR',
+        resul121: ' ', resul122:' ',
 
         dia2:  'Sab', data2: '23/06/2018', local2: 'Olím.Sochi', horas2: '15:00',time21:'ALE', time22:'SUE',
         dia22:  'Sab', data22: '23/06/2018', local22: 'Rostov', horas22: '12:00',time221: 'COR' , time222: 'MEX',
@@ -107,7 +126,9 @@ export class FasesPage {
         //grupo G
       { titulo: 'Grupo G', selecao1: 'PAN', selecao2: 'TUN', selecao3: 'BEL', selecao4: 'ING',
         dia1: 'Seg', data1:'18/06/2018', local1:'Olím.Sochi', horas1:'12:00', time11:'BEL', time12:'PAN',
+        resul11: ' ', resul12:' ',
         dia12: 'Seg', data12:'18/06/2018', local12:'Volgograd', horas12:'15:00', time121:'TUN', time122:'ING',
+        resul121: ' ', resul122:' ',
         
         dia2:  'Sab', data2: '23/06/2018', local2: 'Spartak', horas2: '09:00', time21: 'BEL', time22: 'TUN',
         dia22:  'Dom', data22: '23/06/2018', local22: 'N.Novgorod', horas22: '09:00', time221: 'ING', time222: 'PAN',
@@ -120,7 +141,9 @@ export class FasesPage {
         //grupo H
       { titulo: 'Grupo H', selecao1: 'JAP', selecao2: 'POL', selecao3: 'COL', selecao4: 'SEN',
         dia1: 'Ter', data1:'19/06/2018', local1:'Saransk', horas1:'09:00', time11:'COL', time12:'JAP',
+        resul11: ' ', resul12:' ',
         dia12: 'Ter', data12:'19/06/2018', local12:'Spartak', horas12:'12:00', time121:'POL', time122:'SEN',
+        resul121: ' ', resul122:' ',
         
         dia2:  'Dom', data2: '24/06/2018', local2: 'Ecaterimburgo', horas2: '12:00', time21: 'COL', time22: 'POL',
         dia22:  'Dom', data22: '24/06/2018', local22: 'Ar.Kazan', horas22: '15:00', time221: 'SEN', time222: 'JAP',
@@ -135,10 +158,15 @@ export class FasesPage {
   }
 
   pegarDados(){
-    this.DadosTabela.load()
-    .then(data => {
-      this.dado = data;
-      console.log("Ok")
+    this.DadosTabela.load().subscribe(data =>{
+      this.dado = data["groups"]
+      //1ª RODADA
+      this.ponto1 = this.dado.a.matches[0].home_result
+      this.ponto2 = this.dado.a.matches[0].away_result
+      this.ponto3 = this.dado.a.matches[1].home_result
+      this.ponto4 = this.dado.a.matches[1].away_result
+
+      console.log(this.slideGrupos)
     })
   }
 }
