@@ -28141,6 +28141,7 @@ h2.feed_title {
 
 #bloco-2-card ion-row {
   color: white;
+  text-shadow: 0 0 10px black, 0 -10px 20px black, 0 10px 20px black, -20px 0 40px black, 10px 0 20px black;
 }
 
 #bloco-2-card ion-card-header {
