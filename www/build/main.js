@@ -993,7 +993,7 @@ var QuartasPage = /** @class */ (function () {
     };
     QuartasPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-quartas',template:/*ion-inline-start:"C:\Users\Muril\Documents\ionic\apptabelacopa2k18\src\pages\quartas\quartas.html"*/'<ion-header no-border>\n\n    <ion-navbar>\n\n\n\n        <ion-title>\n\n            <p>Quartas de Final</p>\n\n        </ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n    <div align="center">\n\n        <fieldset style="border-radius: 4px; border: 1px solid; width: 86%; margin-top: 5%" align="center" *ngFor="let fieldset of fieldsets">\n\n            <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n\n            <div>\n\n                <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n\n                    <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n\n                </div>\n\n                <ion-row justify-content-center>\n\n                    <ion-col style="font-weight: bold">{{ fieldset.time1 }}</ion-col>\n\n                    <ion-col>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                    </ion-col>\n\n                    <ion-col style="border-bottom: 1px solid black">\n\n                        <h6>{{ fieldset.resul1 }}</h6>\n\n                    </ion-col>\n\n                    <ion-col col-1>\n\n                        <h6>X</h6>\n\n                    </ion-col>\n\n                    <ion-col style="border-bottom: 1px solid black">\n\n                        <h6>{{ fieldset.resul2 }}</h6>\n\n                    </ion-col>\n\n                    <ion-col>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                    </ion-col>\n\n                    <ion-col style="font-weight: bold">{{ fieldset.time2 }}</ion-col>\n\n                </ion-row>\n\n            </div>\n\n        </fieldset>\n\n\n\n    </div>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Muril\Documents\ionic\apptabelacopa2k18\src\pages\quartas\quartas.html"*/,
+            selector: 'page-quartas',template:/*ion-inline-start:"C:\Users\Muril\Documents\ionic\apptabelacopa2k18\src\pages\quartas\quartas.html"*/'<ion-header no-border>\n\n    <ion-navbar>\n\n\n\n        <ion-title>\n\n            <p>Quartas de Final</p>\n\n        </ion-title>\n\n\n\n        <ion-buttons end>\n\n            <button ion-button clear (click)="proximaPagina()">\n\n                <ion-icon name="md-arrow-forward"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n    <div align="center">\n\n        <fieldset style="border-radius: 4px; border: 1px solid; width: 86%; margin-top: 5%; margin-bottom: 5%"  align="center" *ngFor="let fieldset of fieldsets">\n\n            <legend style="border-radius: 8px; border: 1px solid">{{ fieldset.titulo }}</legend>\n\n            <div>\n\n                <div style="font-weight: bold;">{{ fieldset.dia }} {{ fieldset.data }}\n\n                    <span style="font-weight: normal;">{{ fieldset.local }}</span> {{ fieldset.hora }}\n\n                </div>\n\n                <ion-row justify-content-center>\n\n                    <ion-col style="font-weight: bold">{{ fieldset.time1 }}</ion-col>\n\n                    <ion-col>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                    </ion-col>\n\n                    <ion-col style="border-bottom: 1px solid black">\n\n                        <h6>{{ fieldset.resul1 }}</h6>\n\n                    </ion-col>\n\n                    <ion-col col-1>\n\n                        <h6>X</h6>\n\n                    </ion-col>\n\n                    <ion-col style="border-bottom: 1px solid black">\n\n                        <h6>{{ fieldset.resul2 }}</h6>\n\n                    </ion-col>\n\n                    <ion-col>\n\n                        <img src="../../assets/imgs/escudo_default_65x65.png" width="30" height="30">\n\n                    </ion-col>\n\n                    <ion-col style="font-weight: bold">{{ fieldset.time2 }}</ion-col>\n\n                </ion-row>\n\n            </div>\n\n        </fieldset>\n\n\n\n    </div>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Muril\Documents\ionic\apptabelacopa2k18\src\pages\quartas\quartas.html"*/,
             providers: [__WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__["a" /* DadosTabelaProvider */]]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_dados_tabela_dados_tabela__["a" /* DadosTabelaProvider */]])
@@ -2476,23 +2476,23 @@ var map = {
 		16
 	],
 	"../pages/oitavas/oitavas.module": [
-		347,
+		343,
 		15
 	],
 	"../pages/panama/panama.module": [
-		343,
+		344,
 		14
 	],
 	"../pages/peru/peru.module": [
-		344,
+		345,
 		13
 	],
 	"../pages/polonia/polonia.module": [
-		345,
+		346,
 		12
 	],
 	"../pages/portugal/portugal.module": [
-		346,
+		347,
 		11
 	],
 	"../pages/quartas/quartas.module": [
@@ -2814,11 +2814,11 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/menu-selecoes/menu-selecoes.module#MenuSelecoesPageModule', name: 'MenuSelecoesPage', segment: 'menu-selecoes', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/mexico/mexico.module#MexicoPageModule', name: 'MexicoPage', segment: 'mexico', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/nigeria/nigeria.module#NigeriaPageModule', name: 'NigeriaPage', segment: 'nigeria', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/oitavas/oitavas.module#OitavasPageModule', name: 'OitavasPage', segment: 'oitavas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/panama/panama.module#PanamaPageModule', name: 'PanamaPage', segment: 'panama', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/peru/peru.module#PeruPageModule', name: 'PeruPage', segment: 'peru', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/polonia/polonia.module#PoloniaPageModule', name: 'PoloniaPage', segment: 'polonia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/portugal/portugal.module#PortugalPageModule', name: 'PortugalPage', segment: 'portugal', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/oitavas/oitavas.module#OitavasPageModule', name: 'OitavasPage', segment: 'oitavas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/quartas/quartas.module#QuartasPageModule', name: 'QuartasPage', segment: 'quartas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/russia/russia.module#RussiaPageModule', name: 'RussiaPage', segment: 'russia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/semi-final/semi-final.module#SemiFinalPageModule', name: 'SemiFinalPage', segment: 'semi-final', priority: 'low', defaultHistory: [] },

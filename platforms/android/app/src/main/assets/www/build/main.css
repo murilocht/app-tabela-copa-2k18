@@ -28051,6 +28051,20 @@ ion-segment-button {
   background-color: #c1000d !important;
 }
 
+p.sel {
+  text-align: justify;
+  color: black;
+  font-weight: bold;
+}
+
+p.jog {
+  text-align: justify;
+}
+
+h2.feed_title {
+  font-weight: bold;
+}
+
 #main {
   position: relative;
 }
@@ -28127,6 +28141,7 @@ ion-segment-button {
 
 #bloco-2-card ion-row {
   color: white;
+  text-shadow: 0 0 10px black, 0 -10px 20px black, 0 10px 20px black, -20px 0 40px black, 10px 0 20px black;
 }
 
 #bloco-2-card ion-card-header {
@@ -28228,7 +28243,6 @@ ion-slide {
 }
 
 .col-vs {
-  border-bottom: 3px solid black;
   font-size: 16pt;
 }
 
@@ -28279,18 +28293,8 @@ page-historia p.end {
   text-shadow: 0 0 20px black, 0 -10px 20px black,  0 10px 20px black, -20px 0 40px black,  20px 0 40px black;
 }
 
-page-selecoes p.sel {
-  text-align: justify;
-  color: black;
-  font-weight: bold;
-}
-
-page-selecoes p.jog {
-  text-align: justify;
-}
-
-page-selecoes h2.feed_title {
-  font-weight: bold;
+.fundo {
+  background: transparent;
 }
 
 .centerImage {
