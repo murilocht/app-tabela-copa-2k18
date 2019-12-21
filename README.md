@@ -10,4 +10,6 @@ Desenvolvido por:
 - Murilo Leite
 - Rafael Sousa Araujo
 
-12 de junho de 2018 
+Feito no dia 12 de junho de 2018 
+
+> IONIC 3
